@@ -1,3 +1,7 @@
+Het werkdocument van het mim-metamodel staat hier:
+<https://geonovum.github.io/mim-metamodel>
+
+
 ## ReSpec template instructies
 
 ReSpec is een tool om html en pdf documenten te genereren op basis van markdown content.
