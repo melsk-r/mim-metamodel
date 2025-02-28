@@ -1,8 +1,8 @@
-# Metamodel in LD
+# Metamodel
 
 ## Inleiding
 
-## Structuur metamodel in LD
+## Structuur metamodel
 
 ### Kern
 
@@ -18,7 +18,7 @@
 
 #### Packages
 
-## Specificaties metagegevens in LD
+## Specificaties metagegevens
 
 
 
