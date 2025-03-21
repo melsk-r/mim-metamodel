@@ -26,10 +26,20 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:subtype    <urn:uuid:2D448C2E-89D0-4fde-8A11-1146D053F3BD>;
         mim:supertype  <urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD> .
 
-<urn:uuid:F91CA689-5B4B-472b-A6F7-E77C7FC850C6>
-        a              mim:Generalisatie;
-        mim:subtype    <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
-        mim:supertype  <urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD> .
+<urn:uuid-dst:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>
+        a         mim:RelatierolDoel;
+        mim:naam  "klant";
+        mim:type  <urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909> .
+
+<urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>
+        a                    mim:ExterneKoppeling;
+        mim:aggregatietype   mim:Compositie;
+        mim:bron             <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
+        mim:datumOpname      "14-12-2021";
+        mim:doel             <urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909>;
+        mim:naam             "betreft";
+        mim:relatierol       <urn:uuid-dst:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>;
+        mim:unidirectioneel  true .
 
 <urn:uuid-dst:9431CA6C-1468-4755-929D-F4141C8987BE>
         a                  mim:RelatierolDoel;
@@ -107,12 +117,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:relatierol                  <urn:uuid-dst:CC306A36-585F-4f08-8728-116C447703DF>;
         mim:unidirectioneel             true .
 
-<urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>
-        a                mim:ExterneKoppeling;
-        mim:bron         <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
-        mim:datumOpname  "14-12-2021";
-        mim:doel         <urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909>;
-        mim:naam         "betreft" .
+<urn:uuid:F91CA689-5B4B-472b-A6F7-E77C7FC850C6>
+        a              mim:Generalisatie;
+        mim:subtype    <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
+        mim:supertype  <urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD> .
 
 <urn:uuid:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1>
         a                               mim:Relatiesoort;

@@ -180,7 +180,7 @@ garantienummer: Garantienummer
       <data key="d4"/>
       <data key="d5">
         <y:UMLClassNode>
-          <y:Geometry height="97.68587475452568" width="210.60778341214302" x="-15.15346120401341" y="-502.594642401835"/>
+          <y:Geometry height="97.68587475452568" width="210.60778341214302" x="1457.3038487375072" y="-765.7314845070982"/>
           <y:Fill color="#FFFFC7" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="210.60778341214302" x="0.0" xml:space="preserve" y="26.1328125">Persoon</y:NodeLabel>
@@ -570,7 +570,23 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n21" target="n19">
+    <edge id="e12" source="n0" target="n9">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="69.71028457823832" sy="-24.530299788679713" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="diamond" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="43.22265625" x="116.21088842811832" xml:space="preserve" y="-19.632809825147888">betreft<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.517578125" x="78.06342749061832" xml:space="preserve" y="1.5000026748521122">«ExterneKoppeling»<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="33.044921875" x="237.62587022188222" xml:space="preserve" y="-19.632809825147888">klant<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n21" target="n19">
       <data key="d7"/>
       <data key="d9"/>
       <data key="d10">
@@ -582,7 +598,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n3" target="n21">
+    <edge id="e14" source="n3" target="n21">
       <data key="d7"/>
       <data key="d9"/>
       <data key="d10">
@@ -594,7 +610,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n21" target="n0">
+    <edge id="e15" source="n21" target="n0">
       <data key="d7"/>
       <data key="d9"/>
       <data key="d10">
@@ -608,7 +624,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n2" target="n3">
+    <edge id="e16" source="n2" target="n3">
       <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:7F009296-C9A6-42d9-AE1F-A6BE8BFA8FF0urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
       <data key="d8" xml:space="preserve"/>
       <data key="d9"/>
@@ -621,7 +637,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n0" target="n7">
+    <edge id="e17" source="n0" target="n7">
       <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD]]></data>
       <data key="d8" xml:space="preserve"/>
       <data key="d9"/>
@@ -634,7 +650,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n10" target="n3">
+    <edge id="e18" source="n10" target="n3">
       <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:5A3BD39C-86C8-4541-87FC-D0624260768Aurn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
       <data key="d8" xml:space="preserve"/>
       <data key="d9"/>
@@ -647,7 +663,7 @@ locatie: Geografische locatie [0..1]
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n6" target="n7">
+    <edge id="e19" source="n6" target="n7">
       <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:2D448C2E-89D0-4fde-8A11-1146D053F3BDurn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD]]></data>
       <data key="d8" xml:space="preserve"/>
       <data key="d9"/>
