@@ -3,7 +3,7 @@ if [ ! -d "../../libs" ]; then
   mkdir -v ../../libs
 fi
 if [ ! -f "../../libs/ea2rdf.jar" ]; then
-  curl -L -k https://github.com/architolk/ea2rdf/releases/download/v1.2.4/ea2rdf.jar -o ../../libs/ea2rdf.jar
+  curl -L -k https://github.com/architolk/ea2rdf/releases/download/v1.2.5/ea2rdf.jar -o ../../libs/ea2rdf.jar
 fi
 if [ ! -f "../../libs/rdf2rdf.jar" ]; then
   curl -L -k https://github.com/architolk/rdf2rdf/releases/download/v1.5.0/rdf2rdf.jar -o ../../libs/rdf2rdf.jar
@@ -22,6 +22,8 @@ fi
 java -jar ../../libs/ea2rdf.jar -ea -e "../uml/EA15_Fietsenwinkel(mim1.2).EAP" > fietsenwinkel-eap.ttl
 # Convert: ea to mim-ld.ttl
 java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-eap.ttl -o fietsenwinkel-mim-ld.ttl -c ../../libs/ea2mim.yaml
+#java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-eap.ttl -o fietsenwinkel-mim-ld.ttl -c ~/GITREPO/mimtools/ea2mim.yaml
 
 # Make graphml diagram
 java -jar ../../libs/rdf2xml.jar fietsenwinkel-mim-ld.ttl fietsenwinkel-mim-ld.graphml ../../libs/mim2graphml.xsl add fietsenwinkel-mim-ld-edited.graphml
+#java -jar ../../libs/rdf2xml.jar fietsenwinkel-mim-ld.ttl fietsenwinkel-mim-ld.graphml ~/GITREPO/mimtools/mim2graphml.xsl add fietsenwinkel-mim-ld-edited.graphml

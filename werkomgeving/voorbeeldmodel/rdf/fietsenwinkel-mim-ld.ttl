@@ -2,6 +2,15 @@ PREFIX ea:   <http://www.sparxsystems.eu/def/ea#>
 PREFIX mim:  <http://bp4mc2.org/def/mim#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
+<urn:uuid:E0F8AED7-C161-4b0d-9F21-B342E6D26F42>
+        mim:authentiek                  mim:OverigeAuthenticiteit;
+        mim:datumOpname                 "14-12-2021";
+        mim:herkomst                    "IFO";
+        mim:herkomstDefinitie           "IMFW";
+        mim:indicatieFormeleHistorie    false;
+        mim:indicatieMaterieleHistorie  false;
+        mim:kardinaliteit               "0..1" .
+
 <urn:uuid:2E329245-8292-4880-BB0A-B60D0B987120>
         a              mim:Generalisatie;
         mim:subtype    <urn:uuid:5A3BD39C-86C8-4541-87FC-D0624260768A>;
@@ -21,13 +30,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         a              mim:Generalisatie;
         mim:subtype    <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
         mim:supertype  <urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD> .
-
-<urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>
-        a                mim:ExterneKoppeling;
-        mim:bron         <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
-        mim:datumOpname  "14-12-2021";
-        mim:doel         <urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909>;
-        mim:naam         "betreft" .
 
 <urn:uuid-dst:9431CA6C-1468-4755-929D-F4141C8987BE>
         a                  mim:RelatierolDoel;
@@ -61,6 +63,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 <urn:uuid:9431CA6C-1468-4755-929D-F4141C8987BE>
         a                               mim:Relatiesoort;
+        mim:aggregatietype              mim:Compositie;
         mim:authentiek                  mim:OverigeAuthenticiteit;
         mim:bron                        <urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2>;
         mim:datumOpname                 "14-12-2021";
@@ -71,7 +74,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "0..1";
         mim:naam                        "aangestuurd door";
-        mim:relatierol                  <urn:uuid-dst:9431CA6C-1468-4755-929D-F4141C8987BE> .
+        mim:relatierol                  <urn:uuid-dst:9431CA6C-1468-4755-929D-F4141C8987BE>;
+        mim:unidirectioneel             true .
 
 <urn:uuid:08144BAA-00A3-4f48-AF37-661CBD3D9DD2>
         a                               mim:Relatiesoort;
@@ -85,7 +89,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "0..-1";
         mim:naam                        "verhandelt";
-        mim:relatierol                  <urn:uuid-dst:08144BAA-00A3-4f48-AF37-661CBD3D9DD2> .
+        mim:relatierol                  <urn:uuid-dst:08144BAA-00A3-4f48-AF37-661CBD3D9DD2>;
+        mim:unidirectioneel             true .
 
 <urn:uuid:CC306A36-585F-4f08-8728-116C447703DF>
         a                               mim:Relatiesoort;
@@ -99,21 +104,15 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
         mim:naam                        "geleverd door";
-        mim:relatierol                  <urn:uuid-dst:CC306A36-585F-4f08-8728-116C447703DF> .
+        mim:relatierol                  <urn:uuid-dst:CC306A36-585F-4f08-8728-116C447703DF>;
+        mim:unidirectioneel             true .
 
-<urn:uuid:E0F8AED7-C161-4b0d-9F21-B342E6D26F42>
-        a                               mim:Relatiesoort;
-        mim:authentiek                  mim:OverigeAuthenticiteit;
-        mim:bron                        <urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2>;
-        mim:datumOpname                 "14-12-2021";
-        mim:doel                        <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
-        mim:herkomst                    "IFO";
-        mim:herkomstDefinitie           "IMFW";
-        mim:indicatieFormeleHistorie    false;
-        mim:indicatieMaterieleHistorie  false;
-        mim:kardinaliteit               "0..1";
-        mim:naam                        "verkocht aan";
-        mim:relatierol                  <urn:uuid-dst:E0F8AED7-C161-4b0d-9F21-B342E6D26F42> .
+<urn:uuid:1D20BC61-6F6A-49a8-A3AF-C972B144BD12>
+        a                mim:ExterneKoppeling;
+        mim:bron         <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
+        mim:datumOpname  "14-12-2021";
+        mim:doel         <urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909>;
+        mim:naam         "betreft" .
 
 <urn:uuid:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1>
         a                               mim:Relatiesoort;
@@ -127,7 +126,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..-1";
         mim:naam                        "betaling";
-        mim:relatierol                  <urn:uuid-dst:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1> .
+        mim:relatierol                  <urn:uuid-dst:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1>;
+        mim:unidirectioneel             true .
 
 <urn:uuid:A4C33B1F-13CD-4171-940D-675919B9A3AF>
         a                               mim:Relatiesoort;
@@ -135,7 +135,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "0..1";
-        mim:naam                        "aansturing door" .
+        mim:naam                        "aansturing door";
+        mim:unidirectioneel             true .
 
 <urn:uuid:7EE151F6-A18F-4260-B5C7-93CDFB06565A>
         a              mim:Enumeratiewaarde;
@@ -163,31 +164,37 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 <urn:uuid:84CC1722-0E48-418a-A54D-C7184E374F48>
         a         mim:ReferentieElement;
-        mim:naam  "vestigingsadres" .
+        mim:naam  "vestigingsadres";
+        mim:type  mim:CharacterString .
 
 <urn:uuid:702267AD-916B-469e-AFC3-5AF4D1F7E254>
         a         mim:ReferentieElement;
-        mim:naam  "bedrijfsnaam" .
+        mim:naam  "bedrijfsnaam";
+        mim:type  mim:CharacterString .
 
 <urn:uuid:43B59F8B-3472-45fc-BB75-093238B476EA>
         a                   mim:ReferentieElement;
         mim:identificerend  true;
-        mim:naam            "nummer" .
+        mim:naam            "nummer";
+        mim:type            mim:CharacterString .
 
 <urn:uuid:6627971A-5CC9-41cb-A9AF-5F06E399D7D4>
         a              mim:DataElement;
         mim:definitie  "Hoogte van het object in mm.";
-        mim:naam       "hoogte" .
+        mim:naam       "hoogte";
+        mim:type       mim:Integer .
 
 <urn:uuid:795CB9A6-08C9-486f-8D61-E366F6325216>
         a              mim:DataElement;
         mim:definitie  "Breedte van het object in mm.";
-        mim:naam       "breedte" .
+        mim:naam       "breedte";
+        mim:type       mim:Integer .
 
 <urn:uuid:40623B27-D874-43e9-89D2-1FA4EC8F66B1>
         a              mim:DataElement;
         mim:definitie  "Lengte van het object in mm.";
-        mim:naam       "lengte" .
+        mim:naam       "lengte";
+        mim:type       mim:Integer .
 
 <urn:uuid:2EABD06B-A438-403b-A6AF-B733F790BC2A>
         a                               mim:Gegevensgroep;
@@ -251,7 +258,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "nieuwsbrief" .
+        mim:naam                        "nieuwsbrief";
+        mim:type                        mim:Boolean .
 
 <urn:uuid:8620443D-0F62-4c44-8633-5CFD59BA4EFB>
         a                               mim:Attribuutsoort;
@@ -277,7 +285,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "naam" .
+        mim:naam                        "naam";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:AB20FB5B-4606-4f29-8C8E-A628E244CD98>
         a                               mim:Attribuutsoort;
@@ -303,7 +312,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "id" .
+        mim:naam                        "id";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:0758E192-B24F-456e-AF40-FC6D98783010>
         a                               mim:Attribuutsoort;
@@ -317,7 +327,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
         mim:naam                        "postcode";
-        mim:patroon                     "De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, oftewel het waardenbereik, uitgedrukt in een specifieke structuur." .
+        mim:patroon                     "De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, oftewel het waardenbereik, uitgedrukt in een specifieke structuur.";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:ECD38269-2773-4e23-B0D3-305F8D2AC3F7>
         a                               mim:Attribuutsoort;
@@ -329,7 +340,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "typenummer" .
+        mim:naam                        "typenummer";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:30CD27AB-4B91-495c-B211-99D18B54D52D>
         a                               mim:Attribuutsoort;
@@ -341,7 +353,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "huisnummer" .
+        mim:naam                        "huisnummer";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:8F418DD7-2A86-405c-B0EB-172E17E8F58A>
         a                               mim:Attribuutsoort;
@@ -367,7 +380,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "naam" .
+        mim:naam                        "naam";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:9E323847-C0DA-4ebf-A48A-75A69620B58A>
         a                               mim:Attribuutsoort;
@@ -379,7 +393,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "leveringsdatum" .
+        mim:naam                        "leveringsdatum";
+        mim:type                        mim:Date .
 
 <urn:uuid:C7AFA090-5813-4e32-B75B-5211C0D4D19B>
         a                               mim:Attribuutsoort;
@@ -391,7 +406,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "volgnummer" .
+        mim:naam                        "volgnummer";
+        mim:type                        mim:Integer .
 
 <urn:uuid:BC07CBCB-E31D-484c-9F48-EE477B258D2B>
         a                               mim:Attribuutsoort;
@@ -430,7 +446,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "achternaam" .
+        mim:naam                        "achternaam";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:C064C925-DE8E-43cd-AF04-437794FBE0B6>
         a                               mim:Attribuutsoort;
@@ -455,7 +472,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "0..1";
-        mim:naam                        "voornaam" .
+        mim:naam                        "voornaam";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:2EAD414F-8494-4982-B9E2-A356F4130D7F>
         a                               mim:Attribuutsoort;
@@ -481,7 +499,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "Verloopdatum" .
+        mim:naam                        "Verloopdatum";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:FEC7927E-5237-4155-B3F5-1AD68904BA44>
         a                               mim:Attribuutsoort;
@@ -495,7 +514,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
         mim:lengte                      "16";
-        mim:naam                        "Kaartnummer" .
+        mim:naam                        "Kaartnummer";
+        mim:type                        mim:CharacterString .
 
 <urn:uuid:A137C206-A40C-4c0e-A0E0-D136860ED8BE>
         a                               mim:Attribuutsoort;
@@ -520,7 +540,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "verkoopprijs" .
+        mim:naam                        "verkoopprijs";
+        mim:type                        mim:Decimal .
 
 <urn:uuid:D19AC338-1D15-4e0a-9E40-C67A582EE004>
         a                               mim:Attribuutsoort;
@@ -532,7 +553,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "1..1";
-        mim:naam                        "verkoopdatum" .
+        mim:naam                        "verkoopdatum";
+        mim:type                        mim:Date .
 
 <urn:uuid:15FDFF94-C39F-4618-B9C5-3148A81C85DC>
         a                               mim:Attribuutsoort;
@@ -544,7 +566,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         mim:indicatieFormeleHistorie    false;
         mim:indicatieMaterieleHistorie  false;
         mim:kardinaliteit               "0..1";
-        mim:naam                        "versnellingen" .
+        mim:naam                        "versnellingen";
+        mim:type                        mim:Integer .
 
 <urn:uuid:9B715549-F130-4d41-9BA0-4E8D6FFA84EC>
         a                            mim:Codelijst;
@@ -584,9 +607,13 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 <urn:uuid:C85307A5-A35E-431d-B055-1363DD188AC4>
         a                            mim:Relatieklasse;
         mim:attribuut                <urn:uuid:A137C206-A40C-4c0e-A0E0-D136860ED8BE> , <urn:uuid:D19AC338-1D15-4e0a-9E40-C67A582EE004>;
+        mim:bron                     <urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2>;
         mim:definitie                "Details omtrent de verkoop van een <b>Fiets</b> aan een <b>Klant</b>.";
+        mim:doel                     <urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8>;
         mim:indicatieAbstractObject  false;
-        mim:naam                     "Verkoop" .
+        mim:naam                     "Verkoop";
+        mim:relatierol               <urn:uuid-dst:E0F8AED7-C161-4b0d-9F21-B342E6D26F42>;
+        mim:unidirectioneel          true .
 
 <urn:uuid:39BFBB8F-AD55-498f-8C9D-A50F7935D68F>
         a                            mim:Keuze;

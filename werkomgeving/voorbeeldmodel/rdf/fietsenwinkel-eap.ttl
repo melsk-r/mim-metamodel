@@ -1812,6 +1812,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''0..1''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 2;
 .
 <urn:connector:1035> a ea:Connector;
   ea:guid '12722EC0-93A2-471c-9544-F1A946C92E8C';
@@ -1821,6 +1823,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1036> a ea:Connector;
   ea:guid '5952DCDF-8AED-4633-84E2-D50AFE737F09';
@@ -1832,6 +1836,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1037> a ea:Connector;
   ea:guid '15A6A6C2-C517-432d-BC60-2D0AECBD3CE1';
@@ -1845,6 +1851,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''1..*''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1038> a ea:Connector;
   ea:guid 'F91CA689-5B4B-472b-A6F7-E77C7FC850C6';
@@ -1855,6 +1863,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1039> a ea:Connector;
   ea:guid '1D20BC61-6F6A-49a8-A3AF-C972B144BD12';
@@ -1867,6 +1877,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destRole '''klant''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 2;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1040> a ea:Connector;
   ea:guid '2C7BF2CD-AFF7-4d5c-B87E-0C1B935CC665';
@@ -1877,6 +1889,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1041> a ea:Connector;
   ea:guid 'B365B9AD-EA5B-4804-914C-E9FA7420AA4F';
@@ -1888,6 +1902,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1042> a ea:Connector;
   ea:guid '6A734475-3B3A-40f1-9B10-2D855445AE26';
@@ -1897,6 +1913,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1043> a ea:Connector;
   ea:guid 'E0F8AED7-C161-4b0d-9F21-B342E6D26F42';
@@ -1911,6 +1929,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''0..1''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1044> a ea:Connector;
   ea:guid 'CC306A36-585F-4f08-8728-116C447703DF';
@@ -1924,6 +1944,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''1''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1045> a ea:Connector;
   ea:guid '08144BAA-00A3-4f48-AF37-661CBD3D9DD2';
@@ -1937,6 +1959,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''0..*''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1046> a ea:Connector;
   ea:guid 'C2960BB5-021C-4e3a-A6D6-5B130B35F5DB';
@@ -1947,6 +1971,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1047> a ea:Connector;
   ea:guid 'AD807350-8098-4876-8B43-1989992D9DE8';
@@ -1956,6 +1982,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1048> a ea:Connector;
   ea:guid '49D50FAB-66F6-4053-87B9-D9DECF0041BF';
@@ -1965,6 +1993,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1049> a ea:Connector;
   ea:guid '2ED8E8BE-B31A-485d-8194-2BF4C3289A5B';
@@ -1974,6 +2004,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1050> a ea:Connector;
   ea:guid '9431CA6C-1468-4755-929D-F4141C8987BE';
@@ -1987,6 +2019,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:destCard '''0..1''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable false;
+  ea:sourceIsAggregate 2;
+  ea:destIsAggregate 0;
 .
 <urn:connector:1051> a ea:Connector;
   ea:guid '2E329245-8292-4880-BB0A-B60D0B987120';
@@ -1997,6 +2031,8 @@ Dit is de naam waaronder het contact uniek geindentificeerd kan worden. Het is n
   ea:direction '''Source -> Destination''';
   ea:sourceIsNavigable false;
   ea:destIsNavigable true;
+  ea:sourceIsAggregate 0;
+  ea:destIsAggregate 0;
 .
 <urn:attributetag:20990> a ea:Attributetag;
   ea:guid '3B9D7FED-FC10-d0fc-BA6D-8ABFE40F7CCD';
