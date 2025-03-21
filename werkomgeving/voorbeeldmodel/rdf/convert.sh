@@ -24,4 +24,4 @@ java -jar ../../libs/ea2rdf.jar -ea -e "../uml/EA15_Fietsenwinkel(mim1.2).EAP" >
 java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-eap.ttl -o fietsenwinkel-mim-ld.ttl -c ../../libs/ea2mim.yaml
 
 # Make graphml diagram
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-mim-ld.ttl fietsenwinkel-mim-ld.graphml ../../libs/mim2graphml.xsl
+java -jar ../../libs/rdf2xml.jar fietsenwinkel-mim-ld.ttl fietsenwinkel-mim-ld.graphml ../../libs/mim2graphml.xsl add fietsenwinkel-mim-ld-edited.graphml
