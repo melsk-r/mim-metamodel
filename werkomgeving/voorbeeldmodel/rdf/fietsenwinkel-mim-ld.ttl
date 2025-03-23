@@ -627,6 +627,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         a                            mim:Keuze;
         mim:datumOpname              "14-12-2021";
         mim:definitie                "Middel waarmee de financiering wordt gerealiseerd.";
+        mim:doel                     <urn:uuid:27A79321-8FC3-4b2e-8962-48A41DC66766> , <urn:uuid:C0EDB7BB-8747-4fca-ACCB-D1D2C182B4C2>;
         mim:herkomst                 "IFO";
         mim:indicatieAbstractObject  false;
         mim:naam                     "Betaalmiddel" .
