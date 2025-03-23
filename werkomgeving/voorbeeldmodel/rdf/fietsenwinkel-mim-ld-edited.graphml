@@ -214,12 +214,14 @@ achternaam: CharacterString
       <data key="d4"/>
       <data key="d5">
         <y:UMLClassNode>
-          <y:Geometry height="56.694542730387866" width="153.01581016799582" x="753.0274978244506" y="-1046.7427180956317"/>
+          <y:Geometry height="98.08359999999993" width="153.01581016799582" x="753.0274978244506" y="-1067.7073341669106"/>
           <y:Fill color="#FFFFC7" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="153.01581016799582" x="0.0" xml:space="preserve" y="26.1328125">Geografische locatie</y:NodeLabel>
           <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Keuze" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve"/>
+            <y:AttributeLabel xml:space="preserve">GM_Point
+GM_Surface
+</y:AttributeLabel>
             <y:MethodLabel xml:space="preserve"/>
           </y:UML>
         </y:UMLClassNode>
@@ -372,7 +374,7 @@ garantienummer: Garantienummer
       <data key="d4"/>
       <data key="d5">
         <y:UMLClassNode>
-          <y:Geometry height="107.93370776056031" width="224.7506412102373" x="1011.170547217875" y="-1108.2823640281238"/>
+          <y:Geometry height="107.93370776056031" width="224.7506412102373" x="1011.170547217875" y="-1108.5524514645965"/>
           <y:Fill color="#FFFFC7" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="224.7506412102373" x="0.0" xml:space="preserve" y="26.1328125">Adres</y:NodeLabel>
