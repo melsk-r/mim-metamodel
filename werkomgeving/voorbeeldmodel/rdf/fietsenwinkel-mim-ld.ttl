@@ -1220,7 +1220,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 <urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2>
         a                            mim:Objecttype;
-        mim:attribuut                <urn:uuid:BCE26786-379F-458f-A285-686F6E8D0B51> , <urn:uuid:ECD38269-2773-4e23-B0D3-305F8D2AC3F7> , <urn:uuid:9E323847-C0DA-4ebf-A48A-75A69620B58A> , <urn:uuid:C7AFA090-5813-4e32-B75B-5211C0D4D19B> , <urn:uuid:BC07CBCB-E31D-484c-9F48-EE477B258D2B> , <urn:uuid:35530575-4E72-4be3-ADEE-A31BE8D7CC6D> , <urn:uuid:15FDFF94-C39F-4618-B9C5-3148A81C85DC>;
+        mim:attribuut                <urn:uuid:792225F5-5E63-49fc-B7C1-FEC2B9E487B8> , <urn:uuid:BCE26786-379F-458f-A285-686F6E8D0B51> , <urn:uuid:ECD38269-2773-4e23-B0D3-305F8D2AC3F7> , <urn:uuid:9E323847-C0DA-4ebf-A48A-75A69620B58A> , <urn:uuid:C7AFA090-5813-4e32-B75B-5211C0D4D19B> , <urn:uuid:BC07CBCB-E31D-484c-9F48-EE477B258D2B> , <urn:uuid:35530575-4E72-4be3-ADEE-A31BE8D7CC6D> , <urn:uuid:15FDFF94-C39F-4618-B9C5-3148A81C85DC>;
         mim:datumOpname              "14-12-2021";
         mim:definitie                "Een tweewieler.";
         mim:herkomst                 "IMFW";
