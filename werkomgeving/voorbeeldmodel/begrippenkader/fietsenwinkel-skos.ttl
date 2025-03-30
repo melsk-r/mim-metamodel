@@ -8,14 +8,32 @@ PREFIX skosthes: <http://purl.org/iso25964/skos-thes#>
 PREFIX skosxl:   <http://www.w3.org/2008/05/skos-xl#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:2948b39a-6225-5ac6-a83b-1ee03f1bf87a>
+<urn:uuid:77b4c7bc-0584-576f-9880-ec9a2bb8fa90>
         a                   skosxl:Label;
-        skosxl:literalForm  "goederen" .
+        skosxl:literalForm  "artikelen" .
 
-<urn:uuid:7eafdda2-5cb3-57c2-af85-46241bccd5a8>
+<urn:uuid:8fd517a4-5c3d-56bc-a89a-4c3cf5629019>
         a                   skosxl:Label;
-        skosxl:hiddenLabel  <urn:uuid:2948b39a-6225-5ac6-a83b-1ee03f1bf87a>;
-        skosxl:literalForm  "goed" .
+        skosxl:hiddenLabel  <urn:uuid:77b4c7bc-0584-576f-9880-ec9a2bb8fa90>;
+        skosxl:literalForm  "artikel" .
+
+<urn:uuid:34717788-a539-5795-bbc9-984c6bb83d49>
+        a             dct:BibliographicResource;
+        rdfs:label    "Afdeling 9, RegelingVoertuigen";
+        dct:isPartOf  <urn:uuid:971b1208-eaaa-5ab9-b963-04e61d26667e>;
+        dct:title     "Afdeling 9," .
+
+<urn:uuid:fd40bd55-33d3-5218-888f-4cb9d7cbca57>
+        a             dct:BibliographicResource;
+        rdfs:label    "Artikel 9 lid a, Hrw2007";
+        dct:isPartOf  <urn:uuid:ed5fdfd6-bd06-58a1-ba13-752118950ce2>;
+        dct:title     "Artikel 9 lid a," .
+
+<urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>
+        a             dct:BibliographicResource;
+        rdfs:label    "Artikel 2, Hrb2008";
+        dct:isPartOf  <urn:uuid:62083d94-9ca0-5fc3-9784-c4c1120404dd>;
+        dct:title     "Artikel 2," .
 
 <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>
         a               dct:BibliographicResource;
@@ -23,137 +41,230 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         dct:identifier  "FWA";
         dct:title       "Fietsenwinkelafspraken" .
 
+<urn:uuid:971b1208-eaaa-5ab9-b963-04e61d26667e>
+        a                          dct:BibliographicResource;
+        rdfs:label                 "Regeling voertuigen";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/jci1.3:c:BWBR0025798>;
+        dct:identifier             "RegelingVoertuigen";
+        dct:title                  "Regeling voertuigen" .
+
+<urn:uuid:9936468c-a98a-5a81-b011-a0ea430c4fc2>
+        a                          dct:BibliographicResource;
+        rdfs:label                 "Wegenverkeerswet 1994";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/jci1.3:c:BWBR0006622>;
+        dct:identifier             "WVW";
+        dct:title                  "Wegenverkeerswet 1994" .
+
+<urn:uuid:62083d94-9ca0-5fc3-9784-c4c1120404dd>
+        a                          dct:BibliographicResource;
+        rdfs:label                 "Handelsregisterbesluit 2008";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/jci1.3:c:BWBR0024067>;
+        dct:identifier             "Hrb2008";
+        dct:title                  "Handelsregisterbesluit 2008" .
+
+<urn:uuid:ed5fdfd6-bd06-58a1-ba13-752118950ce2>
+        a                          dct:BibliographicResource;
+        rdfs:label                 "Handelsregisterwet 2007";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/jci1.3:c:BWBR0021777>;
+        dct:identifier             "Hrw2007";
+        dct:title                  "Handelsregisterwet 2007" .
+
 <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b>
-        a                skos:Concept;
-        rdfs:label       "batterij"@nl;
-        dct:source       <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
-        skos:definition  "de batterij van de E-Bike"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "batterij"@nl .
+        a                        skos:Concept;
+        rdfs:label               "batterij"@nl;
+        dct:source               <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
+        skosthes:broaderGeneric  <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:definition          "de batterij van de E-Bike"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "batterij"@nl .
 
 <urn:uuid:9f9d0c2e-d9f4-592f-8519-d3079f500129>
         a                        skos:Concept;
         rdfs:label               "sportfiets"@nl;
         skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        skos:definition          "een [fiets] bedoeld voor gebruik in sportieve toepassingen"@nl;
-        skos:inScheme            <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
+        skos:definition          "een sportfiets is een [fiets] bedoeld voor gebruik in sportieve toepassingen"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
         skos:prefLabel           "sportfiets"@nl;
         skos:scopeNote           "Een sportfiets heeft over het algemeen geen licht of spatborden, en is zo licht als mogelijk uitgevoerd. Voorbeeld: Racefiets, mountainbike"@nl .
 
-<urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
-        a                skos:Concept;
-        rdfs:label       "leveringsdatum"@nl;
-        skos:definition  "De datum van de levering van één of meerdere goederen"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "leveringsdatum"@nl;
-        skos:related     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
-
-<urn:uuid:3a348dbf-3944-537f-9c14-a99081a283a8>
-        a                skos:Concept;
-        rdfs:label       "type"@nl;
-        skos:definition  "het type van de sportfiets, een waarde uit een enumeratieve lijst"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "type"@nl .
-
-<urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>
-        a                skos:Concept;
-        rdfs:label       "levering"@nl;
-        skos:definition  "Een gebeurtenis waarbij [goederen] op een afgesproken [locatie] worden gebracht"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "levering"@nl;
-        skos:related     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
-        skos:related     [ rdfs:label  "goederen" ];
-        skos:scopeNote   "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
-
-<urn:uuid:675e18f7-a5fe-50cd-ad45-9917ab3d4f95>
-        a                skos:Concept;
-        rdfs:label       "versnellingen"@nl;
-        skos:definition  "het aantal versnellingen van de fiets."@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "versnellingen"@nl .
-
-<urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>
-        a                skos:Concept;
-        rdfs:label       "garantienummer"@nl;
-        skos:definition  "garantienummer op de [batterij] (wanneer e-bike)"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "garantienummer"@nl;
-        skos:related     <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b> .
-
-<urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>
-        a                skos:Concept;
-        rdfs:label       "locatie"@nl;
-        skos:definition  "de (geografische) locatie van de winkel"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "locatie"@nl .
-
-<urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>
-        a                skos:Concept;
-        rdfs:label       "fiets"@nl;
-        skos:definition  "een tweewieler"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "fiets"@nl .
-
-<urn:uuid:1fa52d1c-1613-54fd-b950-b14326e1d93d>
-        a                skos:Concept;
-        rdfs:label       "volgnummer"@nl;
-        skos:definition  "het volgummer van de fiets in één levering"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "volgnummer"@nl .
-
-<urn:uuid:6fe3594c-316e-5438-92fd-f232fb52f3bd>
-        a                skos:Concept;
-        rdfs:label       "winkel"@nl;
-        skos:definition  "een locatie waar fietsen worden verkocht"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "winkel"@nl;
-        skos:scopeNote   "Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel."@nl .
-
-<urn:uuid:e23aa43e-579e-5e76-b5c5-3276d8552e20>
-        a                skos:Concept;
-        rdfs:label       "omvang"@nl;
-        skos:definition  "de omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel)."@nl , "de omvang van de batterij"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "omvang"@nl .
+<urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>
+        a                   skos:Concept;
+        rdfs:label          "onderneming"@nl;
+        dct:source          <urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>;
+        skos:definition     "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen"@nl;
+        skos:editorialNote  "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd"@nl;
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "onderneming"@nl;
+        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
 
 <urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>
         a                skos:Concept;
         rdfs:label       "typenummer"@nl;
-        skos:definition  "het type nummer van de fiets"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "typenummer"@nl .
-
-<urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>
-        a                skos:Concept;
-        rdfs:label       "verkoopprijs"@nl;
-        skos:definition  "DFe verkoopprijs van de fiets, met twee decimalen, in Euro."@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
-        skos:prefLabel   "verkoopprijs"@nl .
+        skos:definition  "het type nummer van een [artikel]"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "typenummer"@nl;
+        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
 
 <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>
         a                skos:Concept;
         rdfs:label       "aandrijving"@nl;
         skos:definition  "het type aandrijving van de fiets"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
+        skos:inScheme    <urn:name:scheme:Goederen>;
         skos:prefLabel   "aandrijving"@nl .
+
+<urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>
+        a                skos:Concept;
+        rdfs:label       "fietsenwinkel"@nl;
+        skos:definition  "een [locatie] waar [fietsen] worden verkocht"@nl;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel   "fietsenwinkel"@nl;
+        skos:related     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        skos:related     [ rdfs:label  "fietsen" ];
+        skos:scopeNote   "Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel."@nl .
+
+<urn:uuid:5196044c-fa14-5b5b-93cd-f721cb18a7ac>
+        a                skos:Concept;
+        rdfs:label       "kvk-nummer"@nl;
+        dct:source       <urn:uuid:fd40bd55-33d3-5218-888f-4cb9d7cbca57>;
+        skos:definition  "Een kvk-nummer is een door de Kamer toegekend uniek nummer van de [onderneming]"@nl;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel   "kvk-nummer"@nl;
+        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        skos:scopeNote   "Met \"Kamer\" wordt hier de Kamer van Koophandel (kvk) bedoelt"@nl .
+
+<urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
+        a                skos:Concept;
+        rdfs:label       "leveringsdatum"@nl;
+        skos:definition  "De datum van de levering van één of meerdere goederen"@nl;
+        skos:inScheme    <urn:name:scheme:Logistiek>;
+        skos:prefLabel   "leveringsdatum"@nl;
+        skos:related     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
+
+<urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>
+        a                skos:Concept;
+        rdfs:label       "garantienummer"@nl;
+        skos:definition  "garantienummer op de [batterij] (wanneer e-bike)"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "garantienummer"@nl;
+        skos:related     <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b> .
+
+<urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>
+        a                        skos:Concept;
+        rdfs:label               "fiets"@nl;
+        dct:source               <urn:uuid:34717788-a539-5795-bbc9-984c6bb83d49>;
+        skosthes:broaderGeneric  <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:definition          "een fiets is een voertuig met twee of meer wielen dat door middel van menselijke kracht wordt voortbewogen"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "fiets"@nl;
+        skos:scopeNote           "Hierbij wordt met \"door middel van menskracht\" bedoelt dat er minstens (ook) menskracht noodzakelijk is. Een E-Bike valt daarmee onder de definitie van een fiets, aangezien ook daar menskracht voor nodig is (anders is sprake van een (elektrische) bromfiets). Een éénwieler is volgens de wet geen fiets."@nl .
+
+<urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>
+        a                        skos:Concept;
+        rdfs:label               "fiets met trapondersteuning"@nl;
+        skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        skos:altLabel            "e-bike\nelektrische fiets"@nl;
+        skos:definition          "Een fiets met trapondersteuning is een [fiets] die is voorzien van een elektrische hulpmotor met een nominaal continu vermogen van maximaal 250 Watt en waarvan de aandrijfkracht geleidelijk vermindert en tenslotte wordt onderbroken wanneer het voertuig een snelheid van 25 km/h bereikt, of eerder, indien de bestuurder ophoudt met trappen."@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "fiets met trapondersteuning"@nl .
+
+<urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>
+        a                skos:Concept;
+        rdfs:label       "levering"@nl;
+        skos:definition  "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht"@nl;
+        skos:inScheme    <urn:name:scheme:Logistiek>;
+        skos:prefLabel   "levering"@nl;
+        skos:related     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:scopeNote   "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
 
 <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>
         a                skos:Concept;
         rdfs:label       "handelsnaam"@nl;
         skos:definition  "De handelsnaam van een [onderneming]"@nl;
-        skos:inScheme    <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel   "handelsnaam"@nl;
-        skos:related     [ rdfs:label  "onderneming" ] .
+        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146> .
+
+<urn:uuid:e23aa43e-579e-5e76-b5c5-3276d8552e20>
+        a                skos:Concept;
+        rdfs:label       "omvang"@nl;
+        skos:definition  "de omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel)."@nl , "De omvang van een [artikel] in hoogte, breedte en lengte"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "omvang"@nl;
+        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
+
+<urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>
+        a                 skos:Concept;
+        rdfs:label        "artikel"@nl;
+        skos:altLabel     "goed"@nl;
+        skos:definition   "Een artikel is een materieël object dat als geheel kan worden bezit of gekocht"@nl;
+        skos:hiddenLabel  "artikelen";
+        skos:inScheme     <urn:name:scheme:Goederen>;
+        skos:prefLabel    "artikel"@nl .
+
+<urn:uuid:f27cac40-5a9d-58a5-8547-e3fad2efe5bb>
+        a                        skos:Concept;
+        rdfs:label               "fatbike"@nl;
+        skosthes:broaderGeneric  <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
+        skos:definition          "Een fatbike is een zware [fiets met trapondersteuning] en heeft dikke banden"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "fatbike"@nl;
+        skos:scopeNote           "Een fatbike valt binnen de categorie van fietsen met trapondersteuning. Er zijn geen formele regels wat een fatbike is en wat niet. Fatbikes zijn te herkennen doordat ze zwaarder zijn dan de gemiddelde fiets met trapondersteuning en dikke banden hebben. Ook heeft een fatbike vaak een grote koplamp en een zadel waar je met z'n 2-en op kunt zitten."@nl .
+
+<urn:uuid:675e18f7-a5fe-50cd-ad45-9917ab3d4f95>
+        a                skos:Concept;
+        rdfs:label       "versnellingen"@nl;
+        skos:definition  "het aantal versnellingen van de fiets."@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "versnellingen"@nl .
+
+<urn:uuid:1fa52d1c-1613-54fd-b950-b14326e1d93d>
+        a                skos:Concept;
+        rdfs:label       "volgnummer"@nl;
+        skos:definition  "het volgummer van de fiets in één levering"@nl;
+        skos:inScheme    <urn:name:scheme:Logistiek>;
+        skos:prefLabel   "volgnummer"@nl .
+
+<urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>
+        a                   skos:Concept;
+        rdfs:label          "locatie"@nl;
+        skos:definition     "een fysieke plek op aarde met een adres"@nl;
+        skos:editorialNote  "Voor dit begrippenkader is niet van belang wat een adres zou kunnen zijn, maar vooral dat zo'n locatie te vinden in en een fysieke plek is."@nl;
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "locatie"@nl;
+        skos:scopeNote      "Een adres is in beginsel een straatnaam, huisnummer en plaats, maar zou ook een geometrische aanduiding kunnen zijn."@nl .
 
 <urn:uuid:cb9de3e6-8d00-546e-85ac-3aa9af9ce0d6>
         a                        skos:Concept;
         rdfs:label               "stadsfiets"@nl;
         dct:source               <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
         skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        skos:definition          "een [fiets] die is ingericht op gebruik in het stadsverkeer"@nl;
-        skos:inScheme            <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
+        skos:definition          "een stadsfiets is een [fiets] die is ingericht op gebruik in het stadsverkeer"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
         skos:prefLabel           "stadsfiets"@nl;
         skos:scopeNote           "Een [stadsfiets] heeft typisch een bagagedrager, spatborden en verlichting."@nl .
+
+<urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>
+        a                skos:Concept;
+        rdfs:label       "verkoopprijs"@nl;
+        skos:definition  "DFe verkoopprijs van de fiets, met twee decimalen, in Euro."@nl;
+        skos:inScheme    <urn:name:scheme:Verkoop>;
+        skos:prefLabel   "verkoopprijs"@nl .
+
+<urn:name:scheme:Logistiek>
+        a           skos:ConceptScheme;
+        rdfs:label  "Logistiek" .
+
+<urn:name:scheme:Actorenenlocaties>
+        a           skos:ConceptScheme;
+        rdfs:label  "Actoren en locaties" .
+
+<urn:name:scheme:Goederen>
+        a           skos:ConceptScheme;
+        rdfs:label  "Goederen" .
+
+<urn:name:scheme:Verkoop>
+        a           skos:ConceptScheme;
+        rdfs:label  "Verkoop" .
 
 <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>
         a           skos:ConceptScheme , dcat:DatasetSeries;
@@ -163,7 +274,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         a              dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-03-27T13:01:21.328+01:00"^^xsd:dateTime;
+        dct:issued     "2025-03-30T16:18:17.749+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .
