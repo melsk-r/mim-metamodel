@@ -2,6 +2,30 @@
 
 ## Actoren en locaties
 
+### adres
+
+> Een adres is een administratieve aanduiding van een plek op aarde, bestaande uit de plaatsnaam, straatnaam en nummeraanduiding
+
+Toelichting: Fietsenwinkels maken gebruiken van adresbestanden, gebaseerd op openbare bronnen. Echter, mocht een opgegeven adres niet in deze bronnen voorkomen, dan wordt het wel als een adres gezien. In zo'n geval zal een dergelijk adres ook geen postcode hebben.
+
+*Adres volgt uit de afspraken die fietsenwinkels met elkaar hebben gemaakt en wijkt deels af van de definitie uit de openbare bronnen (zoals bijvoorbeeld de Basisregistratie adressen en gebouwen)*
+
+Bron: Fietsenwinkelafspraken [[FWA]]
+
+### bekend adres
+
+> Een bekend adres is een [adres](#adres) dat voorkomt in openbare bronnen
+
+Specialisatie van: [adres](#adres)
+
+### faktuuradres
+
+> Een faktuuradres is een [postadres](#postadres) waar formele post naartoe gestuurd wordt
+
+Toelichting: Onder formele post vallen in ieder geval faktoren, maar ook aanmaningen en andere verplichting-gerelateerde post. Afgesproken is dat formele post altijd naar een bekend adres wordt gestuurd.
+
+Specialisatie van: [postadres](#postadres)
+
 ### fietsenwinkel
 
 > een [locatie](#locatie) waar [fietsen]() worden verkocht
@@ -9,6 +33,14 @@
 Toelichting: Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel.
 
 Gerelateerd: [fietsen](#fietsen), [locatie](#locatie)
+
+### fietsenwinkelonderneming
+
+> Een fietsenwinkelonderneming is een [onderneming](#onderneming) die [fietsen]() verkoopt in een [fietsenwinkel](#fietsenwinkel)
+
+Specialisatie van: [onderneming](#onderneming)
+
+Gerelateerd: [fietsen](#fietsen), [Fietsenwinkel](#fietsenwinkel), [fietsenwinkel](#fietsenwinkel)
 
 ### handelsnaam
 
@@ -26,13 +58,25 @@ Bron: Artikel 9 lid a, [[Hrw2007]]
 
 Gerelateerd: [onderneming](#onderneming)
 
+### leveringsadres
+
+> Een leveringsadres is een [adres](#adres) van een [locatie](#locatie) waar een [levering](#levering) wordt afgeleverd
+
+Specialisatie van: [adres](#adres)
+
+Gerelateerd: [levering](#levering), [locatie](#locatie)
+
 ### locatie
 
-> een fysieke plek op aarde met een adres
+> een fysieke plek op aarde met een [adres](#adres)
 
-Toelichting: Een adres is in beginsel een straatnaam, huisnummer en plaats, maar zou ook een geometrische aanduiding kunnen zijn.
+Gerelateerd: [adres](#adres)
 
-*Voor dit begrippenkader is niet van belang wat een adres zou kunnen zijn, maar vooral dat zo'n locatie te vinden in en een fysieke plek is.*
+### onbekend adres
+
+> Een onbekend adres ie een [adres](#adres) dat niet voorkomt in openbare bronnen
+
+Specialisatie van: [adres](#adres)
 
 ### onderneming
 
@@ -44,13 +88,29 @@ Bron: Artikel 2, [[Hrb2008]]
 
 Gerelateerd: [artikel](#artikel)
 
+### postadres
+
+> Een postadres is een [adres](#adres) waar post naartoe gestuurd kan worden
+
+Toelichting: Het postadres wordt onder meer gebruikt voor het versturen van fakturen en aanbiedingen naar klanten. Een postadres is een locatie, maar hoeft niet de locatie te zijn waar de klant zijn fiets geleverd wenst te hebben
+
+Specialisatie van: [adres](#adres)
+
+### postcode
+
+> Een postcode is een unieke combinatie van cijfers en letters voor een groep van één of meer [adressen](#adres)
+
+Gerelateerd: [adres](#adres)
+
 ## Fietsenwinkel
 
 ## Goederen
 
 ### aandrijving
 
-> het type aandrijving van de fiets
+> een aandrijving is een constructie op een [fiets](#fiets) waarmee de spierkracht wordt overgebracht op de wielen
+
+Gerelateerd: [fiets](#fiets)
 
 ### artikel
 
@@ -65,6 +125,14 @@ Alternatieve aanduiding: *goed*
 Bron: Fietsenwinkelafspraken [[FWA]]
 
 Specialisatie van: [artikel](#artikel)
+
+### derailleurversnelling
+
+> Een derailleurversnelling is een [fietsversnelling](#fietsversnelling) die in een open constructie in samenhang met de [kettingaandrijving](#kettingaandrijving) is geconstrueerd
+
+Specialisatie van: [fietsversnelling](#fietsversnelling)
+
+Gerelateerd: [kettingaandrijving](#kettingaandrijving)
 
 ### fatbike
 
@@ -93,17 +161,45 @@ elektrische fiets*
 
 Specialisatie van: [fiets](#fiets)
 
+### fietsversnelling
+
+> Een fietsversnelling is een constructie op een [fiets](#fiets) waarmee de verhouding tussen de [aandrijving](#aandrijving) en de wielen geregeld kan worden
+
+Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
+
 ### garantienummer
 
 > garantienummer op de [batterij](#batterij) (wanneer e-bike)
 
 Gerelateerd: [batterij](#batterij)
 
+### kettingaandrijving
+
+> Een kettingaandrijving is een aandrijving met behulp van een ketting
+
+Toelichting: Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving.
+
+Specialisatie van: [aandrijving](#aandrijving)
+
+### naafversnelling
+
+> Een naafversnelling is een [fietsversnelling](#fietsversnelling) die in een gesloten constructie in de naaf van een wiel is verwerkt
+
+Specialisatie van: [fietsversnelling](#fietsversnelling)
+
 ### omvang
 
 > De omvang van een [artikel](#artikel) in hoogte, breedte en lengtede omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel).
 
 Gerelateerd: [artikel](#artikel)
+
+### riemaandrijving
+
+> Een riemaandrijving is een aandrijving met behulp van een riem
+
+Toelichting: Bij een riemaandrijving is de ketting vervangen door een riem. De riem heeft minder onderhoud nodig en is ook stiller. Het is echter niet mogelijk om een riem te gebruiken met een derrailleur, een naafversnelling is noodzakelijk.
+
+Specialisatie van: [aandrijving](#aandrijving)
 
 ### sportfiets
 
@@ -129,10 +225,6 @@ Specialisatie van: [fiets](#fiets)
 
 Gerelateerd: [artikel](#artikel)
 
-### versnellingen
-
-> het aantal versnellingen van de fiets.
-
 ## Logistiek
 
 ### levering
@@ -141,7 +233,7 @@ Gerelateerd: [artikel](#artikel)
 
 Toelichting: De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon
 
-Gerelateerd: [artikel](#artikel), [locatie](#locatie)
+Gerelateerd: [locatie](#locatie), [artikel](#artikel)
 
 ### leveringsdatum
 
@@ -149,13 +241,13 @@ Gerelateerd: [artikel](#artikel), [locatie](#locatie)
 
 Gerelateerd: [levering](#levering)
 
-### volgnummer
-
-> het volgummer van de fiets in één levering
-
 ## Verkoop
 
 ### verkoopprijs
 
-> DFe verkoopprijs van de fiets, met twee decimalen, in Euro.
+> Een bedrag in euro's inclusief BTW waarvoor een [artikel](#artikel) gekocht mag worden
+
+Toelichting: De verkoopprijs is het bedrag dat de koper van een artikel daadwerkelijk betaald voor het artikel
+
+Gerelateerd: [artikel](#artikel)
 
