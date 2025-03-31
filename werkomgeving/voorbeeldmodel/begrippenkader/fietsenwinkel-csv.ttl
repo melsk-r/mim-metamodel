@@ -93,6 +93,12 @@
         csvw:describes  <urn:excel:sheet2:row95s> ;
         csvw:rownum     95 .
 
+<urn:excel:sheet3:row19s>
+        <urn:property:NAAR_BEGRIP>  "onderneming" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "leverancier" ;
+        <urn:property:VERWOORDING>  "is een" .
+
 <urn:excel:sheet4:row382>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row382s> ;
@@ -323,21 +329,21 @@
         csvw:describes  <urn:excel:sheet3:row388s> ;
         csvw:rownum     388 .
 
-<urn:excel:sheet3:row135>
-        a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet3:row135s> ;
-        csvw:rownum     135 .
+<urn:excel:sheet3:row11s>
+        <urn:property:NAAR_BEGRIP>  "adres" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "postadres" ;
+        <urn:property:VERWOORDING>  "is een" .
 
 <urn:excel:sheet2:row262>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row262s> ;
         csvw:rownum     262 .
 
-<urn:excel:sheet3:row11s>
-        <urn:property:NAAR_BEGRIP>  "adres" ;
-        <urn:property:RELATIE>      "is specialisatie van" ;
-        <urn:property:VAN_BEGRIP>   "postadres" ;
-        <urn:property:VERWOORDING>  "is een" .
+<urn:excel:sheet3:row135>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet3:row135s> ;
+        csvw:rownum     135 .
 
 <urn:excel:sheet4:row85>
         a               csvw:Row ;
@@ -772,15 +778,15 @@
         csvw:describes  <urn:excel:sheet4:row171s> ;
         csvw:rownum     171 .
 
-<urn:excel:sheet2:row350>
-        a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet2:row350s> ;
-        csvw:rownum     350 .
-
 <urn:excel:sheet4:row349>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row349s> ;
         csvw:rownum     349 .
+
+<urn:excel:sheet2:row350>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet2:row350s> ;
+        csvw:rownum     350 .
 
 <urn:excel:sheet3:row223>
         a               csvw:Row ;
@@ -1369,6 +1375,13 @@
         csvw:describes  <urn:excel:sheet5:row393s> ;
         csvw:rownum     393 .
 
+<urn:excel:sheet2:row38s>
+        <urn:property:DEFINITIE>       "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon" ;
+        <urn:property:VOORKEURSTERM>   "fietsenwinkeleigenaar" .
+
 <urn:excel:sheet3:row278>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row278s> ;
@@ -1405,7 +1418,7 @@
         csvw:rownum     280 .
 
 <urn:excel:sheet2:row14s>
-        <urn:property:DEFINITIE>       "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht" ;
+        <urn:property:DEFINITIE>       "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst" ;
         <urn:property:HOOFDONDERWERP>  "Logistiek" ;
         <urn:property:TOELICHTING>     "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon" ;
         <urn:property:VOORKEURSTERM>   "levering" .
@@ -1490,20 +1503,24 @@
         csvw:describes  <urn:excel:sheet5:row220s> ;
         csvw:rownum     220 .
 
-<urn:excel:sheet3:row358>
-        a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet3:row358s> ;
-        csvw:rownum     358 .
-
 <urn:excel:sheet5:row46>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet5:row46s> ;
         csvw:rownum     46 .
 
+<urn:excel:sheet3:row358>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet3:row358s> ;
+        csvw:rownum     358 .
+
 <urn:excel:sheet2:row232>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row232s> ;
         csvw:rownum     232 .
+
+<urn:excel:sheet4:row3s>
+        <urn:property:ENKELVOUD>  "onderneming" ;
+        <urn:property:MEERVOUD>   "ondernemingen" .
 
 <urn:excel:sheet4:row55>
         a               csvw:Row ;
@@ -1545,15 +1562,15 @@
         csvw:describes  <urn:excel:sheet4:row360s> ;
         csvw:rownum     360 .
 
-<urn:excel:sheet2:row22s>
-        <urn:property:DEFINITIE>       "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]" ;
-        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "fietsenwinkelonderneming" .
-
 <urn:excel:sheet2:row245>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row245s> ;
         csvw:rownum     245 .
+
+<urn:excel:sheet2:row22s>
+        <urn:property:DEFINITIE>       "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:VOORKEURSTERM>   "fietsenwinkelonderneming" .
 
 <urn:excel:sheet4:row68>
         a               csvw:Row ;
@@ -2558,6 +2575,15 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row375s> ;
         csvw:rownum     375 .
+
+<urn:excel:sheet2:row35s>
+        <urn:property:DEFINITIE>       "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:KENNISBRONNEN>   "FWA" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon" ;
+        <urn:property:TOELICHTING>     "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)" ;
+        <urn:property:VOORKEURSTERM>   "klant" .
 
 <urn:excel:sheet3:row248>
         a               csvw:Row ;
@@ -4602,6 +4628,11 @@
         csvw:describes  <urn:excel:sheet2:row395s> ;
         csvw:rownum     395 .
 
+<urn:excel:sheet2:row37s>
+        <urn:property:DEFINITIE>       "Een koper is een [klant] die een [koop] is aangegaan" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:VOORKEURSTERM>   "koper" .
+
 <urn:excel:sheet3:row268>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row268s> ;
@@ -4638,7 +4669,7 @@
         csvw:rownum     270 .
 
 <urn:excel:sheet2:row13s>
-        <urn:property:DEFINITIE>       "De datum van de levering van één of meerdere goederen" ;
+        <urn:property:DEFINITIE>       "De datum van de [levering] van één of meerdere artikelen" ;
         <urn:property:HOOFDONDERWERP>  "Logistiek" ;
         <urn:property:VOORKEURSTERM>   "leveringsdatum" .
 
@@ -5744,6 +5775,12 @@
         csvw:describes  <urn:excel:sheet2:row352s> ;
         csvw:rownum     352 .
 
+<urn:excel:sheet3:row20s>
+        <urn:property:NAAR_BEGRIP>  "klant" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "koper" ;
+        <urn:property:VERWOORDING>  "is een" .
+
 <urn:excel:sheet3:row225>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row225s> ;
@@ -5763,6 +5800,11 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row365s> ;
         csvw:rownum     365 .
+
+<urn:excel:sheet2:row34s>
+        <urn:property:DEFINITIE>       "Een leverancier is een [onderneming] die [leveringen] verricht aan andere [ondernemingen]" ;
+        <urn:property:HOOFDONDERWERP>  "Goederen" ;
+        <urn:property:VOORKEURSTERM>   "leverancier" .
 
 <urn:excel:sheet3:row238>
         a               csvw:Row ;
@@ -6659,6 +6701,11 @@
         csvw:describes  <urn:excel:sheet2:row327s> ;
         csvw:rownum     327 .
 
+<urn:excel:sheet2:row39s>
+        <urn:property:DEFINITIE>       "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:VOORKEURSTERM>   "verkoper" .
+
 <urn:excel:sheet3:row288>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row288s> ;
@@ -6779,25 +6826,29 @@
         csvw:describes  <urn:excel:sheet5:row230s> ;
         csvw:rownum     230 .
 
+<urn:excel:sheet5:row56>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet5:row56s> ;
+        csvw:rownum     56 .
+
 <urn:excel:sheet3:row368>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row368s> ;
         csvw:rownum     368 .
 
-<urn:excel:sheet5:row56>
+<urn:excel:sheet3:row115>
         a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet5:row56s> ;
-        csvw:rownum     56 .
+        csvw:describes  <urn:excel:sheet3:row115s> ;
+        csvw:rownum     115 .
 
 <urn:excel:sheet2:row242>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row242s> ;
         csvw:rownum     242 .
 
-<urn:excel:sheet3:row115>
-        a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet3:row115s> ;
-        csvw:rownum     115 .
+<urn:excel:sheet4:row4s>
+        <urn:property:ENKELVOUD>  "levering" ;
+        <urn:property:MEERVOUD>   "leveringen" .
 
 <urn:excel:sheet4:row65>
         a               csvw:Row ;
@@ -6864,7 +6915,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "4D031246-D542-4A98-ABFA-7FFFFFFFD871" .
+        <urn:property:Rubriek>  "7FFFFFFF-CD66-4B2F-BA95-54DF785138CE" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;
@@ -7826,6 +7877,11 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row385s> ;
         csvw:rownum     385 .
+
+<urn:excel:sheet2:row36s>
+        <urn:property:DEFINITIE>       "Een koop is een overeenkomst tussen de [fietsenwinkeleigenaar] en een klant met betrekking tot één of meerdere [artikelen]" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:VOORKEURSTERM>   "koop" .
 
 <urn:excel:sheet3:row258>
         a               csvw:Row ;

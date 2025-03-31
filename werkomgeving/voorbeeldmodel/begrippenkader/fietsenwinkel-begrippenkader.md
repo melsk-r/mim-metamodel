@@ -34,19 +34,39 @@ Toelichting: Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen o
 
 Gerelateerd: [fietsen](#fietsen), [locatie](#locatie)
 
+### fietsenwinkeleigenaar
+
+> Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming](#fietsenwinkelonderneming) voert
+
+*Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon*
+
+Gerelateerd: [fietsenwinkelonderneming](#fietsenwinkelonderneming)
+
 ### fietsenwinkelonderneming
 
 > Een fietsenwinkelonderneming is een [onderneming](#onderneming) die [fietsen]() verkoopt in een [fietsenwinkel](#fietsenwinkel)
 
 Specialisatie van: [onderneming](#onderneming)
 
-Gerelateerd: [fietsen](#fietsen), [Fietsenwinkel](#fietsenwinkel), [fietsenwinkel](#fietsenwinkel)
+Gerelateerd: [fietsen](#fietsen), [fietsenwinkel](#fietsenwinkel), [Fietsenwinkel](#fietsenwinkel)
 
 ### handelsnaam
 
 > De handelsnaam van een [onderneming](#onderneming)
 
 Gerelateerd: [onderneming](#onderneming)
+
+### klant
+
+> Een klant is een persoon die een [artikel](#artikel) koopt of daarvoor belangstelling toont
+
+Toelichting: Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)
+
+*Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon*
+
+Bron: Fietsenwinkelafspraken [[FWA]]
+
+Gerelateerd: [artikel](#artikel)
 
 ### kvk-nummer
 
@@ -165,7 +185,7 @@ Specialisatie van: [fiets](#fiets)
 
 > Een fietsversnelling is een constructie op een [fiets](#fiets) waarmee de verhouding tussen de [aandrijving](#aandrijving) en de wielen geregeld kan worden
 
-Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
+Gerelateerd: [fiets](#fiets), [aandrijving](#aandrijving)
 
 ### garantienummer
 
@@ -180,6 +200,14 @@ Gerelateerd: [batterij](#batterij)
 Toelichting: Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving.
 
 Specialisatie van: [aandrijving](#aandrijving)
+
+### leverancier
+
+> Een leverancier is een [onderneming](#onderneming) die [leveringen](#levering) verricht aan andere [ondernemingen](#onderneming)
+
+Specialisatie van: [onderneming](#onderneming)
+
+Gerelateerd: [levering](#levering)
 
 ### naafversnelling
 
@@ -229,7 +257,7 @@ Gerelateerd: [artikel](#artikel)
 
 ### levering
 
-> Een gebeurtenis waarbij [artikelen](#artikel) op een afgesproken [locatie](#locatie) worden gebracht
+> Een gebeurtenis waarbij [artikelen](#artikel) op een afgesproken [locatie](#locatie) worden gebracht op basis van een eerder afgesproken overeenkomst
 
 Toelichting: De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon
 
@@ -237,11 +265,25 @@ Gerelateerd: [locatie](#locatie), [artikel](#artikel)
 
 ### leveringsdatum
 
-> De datum van de levering van één of meerdere goederen
+> De datum van de [levering](#levering) van één of meerdere artikelen
 
 Gerelateerd: [levering](#levering)
 
 ## Verkoop
+
+### koop
+
+> Een koop is een overeenkomst tussen de [fietsenwinkeleigenaar](#fietsenwinkeleigenaar) en een klant met betrekking tot één of meerdere [artikelen](#artikel)
+
+Gerelateerd: [artikel](#artikel), [fietsenwinkeleigenaar](#fietsenwinkeleigenaar)
+
+### koper
+
+> Een koper is een [klant](#klant) die een [koop](#koop) is aangegaan
+
+Specialisatie van: [klant](#klant)
+
+Gerelateerd: [koop](#koop)
 
 ### verkoopprijs
 
@@ -250,4 +292,10 @@ Gerelateerd: [levering](#levering)
 Toelichting: De verkoopprijs is het bedrag dat de koper van een artikel daadwerkelijk betaald voor het artikel
 
 Gerelateerd: [artikel](#artikel)
+
+### verkoper
+
+> Een verkoper is een medewerker in de fietsenwinkel die een [koop](#koop) regelt
+
+Gerelateerd: [koop](#koop)
 

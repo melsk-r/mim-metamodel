@@ -26,6 +26,24 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skosxl:hiddenLabel  <urn:uuid:0fbd531b-c880-5b4a-ac77-b7ebadd30d46>;
         skosxl:literalForm  "adres" .
 
+<urn:uuid:9d313b5c-0380-5dc3-afd0-b20c18621e15>
+        a                   skosxl:Label;
+        skosxl:literalForm  "ondernemingen" .
+
+<urn:uuid:60ddd5c9-271b-5d03-bad2-c95c88a7bf01>
+        a                   skosxl:Label;
+        skosxl:hiddenLabel  <urn:uuid:9d313b5c-0380-5dc3-afd0-b20c18621e15>;
+        skosxl:literalForm  "onderneming" .
+
+<urn:uuid:8f4fe17f-17b8-5a13-b955-ed316cf29b3c>
+        a                   skosxl:Label;
+        skosxl:literalForm  "leveringen" .
+
+<urn:uuid:faab1f35-320b-58c4-98c3-641ad9067974>
+        a                   skosxl:Label;
+        skosxl:hiddenLabel  <urn:uuid:8f4fe17f-17b8-5a13-b955-ed316cf29b3c>;
+        skosxl:literalForm  "levering" .
+
 <urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>
         a             dct:BibliographicResource;
         rdfs:label    "Artikel 2, Hrb2008";
@@ -141,6 +159,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:related     [ rdfs:label  "fietsen" ];
         skos:scopeNote   "Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel."@nl .
 
+<urn:uuid:8de6b9f7-fc5d-5f4d-8fc0-6c4977b9c109>
+        a                        skos:Concept;
+        rdfs:label               "leverancier"@nl;
+        skosthes:broaderGeneric  <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        skos:definition          "Een leverancier is een [onderneming] die [leveringen] verricht aan andere [ondernemingen]"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "leverancier"@nl;
+        skos:related             <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
+
 <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>
         a                        skos:Concept;
         rdfs:label               "kettingaandrijving"@nl;
@@ -150,6 +177,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel           "kettingaandrijving"@nl;
         skos:scopeNote           "Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving."@nl .
 
+<urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>
+        a                   skos:Concept;
+        rdfs:label          "fietsenwinkeleigenaar"@nl;
+        skos:definition     "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert"@nl;
+        skos:editorialNote  "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon"@nl;
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "fietsenwinkeleigenaar"@nl;
+        skos:related        <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f> .
+
 <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>
         a                        skos:Concept;
         rdfs:label               "fietsenwinkelonderneming"@nl;
@@ -157,7 +193,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:definition          "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]"@nl;
         skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel           "fietsenwinkelonderneming"@nl;
-        skos:related             <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48> , <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
+        skos:related             <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705> , <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
         skos:related             [ rdfs:label  "fietsen" ] .
 
 <urn:uuid:cb3a1a50-422a-54d2-9135-6084d8937861>
@@ -172,7 +208,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
         a                skos:Concept;
         rdfs:label       "leveringsdatum"@nl;
-        skos:definition  "De datum van de levering van één of meerdere goederen"@nl;
+        skos:definition  "De datum van de [levering] van één of meerdere artikelen"@nl;
         skos:inScheme    <urn:name:scheme:Logistiek>;
         skos:prefLabel   "leveringsdatum"@nl;
         skos:related     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
@@ -191,7 +227,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:definition  "Een fietsversnelling is een constructie op een [fiets] waarmee de verhouding tussen de [aandrijving] en de wielen geregeld kan worden"@nl;
         skos:inScheme    <urn:name:scheme:Goederen>;
         skos:prefLabel   "fietsversnelling"@nl;
-        skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> , <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48> .
+        skos:related     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48> , <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> .
 
 <urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>
         a                skos:Concept;
@@ -200,6 +236,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:inScheme    <urn:name:scheme:Goederen>;
         skos:prefLabel   "garantienummer"@nl;
         skos:related     <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b> .
+
+<urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>
+        a                   skos:Concept;
+        rdfs:label          "klant"@nl;
+        dct:source          <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
+        skos:definition     "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont"@nl;
+        skos:editorialNote  "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon"@nl;
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "klant"@nl;
+        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:scopeNote      "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)"@nl .
 
 <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>
         a                        skos:Concept;
@@ -211,6 +258,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel           "fiets"@nl;
         skos:scopeNote           "Hierbij wordt met \"door middel van menskracht\" bedoelt dat er minstens (ook) menskracht noodzakelijk is. Een E-Bike valt daarmee onder de definitie van een fiets, aangezien ook daar menskracht voor nodig is (anders is sprake van een (elektrische) bromfiets). Een éénwieler is volgens de wet geen fiets."@nl .
 
+<urn:uuid:d3cb1746-6cfc-5462-8325-2db6ac387390>
+        a                skos:Concept;
+        rdfs:label       "verkoper"@nl;
+        skos:definition  "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt"@nl;
+        skos:inScheme    <urn:name:scheme:Verkoop>;
+        skos:prefLabel   "verkoper"@nl;
+        skos:related     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
+
 <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>
         a                        skos:Concept;
         rdfs:label               "fiets met trapondersteuning"@nl;
@@ -221,13 +276,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel           "fiets met trapondersteuning"@nl .
 
 <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>
-        a                skos:Concept;
-        rdfs:label       "levering"@nl;
-        skos:definition  "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht"@nl;
-        skos:inScheme    <urn:name:scheme:Logistiek>;
-        skos:prefLabel   "levering"@nl;
-        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> , <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
-        skos:scopeNote   "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
+        a                 skos:Concept;
+        rdfs:label        "levering"@nl;
+        skos:definition   "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst"@nl;
+        skos:hiddenLabel  "leveringen";
+        skos:inScheme     <urn:name:scheme:Logistiek>;
+        skos:prefLabel    "levering"@nl;
+        skos:related      <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> , <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        skos:scopeNote    "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
 
 <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>
         a                skos:Concept;
@@ -264,12 +320,21 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel      "adres"@nl;
         skos:scopeNote      "Fietsenwinkels maken gebruiken van adresbestanden, gebaseerd op openbare bronnen. Echter, mocht een opgegeven adres niet in deze bronnen voorkomen, dan wordt het wel als een adres gezien. In zo'n geval zal een dergelijk adres ook geen postcode hebben."@nl .
 
+<urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>
+        a                skos:Concept;
+        rdfs:label       "koop"@nl;
+        skos:definition  "Een koop is een overeenkomst tussen de [fietsenwinkeleigenaar] en een klant met betrekking tot één of meerdere [artikelen]"@nl;
+        skos:inScheme    <urn:name:scheme:Verkoop>;
+        skos:prefLabel   "koop"@nl;
+        skos:related     <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
+
 <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>
         a                   skos:Concept;
         rdfs:label          "onderneming"@nl;
         dct:source          <urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>;
         skos:definition     "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen"@nl;
         skos:editorialNote  "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd"@nl;
+        skos:hiddenLabel    "ondernemingen";
         skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel      "onderneming"@nl;
         skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
@@ -344,6 +409,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel   "postcode"@nl;
         skos:related     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b> .
 
+<urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>
+        a                        skos:Concept;
+        rdfs:label               "koper"@nl;
+        skosthes:broaderGeneric  <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
+        skos:definition          "Een koper is een [klant] die een [koop] is aangegaan"@nl;
+        skos:inScheme            <urn:name:scheme:Verkoop>;
+        skos:prefLabel           "koper"@nl;
+        skos:related             <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
+
 <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>
         a                        skos:Concept;
         rdfs:label               "leveringsadres"@nl;
@@ -386,7 +460,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         a              dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-03-31T12:56:35.829+02:00"^^xsd:dateTime;
+        dct:issued     "2025-03-31T18:13:39.302+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .
