@@ -2551,6 +2551,12 @@
         csvw:describes  <urn:excel:sheet2:row362s> ;
         csvw:rownum     362 .
 
+<urn:excel:sheet3:row21s>
+        <urn:property:NAAR_BEGRIP>  "locatie" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "fietsenwinkel" ;
+        <urn:property:VERWOORDING>  "is een" .
+
 <urn:excel:sheet3:row235>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row235s> ;
@@ -3363,7 +3369,7 @@
         csvw:rownum     85 .
 
 <urn:excel:sheet2:row6s>
-        <urn:property:DEFINITIE>       "een [locatie] waar [fietsen] worden verkocht" ;
+        <urn:property:DEFINITIE>       "een fietsenwinkel is een [locatie] waar [fietsen] worden verkocht" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
         <urn:property:TOELICHTING>     "Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel." ;
         <urn:property:VOORKEURSTERM>   "fietsenwinkel" .
@@ -6915,7 +6921,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "7FFFFFFF-CD66-4B2F-BA95-54DF785138CE" .
+        <urn:property:Rubriek>  "7FFFFFFF-457A-42CE-84FD-025BF4C01F65" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;

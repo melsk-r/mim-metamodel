@@ -31,4 +31,4 @@ java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-csv.ttl -o fietsenwinkel-skos.
 # - Publicatie
 java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.md ../../libs/skos2md.xsl
 java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl localbiblio.js ../../libs/dct2md.xsl
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.graphml ../../libs/skos2graphml.xsl
+java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.graphml ../../libs/skos2graphml.xsl ext fietsenwinkel-begrippenkader-edited.graphml

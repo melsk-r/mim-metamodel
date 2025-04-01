@@ -28,11 +28,13 @@ Specialisatie van: [postadres](#postadres)
 
 ### fietsenwinkel
 
-> een [locatie](#locatie) waar [fietsen]() worden verkocht
+> een fietsenwinkel is een [locatie](#locatie) waar [fietsen]() worden verkocht
 
 Toelichting: Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel.
 
-Gerelateerd: [fietsen](#fietsen), [locatie](#locatie)
+Specialisatie van: [locatie](#locatie)
+
+Gerelateerd: [fietsen](#fietsen)
 
 ### fietsenwinkeleigenaar
 
