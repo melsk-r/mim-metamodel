@@ -144,7 +144,9 @@ Alternatieve aanduiding: *goed*
 
 ### batterij
 
-> de batterij van de E-Bike
+> Een batterij is een [artikel](#artikel) dat gebruikt wordt voor de opslag van elektrische energie
+
+Toelichting: In de fietsenwinkel worden alleen batterijen voor e-bikes verkocht. Deze voldoen aan specifieke normen die gelden voor dergelijke batterijen
 
 Bron: Fietsenwinkelafspraken [[FWA]]
 
@@ -189,13 +191,21 @@ Specialisatie van: [fiets](#fiets)
 
 > Een fietsversnelling is een constructie op een [fiets](#fiets) waarmee de verhouding tussen de [aandrijving](#aandrijving) en de wielen geregeld kan worden
 
-Gerelateerd: [fiets](#fiets), [aandrijving](#aandrijving)
+Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
+
+### framemaat
+
+> een framemaat is een aanduiding voor de grootte van het frame van een [fiets](#fiets)
+
+Toelichting: Voor een framemaat wordt niet de feitelijke maat van het frame gebruikt, maar de lengte van de persoon op de fiets. Daarbij wordt een categorisering aangehouden die per merk kan verschillen (bijvoorbeeld de framemaat "L" die kan staan voor fietsen voor mensen met lengte 1.70 tot 1.80)
+
+Gerelateerd: [fiets](#fiets)
 
 ### garantienummer
 
-> garantienummer op de [batterij](#batterij) (wanneer e-bike)
+> een garantienummer is een uniek nummer van een [artikel](#artikel) dat nodig is om garantie te kunnen krijgen op een artikel
 
-Gerelateerd: [batterij](#batterij)
+Gerelateerd: [artikel](#artikel)
 
 ### kettingaandrijving
 
@@ -253,7 +263,9 @@ Specialisatie van: [fiets](#fiets)
 
 ### typenummer
 
-> het type nummer van een [artikel](#artikel)
+> een typenummer is een unieke aanduiding voor het type [artikel](#artikel)
+
+Toelichting: Als twee artikelen hetzelfde typenummer hebben, dan betekent dit dat de artikelen niet van elkaar zijn te onderscheiden, met uitzondering van enkele cosmetische zaken, zoals kleur en de framemaat.
 
 Gerelateerd: [artikel](#artikel)
 

@@ -9,11 +9,41 @@ PREFIX skosthes: <http://purl.org/iso25964/skos-thes#>
 PREFIX skosxl:   <http://www.w3.org/2008/05/skos-xl#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:5625b37b-2661-5c35-8572-f02ac3fd4545>
-        rdf:object     <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+<urn:uuid:07d728bd-b663-5caf-824d-20f5ccf0a4a9>
+        rdf:object     <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdfs:label     "van verkoper" .
+
+<urn:uuid:9a518b25-891e-5ae4-88d0-ec63610ccd37>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdfs:label     "van één of meerdere" .
+
+<urn:uuid:e18bdb4c-b6da-5894-8257-6147927c6d3a>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
         rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>;
+        rdf:subject    <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
         rdfs:label     "is een" .
+
+<urn:uuid:a588fb46-5db0-5c69-bb9c-54a2fbf9bfe5>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>;
+        rdfs:label     "van een" .
+
+<urn:uuid:e91bc18c-9123-5b79-85bc-cab5201dd40a>
+        rdf:object     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
+        rdfs:label     "is een" .
+
+<urn:uuid:022042a6-02b9-55bf-bb05-bb02efc7fc2b>
+        rdf:object     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        rdfs:label     "van een" .
 
 <urn:uuid:98e95634-c982-5991-86fb-8514ab0f90e6>
         rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
@@ -21,52 +51,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:242b2f71-cceb-53b6-acdd-4afcd5cb162e>;
         rdfs:label     "voor een groep van" .
 
-<urn:uuid:bc8a561a-7ee4-5324-8acb-6f83dacea180>
-        rdf:object     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>;
-        rdfs:label     "betreffende een" .
-
-<urn:uuid:3203d708-3f1e-59dc-8c86-91e7b17afbf6>
-        rdf:object     <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
+<urn:uuid:1b963e2d-f18e-5931-9170-55d8091652cb>
+        rdf:object     <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
         rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>;
+        rdf:subject    <urn:uuid:f27cac40-5a9d-58a5-8547-e3fad2efe5bb>;
         rdfs:label     "is een" .
 
-<urn:uuid:28359bad-bf9a-5be8-b5fe-1cd1167ff56e>
-        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>;
-        rdfs:label     "is een" .
-
-<urn:uuid:d3d6eaad-d1b3-5629-b00c-61f445359b04>
-        rdf:object     <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
-        rdfs:label     "is eigenaar van" .
-
-<urn:uuid:5bfc8012-78c3-52e8-9695-34c00117a87f>
-        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:209a97f6-5ef5-5a7e-b33c-817352c868d4>;
-        rdfs:label     "is een" .
-
-<urn:uuid:44d90737-d84d-5385-a2fc-a9fee78d0840>
+<urn:uuid:a61c544c-0759-5931-b73e-aad8da37fb61>
         rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
         rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>;
-        rdfs:label     "van een" .
+        rdf:subject    <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdfs:label     "levert" .
 
-<urn:uuid:a4344b4d-afee-56f5-b194-e43d43685ece>
-        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:5196044c-fa14-5b5b-93cd-f721cb18a7ac>;
-        rdfs:label     "is uniek nummer van" .
-
-<urn:uuid:6bb15a5c-f6b4-5479-8a4c-1e5406b46525>
-        rdf:object     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+<urn:uuid:202ca1ba-99ec-5572-92ae-393f18e6a52c>
+        rdf:object     <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
         rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:3760ccf1-64bd-5e40-8acc-5774f68f1317>;
+        rdf:subject    <urn:uuid:cb3a1a50-422a-54d2-9135-6084d8937861>;
         rdfs:label     "is een" .
 
 <urn:uuid:0304a1c7-409f-5d37-85eb-470d518187a6>
@@ -81,40 +81,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b>;
         rdfs:label     "is een" .
 
+<urn:uuid:a2df6b68-0062-5000-8e17-ea33c3f1e149>
+        rdf:object     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:f6b36a6d-8016-53a1-b13a-e59f851c5cc1>;
+        rdfs:label     "van een" .
+
+<urn:uuid:d3d6eaad-d1b3-5629-b00c-61f445359b04>
+        rdf:object     <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
+        rdfs:label     "is eigenaar van" .
+
 <urn:uuid:034e1e43-a8b3-5995-a81c-babcdac24c85>
         rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
         rdf:predicate  skosthes:broaderGeneric;
         rdf:subject    <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        rdfs:label     "is een" .
-
-<urn:uuid:0c362e8c-0c92-5a2a-9f87-ba0ec7c01349>
-        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:8c190412-d1e9-52e4-b705-a970cb28cd8f>;
-        rdfs:label     "is een" .
-
-<urn:uuid:4fac306b-ad6b-586a-885f-861c5bd195fc>
-        rdf:object     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>;
-        rdfs:label     "van" .
-
-<urn:uuid:202ca1ba-99ec-5572-92ae-393f18e6a52c>
-        rdf:object     <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:cb3a1a50-422a-54d2-9135-6084d8937861>;
-        rdfs:label     "is een" .
-
-<urn:uuid:9294712d-d873-575a-b19e-977db258d202>
-        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
-        rdfs:label     "is een" .
-
-<urn:uuid:7b35d33f-6c39-5003-97f2-c59a516373cb>
-        rdf:object     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>;
         rdfs:label     "is een" .
 
 <urn:uuid:f81f4bf9-9b74-5928-aae5-d5909733212d>
@@ -123,10 +105,88 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:8de6b9f7-fc5d-5f4d-8fc0-6c4977b9c109>;
         rdfs:label     "is een" .
 
-<urn:uuid:e91bc18c-9123-5b79-85bc-cab5201dd40a>
-        rdf:object     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+<urn:uuid:69c2fc34-0296-50b0-afa1-70a6c22b9e51>
+        rdf:object     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:8de6b9f7-fc5d-5f4d-8fc0-6c4977b9c109>;
+        rdfs:label     "verricht" .
+
+<urn:uuid:aa3c2345-0a72-5b8d-88bf-2930fd7ec504>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>;
+        rdfs:label     "van een" .
+
+<urn:uuid:5bfc8012-78c3-52e8-9695-34c00117a87f>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
         rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
+        rdf:subject    <urn:uuid:209a97f6-5ef5-5a7e-b33c-817352c868d4>;
+        rdfs:label     "is een" .
+
+<urn:uuid:44d90737-d84d-5385-a2fc-a9fee78d0840>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>;
+        rdfs:label     "van een" .
+
+<urn:uuid:87b891fc-a8ea-5979-b2b2-e0a640e29206>
+        rdf:object     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>;
+        rdfs:label     "van een" .
+
+<urn:uuid:11229f15-38e8-5397-8edb-a5788d8225f3>
+        rdf:object     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>;
+        rdfs:label     "betreft" .
+
+<urn:uuid:28359bad-bf9a-5be8-b5fe-1cd1167ff56e>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>;
+        rdfs:label     "is een" .
+
+<urn:uuid:a4344b4d-afee-56f5-b194-e43d43685ece>
+        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:5196044c-fa14-5b5b-93cd-f721cb18a7ac>;
+        rdfs:label     "is uniek nummer van" .
+
+<urn:uuid:bc8a561a-7ee4-5324-8acb-6f83dacea180>
+        rdf:object     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>;
+        rdfs:label     "betreffende een" .
+
+<urn:uuid:3203d708-3f1e-59dc-8c86-91e7b17afbf6>
+        rdf:object     <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>;
+        rdfs:label     "is een" .
+
+<urn:uuid:6bb15a5c-f6b4-5479-8a4c-1e5406b46525>
+        rdf:object     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:3760ccf1-64bd-5e40-8acc-5774f68f1317>;
+        rdfs:label     "is een" .
+
+<urn:uuid:978fbc85-853e-5360-9845-b14b6b52bdbf>
+        rdf:object     <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>;
+        rdfs:label     "voor" .
+
+<urn:uuid:5625b37b-2661-5c35-8572-f02ac3fd4545>
+        rdf:object     <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>;
+        rdfs:label     "is een" .
+
+<urn:uuid:4e493061-fb4f-5600-bf6f-abb19498f093>
+        rdf:object     <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:5fc1b506-2267-5d61-92ee-9e74a9cc8b1b>;
         rdfs:label     "is een" .
 
 <urn:uuid:4fa82aec-f1ac-53f8-ada6-35f2d37cf626>
@@ -141,54 +201,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
         rdfs:label     "met" .
 
-<urn:uuid:a588fb46-5db0-5c69-bb9c-54a2fbf9bfe5>
-        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>;
-        rdfs:label     "van een" .
-
-<urn:uuid:1b963e2d-f18e-5931-9170-55d8091652cb>
-        rdf:object     <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:f27cac40-5a9d-58a5-8547-e3fad2efe5bb>;
-        rdfs:label     "is een" .
-
-<urn:uuid:e18bdb4c-b6da-5894-8257-6147927c6d3a>
-        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
-        rdfs:label     "is een" .
-
-<urn:uuid:a61c544c-0759-5931-b73e-aad8da37fb61>
-        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        rdfs:label     "levert" .
-
-<urn:uuid:07d728bd-b663-5caf-824d-20f5ccf0a4a9>
-        rdf:object     <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
-        rdfs:label     "van verkoper" .
-
-<urn:uuid:9a518b25-891e-5ae4-88d0-ec63610ccd37>
-        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
-        rdfs:label     "van één of meerdere" .
-
-<urn:uuid:4e493061-fb4f-5600-bf6f-abb19498f093>
-        rdf:object     <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
-        rdf:predicate  skosthes:broaderGeneric;
-        rdf:subject    <urn:uuid:5fc1b506-2267-5d61-92ee-9e74a9cc8b1b>;
-        rdfs:label     "is een" .
-
-<urn:uuid:69722e9f-deb2-5d71-9da1-10dc6f9a4af2>
-        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        rdf:predicate  skos:related;
-        rdf:subject    <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>;
-        rdfs:label     "van een" .
-
 <urn:uuid:43dcedd3-5f75-5965-b21d-89392a1288ea>
         rdf:object     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
         rdf:predicate  skos:related;
@@ -201,11 +213,59 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
         rdfs:label     "van één of meerdere" .
 
+<urn:uuid:fddce3e8-2a05-5550-8331-735f3f1daea2>
+        rdf:object     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+        rdfs:label     "van een" .
+
+<urn:uuid:85061303-57f3-5c87-b625-b13ead4e7bea>
+        rdf:object     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+        rdfs:label     "voor" .
+
 <urn:uuid:6dcf3fe0-71ee-55e0-904c-d77f36b6dcd1>
         rdf:object     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
         rdf:predicate  skosthes:broaderGeneric;
         rdf:subject    <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
         rdfs:label     "is een" .
+
+<urn:uuid:0c362e8c-0c92-5a2a-9f87-ba0ec7c01349>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:8c190412-d1e9-52e4-b705-a970cb28cd8f>;
+        rdfs:label     "is een" .
+
+<urn:uuid:04f12e8c-c03e-5666-be31-36ec681a50e6>
+        rdf:object     <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705> , <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
+        rdfs:label     "is actief vanuit een" .
+
+<urn:uuid:9294712d-d873-575a-b19e-977db258d202>
+        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
+        rdfs:label     "is een" .
+
+<urn:uuid:7b35d33f-6c39-5003-97f2-c59a516373cb>
+        rdf:object     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        rdf:predicate  skosthes:broaderGeneric;
+        rdf:subject    <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>;
+        rdfs:label     "is een" .
+
+<urn:uuid:69722e9f-deb2-5d71-9da1-10dc6f9a4af2>
+        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>;
+        rdfs:label     "van een" .
+
+<urn:uuid:4fac306b-ad6b-586a-885f-861c5bd195fc>
+        rdf:object     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>;
+        rdfs:label     "van" .
 
 <urn:uuid:aa59907a-2ad8-50b5-8865-7ee59e04584a>
         rdf:type            skosxl:Label;
@@ -261,12 +321,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skosxl:hiddenLabel  <urn:uuid:8f4fe17f-17b8-5a13-b955-ed316cf29b3c>;
         skosxl:literalForm  "levering" .
 
-<urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>
-        rdf:type      dct:BibliographicResource;
-        rdfs:label    "Artikel 2, Hrb2008";
-        dct:isPartOf  <urn:uuid:62083d94-9ca0-5fc3-9784-c4c1120404dd>;
-        dct:title     "Artikel 2," .
-
 <urn:uuid:34717788-a539-5795-bbc9-984c6bb83d49>
         rdf:type      dct:BibliographicResource;
         rdfs:label    "Afdeling 9, RegelingVoertuigen";
@@ -278,6 +332,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label    "Artikel 9 lid a, Hrw2007";
         dct:isPartOf  <urn:uuid:ed5fdfd6-bd06-58a1-ba13-752118950ce2>;
         dct:title     "Artikel 9 lid a," .
+
+<urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>
+        rdf:type      dct:BibliographicResource;
+        rdfs:label    "Artikel 2, Hrb2008";
+        dct:isPartOf  <urn:uuid:62083d94-9ca0-5fc3-9784-c4c1120404dd>;
+        dct:title     "Artikel 2," .
 
 <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>
         rdf:type        dct:BibliographicResource;
@@ -318,9 +378,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdfs:label               "batterij"@nl;
         dct:source               <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
         skosthes:broaderGeneric  <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        skos:definition          "de batterij van de E-Bike"@nl;
+        skos:definition          "Een batterij is een [artikel] dat gebruikt wordt voor de opslag van elektrische energie"@nl;
         skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "batterij"@nl .
+        skos:prefLabel           "batterij"@nl;
+        skos:scopeNote           "In de fietsenwinkel worden alleen batterijen voor e-bikes verkocht. Deze voldoen aan specifieke normen die gelden voor dergelijke batterijen"@nl .
 
 <urn:uuid:9f9d0c2e-d9f4-592f-8519-d3079f500129>
         rdf:type                 skos:Concept;
@@ -331,40 +392,50 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel           "sportfiets"@nl;
         skos:scopeNote           "Een sportfiets heeft over het algemeen geen licht of spatborden, en is zo licht als mogelijk uitgevoerd. Voorbeeld: Racefiets, mountainbike"@nl .
 
-<urn:uuid:3760ccf1-64bd-5e40-8acc-5774f68f1317>
+<urn:uuid:cb3a1a50-422a-54d2-9135-6084d8937861>
         rdf:type                 skos:Concept;
-        rdfs:label               "riemaandrijving"@nl;
-        skosthes:broaderGeneric  <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
-        skos:definition          "Een riemaandrijving is een aandrijving met behulp van een riem"@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "riemaandrijving"@nl;
-        skos:scopeNote           "Bij een riemaandrijving is de ketting vervangen door een riem. De riem heeft minder onderhoud nodig en is ook stiller. Het is echter niet mogelijk om een riem te gebruiken met een derrailleur, een naafversnelling is noodzakelijk."@nl .
-
-<urn:uuid:5196044c-fa14-5b5b-93cd-f721cb18a7ac>
-        rdf:type         skos:Concept;
-        rdfs:label       "kvk-nummer"@nl;
-        dct:source       <urn:uuid:fd40bd55-33d3-5218-888f-4cb9d7cbca57>;
-        skos:definition  "Een kvk-nummer is een door de Kamer toegekend uniek nummer van de [onderneming]"@nl;
-        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel   "kvk-nummer"@nl;
-        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        skos:scopeNote   "Met \"Kamer\" wordt hier de Kamer van Koophandel (kvk) bedoelt"@nl .
-
-<urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>
-        rdf:type         skos:Concept;
-        rdfs:label       "typenummer"@nl;
-        skos:definition  "het type nummer van een [artikel]"@nl;
-        skos:inScheme    <urn:name:scheme:Goederen>;
-        skos:prefLabel   "typenummer"@nl;
-        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
-
-<urn:uuid:209a97f6-5ef5-5a7e-b33c-817352c868d4>
-        rdf:type                 skos:Concept;
-        rdfs:label               "bekend adres"@nl;
-        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        skos:definition          "Een bekend adres is een [adres] dat voorkomt in openbare bronnen"@nl;
+        rdfs:label               "faktuuradres"@nl;
+        skosthes:broaderGeneric  <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
+        skos:definition          "Een faktuuradres is een [postadres] waar formele post naartoe gestuurd wordt"@nl;
         skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel           "bekend adres"@nl .
+        skos:prefLabel           "faktuuradres"@nl;
+        skos:scopeNote           "Onder formele post vallen in ieder geval faktoren, maar ook aanmaningen en andere verplichting-gerelateerde post. Afgesproken is dat formele post altijd naar een bekend adres wordt gestuurd."@nl .
+
+<urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>
+        rdf:type            skos:Concept;
+        rdfs:label          "onderneming"@nl;
+        dct:source          <urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>;
+        skos:definition     "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen"@nl;
+        skos:editorialNote  "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd"@nl;
+        skos:hiddenLabel    "ondernemingen";
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "onderneming"@nl;
+        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
+
+<urn:uuid:f27cac40-5a9d-58a5-8547-e3fad2efe5bb>
+        rdf:type                 skos:Concept;
+        rdfs:label               "fatbike"@nl;
+        skosthes:broaderGeneric  <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
+        skos:definition          "Een fatbike is een zware [fiets met trapondersteuning] en heeft dikke banden"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "fatbike"@nl;
+        skos:scopeNote           "Een fatbike valt binnen de categorie van fietsen met trapondersteuning. Er zijn geen formele regels wat een fatbike is en wat niet. Fatbikes zijn te herkennen doordat ze zwaarder zijn dan de gemiddelde fiets met trapondersteuning en dikke banden hebben. Ook heeft een fatbike vaak een grote koplamp en een zadel waar je met z'n 2-en op kunt zitten."@nl .
+
+<urn:uuid:242b2f71-cceb-53b6-acdd-4afcd5cb162e>
+        rdf:type         skos:Concept;
+        rdfs:label       "postcode"@nl;
+        skos:definition  "Een postcode is een unieke combinatie van cijfers en letters voor een groep van één of meer [adressen]"@nl;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel   "postcode"@nl;
+        skos:related     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b> .
+
+<urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>
+        rdf:type         skos:Concept;
+        rdfs:label       "aandrijving"@nl;
+        skos:definition  "een aandrijving is een constructie op een [fiets] waarmee de spierkracht wordt overgebracht op de wielen"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "aandrijving"@nl;
+        skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> .
 
 <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>
         rdf:type                 skos:Concept;
@@ -376,6 +447,85 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:related             [ rdfs:label  "fietsen" ];
         skos:scopeNote           "Hierbij worden groothandels uitgesloten. Ook webwinkels zijn geen onderdeel van dit infomatiemodel."@nl .
 
+<urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>
+        rdf:type                 skos:Concept;
+        rdfs:label               "derailleurversnelling"@nl;
+        skosthes:broaderGeneric  <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
+        skos:definition          "Een derailleurversnelling is een [fietsversnelling] die in een open constructie in samenhang met de [kettingaandrijving] is geconstrueerd"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "derailleurversnelling"@nl;
+        skos:related             <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b> .
+
+<urn:uuid:d3cb1746-6cfc-5462-8325-2db6ac387390>
+        rdf:type         skos:Concept;
+        rdfs:label       "verkoper"@nl;
+        skos:definition  "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt"@nl;
+        skos:inScheme    <urn:name:scheme:Verkoop>;
+        skos:prefLabel   "verkoper"@nl;
+        skos:related     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
+
+<urn:uuid:3760ccf1-64bd-5e40-8acc-5774f68f1317>
+        rdf:type                 skos:Concept;
+        rdfs:label               "riemaandrijving"@nl;
+        skosthes:broaderGeneric  <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        skos:definition          "Een riemaandrijving is een aandrijving met behulp van een riem"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "riemaandrijving"@nl;
+        skos:scopeNote           "Bij een riemaandrijving is de ketting vervangen door een riem. De riem heeft minder onderhoud nodig en is ook stiller. Het is echter niet mogelijk om een riem te gebruiken met een derrailleur, een naafversnelling is noodzakelijk."@nl .
+
+<urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>
+        rdf:type                 skos:Concept;
+        rdfs:label               "koper"@nl;
+        skosthes:broaderGeneric  <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
+        skos:definition          "Een koper is een [klant] die een [koop] is aangegaan"@nl;
+        skos:inScheme            <urn:name:scheme:Verkoop>;
+        skos:prefLabel           "koper"@nl;
+        skos:related             <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
+
+<urn:uuid:5196044c-fa14-5b5b-93cd-f721cb18a7ac>
+        rdf:type         skos:Concept;
+        rdfs:label       "kvk-nummer"@nl;
+        dct:source       <urn:uuid:fd40bd55-33d3-5218-888f-4cb9d7cbca57>;
+        skos:definition  "Een kvk-nummer is een door de Kamer toegekend uniek nummer van de [onderneming]"@nl;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel   "kvk-nummer"@nl;
+        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        skos:scopeNote   "Met \"Kamer\" wordt hier de Kamer van Koophandel (kvk) bedoelt"@nl .
+
+<urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>
+        rdf:type                 skos:Concept;
+        rdfs:label               "leveringsadres"@nl;
+        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        skos:definition          "Een leveringsadres is een [adres] van een [locatie] waar een [levering] wordt afgeleverd"@nl;
+        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel           "leveringsadres"@nl;
+        skos:related             <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
+
+<urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>
+        rdf:type         skos:Concept;
+        rdfs:label       "typenummer"@nl;
+        skos:definition  "een typenummer is een unieke aanduiding voor het type [artikel]"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "typenummer"@nl;
+        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:scopeNote   "Als twee artikelen hetzelfde typenummer hebben, dan betekent dit dat de artikelen niet van elkaar zijn te onderscheiden, met uitzondering van enkele cosmetische zaken, zoals kleur en de framemaat."@nl .
+
+<urn:uuid:209a97f6-5ef5-5a7e-b33c-817352c868d4>
+        rdf:type                 skos:Concept;
+        rdfs:label               "bekend adres"@nl;
+        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        skos:definition          "Een bekend adres is een [adres] dat voorkomt in openbare bronnen"@nl;
+        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel           "bekend adres"@nl .
+
+<urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>
+        rdf:type         skos:Concept;
+        rdfs:label       "garantienummer"@nl;
+        skos:definition  "een garantienummer is een uniek nummer van een [artikel] dat nodig is om garantie te kunnen krijgen op een artikel"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "garantienummer"@nl;
+        skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
+
 <urn:uuid:8de6b9f7-fc5d-5f4d-8fc0-6c4977b9c109>
         rdf:type                 skos:Concept;
         rdfs:label               "leverancier"@nl;
@@ -384,87 +534,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:inScheme            <urn:name:scheme:Goederen>;
         skos:prefLabel           "leverancier"@nl;
         skos:related             <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
-
-<urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>
-        rdf:type                 skos:Concept;
-        rdfs:label               "kettingaandrijving"@nl;
-        skosthes:broaderGeneric  <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
-        skos:definition          "Een kettingaandrijving is een aandrijving met behulp van een ketting"@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "kettingaandrijving"@nl;
-        skos:scopeNote           "Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving."@nl .
-
-<urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>
-        rdf:type            skos:Concept;
-        rdfs:label          "fietsenwinkeleigenaar"@nl;
-        skos:definition     "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert"@nl;
-        skos:editorialNote  "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon"@nl;
-        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel      "fietsenwinkeleigenaar"@nl;
-        skos:related        <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f> .
-
-<urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>
-        rdf:type                 skos:Concept;
-        rdfs:label               "fietsenwinkelonderneming"@nl;
-        skosthes:broaderGeneric  <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
-        skos:definition          "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]"@nl;
-        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel           "fietsenwinkelonderneming"@nl;
-        skos:related             <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705> , <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
-        skos:related             [ rdfs:label  "fietsen" ] .
-
-<urn:uuid:cb3a1a50-422a-54d2-9135-6084d8937861>
-        rdf:type                 skos:Concept;
-        rdfs:label               "faktuuradres"@nl;
-        skosthes:broaderGeneric  <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
-        skos:definition          "Een faktuuradres is een [postadres] waar formele post naartoe gestuurd wordt"@nl;
-        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel           "faktuuradres"@nl;
-        skos:scopeNote           "Onder formele post vallen in ieder geval faktoren, maar ook aanmaningen en andere verplichting-gerelateerde post. Afgesproken is dat formele post altijd naar een bekend adres wordt gestuurd."@nl .
-
-<urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
-        rdf:type         skos:Concept;
-        rdfs:label       "leveringsdatum"@nl;
-        skos:definition  "De datum van de [levering] van één of meerdere artikelen"@nl;
-        skos:inScheme    <urn:name:scheme:Logistiek>;
-        skos:prefLabel   "leveringsdatum"@nl;
-        skos:related     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
-
-<urn:uuid:8c190412-d1e9-52e4-b705-a970cb28cd8f>
-        rdf:type                 skos:Concept;
-        rdfs:label               "onbekend adres"@nl;
-        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        skos:definition          "Een onbekend adres ie een [adres] dat niet voorkomt in openbare bronnen"@nl;
-        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel           "onbekend adres"@nl .
-
-<urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>
-        rdf:type         skos:Concept;
-        rdfs:label       "fietsversnelling"@nl;
-        skos:definition  "Een fietsversnelling is een constructie op een [fiets] waarmee de verhouding tussen de [aandrijving] en de wielen geregeld kan worden"@nl;
-        skos:inScheme    <urn:name:scheme:Goederen>;
-        skos:prefLabel   "fietsversnelling"@nl;
-        skos:related     <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48> , <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> .
-
-<urn:uuid:d4336f82-b17b-5433-9531-efbb6d52c746>
-        rdf:type         skos:Concept;
-        rdfs:label       "garantienummer"@nl;
-        skos:definition  "garantienummer op de [batterij] (wanneer e-bike)"@nl;
-        skos:inScheme    <urn:name:scheme:Goederen>;
-        skos:prefLabel   "garantienummer"@nl;
-        skos:related     <urn:uuid:62abe46d-e20c-50b8-bc28-b552503a967b> .
-
-<urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>
-        rdf:type            skos:Concept;
-        rdfs:label          "klant"@nl;
-        dct:source          <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
-        skos:definition     "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont"@nl;
-        skos:editorialNote  "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon"@nl;
-        skos:hiddenLabel    "klanten";
-        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel      "klant"@nl;
-        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        skos:scopeNote      "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)"@nl .
 
 <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>
         rdf:type                 skos:Concept;
@@ -476,32 +545,31 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel           "fiets"@nl;
         skos:scopeNote           "Hierbij wordt met \"door middel van menskracht\" bedoelt dat er minstens (ook) menskracht noodzakelijk is. Een E-Bike valt daarmee onder de definitie van een fiets, aangezien ook daar menskracht voor nodig is (anders is sprake van een (elektrische) bromfiets). Een éénwieler is volgens de wet geen fiets."@nl .
 
-<urn:uuid:d3cb1746-6cfc-5462-8325-2db6ac387390>
+<urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>
+        rdf:type            skos:Concept;
+        rdfs:label          "fietsenwinkeleigenaar"@nl;
+        skos:definition     "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert"@nl;
+        skos:editorialNote  "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon"@nl;
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "fietsenwinkeleigenaar"@nl;
+        skos:related        <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f> .
+
+<urn:uuid:f6b36a6d-8016-53a1-b13a-e59f851c5cc1>
         rdf:type         skos:Concept;
-        rdfs:label       "verkoper"@nl;
-        skos:definition  "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt"@nl;
-        skos:inScheme    <urn:name:scheme:Verkoop>;
-        skos:prefLabel   "verkoper"@nl;
-        skos:related     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
+        rdfs:label       "framemaat"@nl;
+        skos:definition  "een framemaat is een aanduiding voor de grootte van het frame van een [fiets]"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "framemaat"@nl;
+        skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        skos:scopeNote   "Voor een framemaat wordt niet de feitelijke maat van het frame gebruikt, maar de lengte van de persoon op de fiets. Daarbij wordt een categorisering aangehouden die per merk kan verschillen (bijvoorbeeld de framemaat \"L\" die kan staan voor fietsen voor mensen met lengte 1.70 tot 1.80)"@nl .
 
-<urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>
-        rdf:type                 skos:Concept;
-        rdfs:label               "fiets met trapondersteuning"@nl;
-        skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        skos:altLabel            "e-bike\nelektrische fiets"@nl;
-        skos:definition          "Een fiets met trapondersteuning is een [fiets] die is voorzien van een elektrische hulpmotor met een nominaal continu vermogen van maximaal 250 Watt en waarvan de aandrijfkracht geleidelijk vermindert en tenslotte wordt onderbroken wanneer het voertuig een snelheid van 25 km/h bereikt, of eerder, indien de bestuurder ophoudt met trappen."@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "fiets met trapondersteuning"@nl .
-
-<urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>
-        rdf:type          skos:Concept;
-        rdfs:label        "levering"@nl;
-        skos:definition   "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst"@nl;
-        skos:hiddenLabel  "leveringen";
-        skos:inScheme     <urn:name:scheme:Logistiek>;
-        skos:prefLabel    "levering"@nl;
-        skos:related      <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
-        skos:scopeNote    "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
+<urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
+        rdf:type         skos:Concept;
+        rdfs:label       "leveringsdatum"@nl;
+        skos:definition  "De datum van de [levering] van één of meerdere artikelen"@nl;
+        skos:inScheme    <urn:name:scheme:Logistiek>;
+        skos:prefLabel   "leveringsdatum"@nl;
+        skos:related     <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
 
 <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>
         rdf:type         skos:Concept;
@@ -519,6 +587,99 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:inScheme    <urn:name:scheme:Goederen>;
         skos:prefLabel   "omvang"@nl;
         skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
+
+<urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b>
+        rdf:type                 skos:Concept;
+        rdfs:label               "kettingaandrijving"@nl;
+        skosthes:broaderGeneric  <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>;
+        skos:definition          "Een kettingaandrijving is een aandrijving met behulp van een ketting"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "kettingaandrijving"@nl;
+        skos:scopeNote           "Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving."@nl .
+
+<urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>
+        rdf:type                 skos:Concept;
+        rdfs:label               "fietsenwinkelonderneming"@nl;
+        skosthes:broaderGeneric  <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        skos:definition          "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]"@nl;
+        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel           "fietsenwinkelonderneming"@nl;
+        skos:related             <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705> , <urn:uuid:250d3662-322e-5f27-911d-49bd60c95b48>;
+        skos:related             [ rdfs:label  "fietsen" ] .
+
+<urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>
+        rdf:type            skos:Concept;
+        rdfs:label          "klant"@nl;
+        dct:source          <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
+        skos:definition     "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont"@nl;
+        skos:editorialNote  "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon"@nl;
+        skos:hiddenLabel    "klanten";
+        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel      "klant"@nl;
+        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:scopeNote      "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)"@nl .
+
+<urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>
+        rdf:type          skos:Concept;
+        rdfs:label        "artikel"@nl;
+        skos:altLabel     "goed"@nl;
+        skos:definition   "Een artikel is een materieël object dat als geheel kan worden bezit of gekocht"@nl;
+        skos:hiddenLabel  "artikelen";
+        skos:inScheme     <urn:name:scheme:Goederen>;
+        skos:prefLabel    "artikel"@nl .
+
+<urn:uuid:8c190412-d1e9-52e4-b705-a970cb28cd8f>
+        rdf:type                 skos:Concept;
+        rdfs:label               "onbekend adres"@nl;
+        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        skos:definition          "Een onbekend adres ie een [adres] dat niet voorkomt in openbare bronnen"@nl;
+        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel           "onbekend adres"@nl .
+
+<urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>
+        rdf:type                 skos:Concept;
+        rdfs:label               "fiets met trapondersteuning"@nl;
+        skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        skos:altLabel            "e-bike\nelektrische fiets"@nl;
+        skos:definition          "Een fiets met trapondersteuning is een [fiets] die is voorzien van een elektrische hulpmotor met een nominaal continu vermogen van maximaal 250 Watt en waarvan de aandrijfkracht geleidelijk vermindert en tenslotte wordt onderbroken wanneer het voertuig een snelheid van 25 km/h bereikt, of eerder, indien de bestuurder ophoudt met trappen."@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "fiets met trapondersteuning"@nl .
+
+<urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>
+        rdf:type         skos:Concept;
+        rdfs:label       "fietsversnelling"@nl;
+        skos:definition  "Een fietsversnelling is een constructie op een [fiets] waarmee de verhouding tussen de [aandrijving] en de wielen geregeld kan worden"@nl;
+        skos:inScheme    <urn:name:scheme:Goederen>;
+        skos:prefLabel   "fietsversnelling"@nl;
+        skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> , <urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48> .
+
+<urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>
+        rdf:type          skos:Concept;
+        rdfs:label        "levering"@nl;
+        skos:definition   "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst"@nl;
+        skos:hiddenLabel  "leveringen";
+        skos:inScheme     <urn:name:scheme:Logistiek>;
+        skos:prefLabel    "levering"@nl;
+        skos:related      <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        skos:scopeNote    "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
+
+<urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>
+        rdf:type         skos:Concept;
+        rdfs:label       "locatie"@nl;
+        skos:definition  "een fysieke plek op aarde met een [adres]"@nl;
+        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
+        skos:prefLabel   "locatie"@nl;
+        skos:related     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b> .
+
+<urn:uuid:cb9de3e6-8d00-546e-85ac-3aa9af9ce0d6>
+        rdf:type                 skos:Concept;
+        rdfs:label               "stadsfiets"@nl;
+        dct:source               <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
+        skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
+        skos:definition          "een stadsfiets is een [fiets] die is ingericht op gebruik in het stadsverkeer"@nl;
+        skos:inScheme            <urn:name:scheme:Goederen>;
+        skos:prefLabel           "stadsfiets"@nl;
+        skos:scopeNote           "Een [stadsfiets] heeft typisch een bagagedrager, spatborden en verlichting."@nl .
 
 <urn:uuid:5fc1b506-2267-5d61-92ee-9e74a9cc8b1b>
         rdf:type                 skos:Concept;
@@ -547,17 +708,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:prefLabel   "koop"@nl;
         skos:related     <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
 
-<urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>
-        rdf:type            skos:Concept;
-        rdfs:label          "onderneming"@nl;
-        dct:source          <urn:uuid:ec95bae3-ee52-5e86-bdc3-f7c5ba92288d>;
-        skos:definition     "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen"@nl;
-        skos:editorialNote  "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd"@nl;
-        skos:hiddenLabel    "ondernemingen";
-        skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel      "onderneming"@nl;
-        skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> .
-
 <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>
         rdf:type                 skos:Concept;
         rdfs:label               "postadres"@nl;
@@ -566,15 +716,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel           "postadres"@nl;
         skos:scopeNote           "Het postadres wordt onder meer gebruikt voor het versturen van fakturen en aanbiedingen naar klanten. Een postadres is een locatie, maar hoeft niet de locatie te zijn waar de klant zijn fiets geleverd wenst te hebben"@nl .
-
-<urn:uuid:f27cac40-5a9d-58a5-8547-e3fad2efe5bb>
-        rdf:type                 skos:Concept;
-        rdfs:label               "fatbike"@nl;
-        skosthes:broaderGeneric  <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
-        skos:definition          "Een fatbike is een zware [fiets met trapondersteuning] en heeft dikke banden"@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "fatbike"@nl;
-        skos:scopeNote           "Een fatbike valt binnen de categorie van fietsen met trapondersteuning. Er zijn geen formele regels wat een fatbike is en wat niet. Fatbikes zijn te herkennen doordat ze zwaarder zijn dan de gemiddelde fiets met trapondersteuning en dikke banden hebben. Ook heeft een fatbike vaak een grote koplamp en een zadel waar je met z'n 2-en op kunt zitten."@nl .
 
 <urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>
         rdf:type         skos:Concept;
@@ -585,91 +726,21 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:related     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
         skos:scopeNote   "De verkoopprijs is het bedrag dat de koper van een artikel daadwerkelijk betaald voor het artikel"@nl .
 
-<urn:uuid:2ca1b05a-6e37-51b7-9fdf-080aac1c3a48>
-        rdf:type         skos:Concept;
-        rdfs:label       "aandrijving"@nl;
-        skos:definition  "een aandrijving is een constructie op een [fiets] waarmee de spierkracht wordt overgebracht op de wielen"@nl;
-        skos:inScheme    <urn:name:scheme:Goederen>;
-        skos:prefLabel   "aandrijving"@nl;
-        skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750> .
-
-<urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>
-        rdf:type         skos:Concept;
-        rdfs:label       "locatie"@nl;
-        skos:definition  "een fysieke plek op aarde met een [adres]"@nl;
-        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel   "locatie"@nl;
-        skos:related     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b> .
-
-<urn:uuid:cb9de3e6-8d00-546e-85ac-3aa9af9ce0d6>
-        rdf:type                 skos:Concept;
-        rdfs:label               "stadsfiets"@nl;
-        dct:source               <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
-        skosthes:broaderGeneric  <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        skos:definition          "een stadsfiets is een [fiets] die is ingericht op gebruik in het stadsverkeer"@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "stadsfiets"@nl;
-        skos:scopeNote           "Een [stadsfiets] heeft typisch een bagagedrager, spatborden en verlichting."@nl .
-
-<urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>
-        rdf:type                 skos:Concept;
-        rdfs:label               "derailleurversnelling"@nl;
-        skosthes:broaderGeneric  <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
-        skos:definition          "Een derailleurversnelling is een [fietsversnelling] die in een open constructie in samenhang met de [kettingaandrijving] is geconstrueerd"@nl;
-        skos:inScheme            <urn:name:scheme:Goederen>;
-        skos:prefLabel           "derailleurversnelling"@nl;
-        skos:related             <urn:uuid:b9f307c8-680e-56ed-a1f3-46efa29d099b> .
-
-<urn:uuid:242b2f71-cceb-53b6-acdd-4afcd5cb162e>
-        rdf:type         skos:Concept;
-        rdfs:label       "postcode"@nl;
-        skos:definition  "Een postcode is een unieke combinatie van cijfers en letters voor een groep van één of meer [adressen]"@nl;
-        skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel   "postcode"@nl;
-        skos:related     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b> .
-
-<urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>
-        rdf:type                 skos:Concept;
-        rdfs:label               "koper"@nl;
-        skosthes:broaderGeneric  <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
-        skos:definition          "Een koper is een [klant] die een [koop] is aangegaan"@nl;
-        skos:inScheme            <urn:name:scheme:Verkoop>;
-        skos:prefLabel           "koper"@nl;
-        skos:related             <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570> .
-
-<urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>
-        rdf:type                 skos:Concept;
-        rdfs:label               "leveringsadres"@nl;
-        skosthes:broaderGeneric  <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
-        skos:definition          "Een leveringsadres is een [adres] van een [locatie] waar een [levering] wordt afgeleverd"@nl;
-        skos:inScheme            <urn:name:scheme:Actorenenlocaties>;
-        skos:prefLabel           "leveringsadres"@nl;
-        skos:related             <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2> .
-
-<urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>
-        rdf:type          skos:Concept;
-        rdfs:label        "artikel"@nl;
-        skos:altLabel     "goed"@nl;
-        skos:definition   "Een artikel is een materieël object dat als geheel kan worden bezit of gekocht"@nl;
-        skos:hiddenLabel  "artikelen";
-        skos:inScheme     <urn:name:scheme:Goederen>;
-        skos:prefLabel    "artikel"@nl .
-
 <urn:name:scheme:Logistiek>
         rdf:type    skos:ConceptScheme;
         rdfs:label  "Logistiek" .
 
-<urn:name:scheme:Verkoop>
+<urn:name:scheme:Goederen>
         rdf:type    skos:ConceptScheme;
-        rdfs:label  "Verkoop" .
+        rdfs:label  "Goederen" .
 
 <urn:name:scheme:Actorenenlocaties>
         rdf:type    skos:ConceptScheme;
         rdfs:label  "Actoren en locaties" .
 
-<urn:name:scheme:Goederen>
+<urn:name:scheme:Verkoop>
         rdf:type    skos:ConceptScheme;
-        rdfs:label  "Goederen" .
+        rdfs:label  "Verkoop" .
 
 <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>
         rdf:type    skos:ConceptScheme , dcat:DatasetSeries;
@@ -679,7 +750,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         rdf:type       dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-04-02T11:03:26.057+02:00"^^xsd:dateTime;
+        dct:issued     "2025-04-02T13:07:02.437+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .

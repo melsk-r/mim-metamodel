@@ -242,9 +242,9 @@
         csvw:rownum     183 .
 
 <urn:excel:sheet2:row17s>
-        <urn:property:DEFINITIE>       "Een fietsversnelling is een constructie op een [fiets] waarmee de verhouding tussen de [aandrijving] en de wielen geregeld kan worden" ;
+        <urn:property:DEFINITIE>       "de omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel)." ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "fietsversnelling" .
+        <urn:property:VOORKEURSTERM>   "omvang" .
 
 <urn:excel:sheet2:row195>
         a               csvw:Row ;
@@ -280,6 +280,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet5:row63s> ;
         csvw:rownum     63 .
+
+<urn:excel:sheet3:row35s>
+        <urn:property:NAAR_BEGRIP>  "levering" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "leverancier" ;
+        <urn:property:VERWOORDING>  "verricht" .
 
 <urn:excel:sheet3:row375>
         a               csvw:Row ;
@@ -407,9 +413,9 @@
         csvw:rownum     275 .
 
 <urn:excel:sheet2:row25s>
-        <urn:property:DEFINITIE>       "Een bekend adres is een [adres] dat voorkomt in openbare bronnen" ;
+        <urn:property:DEFINITIE>       "Een postcode is een unieke combinatie van cijfers en letters voor een groep van één of meer [adressen]" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "bekend adres" .
+        <urn:property:VOORKEURSTERM>   "postcode" .
 
 <urn:excel:sheet3:row148>
         a               csvw:Row ;
@@ -445,6 +451,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row4s> ;
         csvw:rownum     4 .
+
+<urn:excel:sheet3:row43s>
+        <urn:property:NAAR_BEGRIP>  "kettingaandrijving" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "derailleurversnelling" ;
+        <urn:property:VERWOORDING>  "voor" .
 
 <urn:excel:sheet4:row328>
         a               csvw:Row ;
@@ -502,9 +514,9 @@
         csvw:rownum     355 .
 
 <urn:excel:sheet2:row33s>
-        <urn:property:DEFINITIE>       "Een derailleurversnelling is een [fietsversnelling] die in een open constructie in samenhang met de [kettingaandrijving] is geconstrueerd" ;
+        <urn:property:DEFINITIE>       "Een naafversnelling is een [fietsversnelling] die in een gesloten constructie in de naaf van een wiel is verwerkt" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "derailleurversnelling" .
+        <urn:property:VOORKEURSTERM>   "naafversnelling" .
 
 <urn:excel:sheet3:row228>
         a               csvw:Row ;
@@ -1393,11 +1405,9 @@
         csvw:rownum     393 .
 
 <urn:excel:sheet2:row38s>
-        <urn:property:DEFINITIE>       "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert" ;
-        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:REDACTIONELE_OPMERKING>
-                "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon" ;
-        <urn:property:VOORKEURSTERM>   "fietsenwinkeleigenaar" .
+        <urn:property:DEFINITIE>       "Een koper is een [klant] die een [koop] is aangegaan" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:VOORKEURSTERM>   "koper" .
 
 <urn:excel:sheet3:row278>
         a               csvw:Row ;
@@ -1435,10 +1445,9 @@
         csvw:rownum     280 .
 
 <urn:excel:sheet2:row14s>
-        <urn:property:DEFINITIE>       "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst" ;
+        <urn:property:DEFINITIE>       "De datum van de [levering] van één of meerdere artikelen" ;
         <urn:property:HOOFDONDERWERP>  "Logistiek" ;
-        <urn:property:TOELICHTING>     "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon" ;
-        <urn:property:VOORKEURSTERM>   "levering" .
+        <urn:property:VOORKEURSTERM>   "leveringsdatum" .
 
 <urn:excel:sheet2:row165>
         a               csvw:Row ;
@@ -1591,9 +1600,11 @@
         csvw:rownum     245 .
 
 <urn:excel:sheet2:row22s>
-        <urn:property:DEFINITIE>       "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]" ;
+        <urn:property:DEFINITIE>       "Een kvk-nummer is een door de Kamer toegekend uniek nummer van de [onderneming]" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "fietsenwinkelonderneming" .
+        <urn:property:KENNISBRONNEN>   "Artikel 9 lid a, Hrw2007" ;
+        <urn:property:TOELICHTING>     "Met \"Kamer\" wordt hier de Kamer van Koophandel (kvk) bedoelt" ;
+        <urn:property:VOORKEURSTERM>   "kvk-nummer" .
 
 <urn:excel:sheet4:row68>
         a               csvw:Row ;
@@ -1634,6 +1645,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row120s> ;
         csvw:rownum     120 .
+
+<urn:excel:sheet3:row40s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "garantienummer" ;
+        <urn:property:VERWOORDING>  "van een" .
 
 <urn:excel:sheet2:row99>
         a               csvw:Row ;
@@ -1701,10 +1718,10 @@
         csvw:rownum     325 .
 
 <urn:excel:sheet2:row30s>
-        <urn:property:DEFINITIE>       "Een riemaandrijving is een aandrijving met behulp van een riem" ;
-        <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:TOELICHTING>     "Bij een riemaandrijving is de ketting vervangen door een riem. De riem heeft minder onderhoud nodig en is ook stiller. Het is echter niet mogelijk om een riem te gebruiken met een derrailleur, een naafversnelling is noodzakelijk." ;
-        <urn:property:VOORKEURSTERM>   "riemaandrijving" .
+        <urn:property:DEFINITIE>       "Een faktuuradres is een [postadres] waar formele post naartoe gestuurd wordt" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:TOELICHTING>     "Onder formele post vallen in ieder geval faktoren, maar ook aanmaningen en andere verplichting-gerelateerde post. Afgesproken is dat formele post altijd naar een bekend adres wordt gestuurd." ;
+        <urn:property:VOORKEURSTERM>   "faktuuradres" .
 
 <urn:excel:sheet3:row286>
         a               csvw:Row ;
@@ -2361,11 +2378,10 @@
         csvw:rownum     127 .
 
 <urn:excel:sheet2:row19s>
-        <urn:property:ALTERNATIEVE_TERMEN>
-                "goed" ;
-        <urn:property:DEFINITIE>       "Een artikel is een materieël object dat als geheel kan worden bezit of gekocht" ;
-        <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "artikel" .
+        <urn:property:DEFINITIE>       "Een bedrag in euro's inclusief BTW waarvoor een [artikel] gekocht mag worden" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:TOELICHTING>     "De verkoopprijs is het bedrag dat de koper van een artikel daadwerkelijk betaald voor het artikel" ;
+        <urn:property:VOORKEURSTERM>   "verkoopprijs" .
 
 <urn:excel:sheet3:row382>
         a               csvw:Row ;
@@ -2406,6 +2422,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row22s> ;
         csvw:rownum     22 .
+
+<urn:excel:sheet3:row37s>
+        <urn:property:NAAR_BEGRIP>  "locatie" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "leveringsadres" ;
+        <urn:property:VERWOORDING>  "betreft" .
 
 <urn:excel:sheet3:row395>
         a               csvw:Row ;
@@ -2520,10 +2542,9 @@
         csvw:rownum     295 .
 
 <urn:excel:sheet2:row27s>
-        <urn:property:DEFINITIE>       "Een postadres is een [adres] waar post naartoe gestuurd kan worden" ;
+        <urn:property:DEFINITIE>       "Een onbekend adres ie een [adres] dat niet voorkomt in openbare bronnen" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:TOELICHTING>     "Het postadres wordt onder meer gebruikt voor het versturen van fakturen en aanbiedingen naar klanten. Een postadres is een locatie, maar hoeft niet de locatie te zijn waar de klant zijn fiets geleverd wenst te hebben" ;
-        <urn:property:VOORKEURSTERM>   "postadres" .
+        <urn:property:VOORKEURSTERM>   "onbekend adres" .
 
 <urn:excel:sheet3:row168>
         a               csvw:Row ;
@@ -2612,13 +2633,9 @@
         csvw:rownum     375 .
 
 <urn:excel:sheet2:row35s>
-        <urn:property:DEFINITIE>       "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont" ;
-        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:KENNISBRONNEN>   "FWA" ;
-        <urn:property:REDACTIONELE_OPMERKING>
-                "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon" ;
-        <urn:property:TOELICHTING>     "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)" ;
-        <urn:property:VOORKEURSTERM>   "klant" .
+        <urn:property:DEFINITIE>       "Een leverancier is een [onderneming] die [leveringen] verricht aan andere [ondernemingen]" ;
+        <urn:property:HOOFDONDERWERP>  "Goederen" ;
+        <urn:property:VOORKEURSTERM>   "leverancier" .
 
 <urn:excel:sheet3:row248>
         a               csvw:Row ;
@@ -2656,10 +2673,13 @@
         csvw:rownum     250 .
 
 <urn:excel:sheet2:row11s>
-        <urn:property:DEFINITIE>       "Een fatbike is een zware [fiets met trapondersteuning] en heeft dikke banden" ;
+        <urn:property:ALTERNATIEVE_TERMEN>
+                "e-bike\nelektrische fiets" ;
+        <urn:property:ALTERNATIEVE_TERMEN_line>
+                "elektrische fiets" , "e-bike" ;
+        <urn:property:DEFINITIE>       "Een fiets met trapondersteuning is een [fiets] die is voorzien van een elektrische hulpmotor met een nominaal continu vermogen van maximaal 250 Watt en waarvan de aandrijfkracht geleidelijk vermindert en tenslotte wordt onderbroken wanneer het voertuig een snelheid van 25 km/h bereikt, of eerder, indien de bestuurder ophoudt met trappen." ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:TOELICHTING>     "Een fatbike valt binnen de categorie van fietsen met trapondersteuning. Er zijn geen formele regels wat een fatbike is en wat niet. Fatbikes zijn te herkennen doordat ze zwaarder zijn dan de gemiddelde fiets met trapondersteuning en dikke banden hebben. Ook heeft een fatbike vaak een grote koplamp en een zadel waar je met z'n 2-en op kunt zitten." ;
-        <urn:property:VOORKEURSTERM>   "fatbike" .
+        <urn:property:VOORKEURSTERM>   "fiets met trapondersteuning" .
 
 <urn:excel:sheet2:row135>
         a               csvw:Row ;
@@ -3544,9 +3564,9 @@
         csvw:rownum     173 .
 
 <urn:excel:sheet2:row16s>
-        <urn:property:DEFINITIE>       "de omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel)." ;
+        <urn:property:DEFINITIE>       "een aandrijving is een constructie op een [fiets] waarmee de spierkracht wordt overgebracht op de wielen" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "omvang" .
+        <urn:property:VOORKEURSTERM>   "aandrijving" .
 
 <urn:excel:sheet2:row185>
         a               csvw:Row ;
@@ -3577,6 +3597,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row198s> ;
         csvw:rownum     198 .
+
+<urn:excel:sheet3:row34s>
+        <urn:property:NAAR_BEGRIP>  "fietsenwinkel" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "fietsenwinkelonderneming" ;
+        <urn:property:VERWOORDING>  "is actief vanuit een" .
 
 <urn:excel:sheet3:row365>
         a               csvw:Row ;
@@ -3699,9 +3725,13 @@
         csvw:rownum     265 .
 
 <urn:excel:sheet2:row24s>
-        <urn:property:DEFINITIE>       "Een postcode is een unieke combinatie van cijfers en letters voor een groep van één of meer [adressen]" ;
+        <urn:property:DEFINITIE>       "Een adres is een administratieve aanduiding van een plek op aarde, bestaande uit de plaatsnaam, straatnaam en nummeraanduiding" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "postcode" .
+        <urn:property:KENNISBRONNEN>   "FWA" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "Adres volgt uit de afspraken die fietsenwinkels met elkaar hebben gemaakt en wijkt deels af van de definitie uit de openbare bronnen (zoals bijvoorbeeld de Basisregistratie adressen en gebouwen)" ;
+        <urn:property:TOELICHTING>     "Fietsenwinkels maken gebruiken van adresbestanden, gebaseerd op openbare bronnen. Echter, mocht een opgegeven adres niet in deze bronnen voorkomen, dan wordt het wel als een adres gezien. In zo'n geval zal een dergelijk adres ook geen postcode hebben." ;
+        <urn:property:VOORKEURSTERM>   "adres" .
 
 <urn:excel:sheet3:row138>
         a               csvw:Row ;
@@ -3742,6 +3772,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row140s> ;
         csvw:rownum     140 .
+
+<urn:excel:sheet3:row42s>
+        <urn:property:NAAR_BEGRIP>  "aandrijving" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "fietsversnelling" ;
+        <urn:property:VERWOORDING>  "voor" .
 
 <urn:excel:sheet4:row318>
         a               csvw:Row ;
@@ -3804,9 +3840,10 @@
         csvw:rownum     345 .
 
 <urn:excel:sheet2:row32s>
-        <urn:property:DEFINITIE>       "Een naafversnelling is een [fietsversnelling] die in een gesloten constructie in de naaf van een wiel is verwerkt" ;
+        <urn:property:DEFINITIE>       "Een kettingaandrijving is een aandrijving met behulp van een ketting" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "naafversnelling" .
+        <urn:property:TOELICHTING>     "Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving." ;
+        <urn:property:VOORKEURSTERM>   "kettingaandrijving" .
 
 <urn:excel:sheet3:row218>
         a               csvw:Row ;
@@ -3912,6 +3949,11 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row70s> ;
         csvw:rownum     70 .
+
+<urn:excel:sheet2:row40s>
+        <urn:property:DEFINITIE>       "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt" ;
+        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
+        <urn:property:VOORKEURSTERM>   "verkoper" .
 
 <urn:excel:sheet6:row4s>
         <urn:property:Omschrijving>  "«is onderdeel van» relateert een begrip aan een meer omvattend begrip." ;
@@ -4501,6 +4543,12 @@
         csvw:describes  <urn:excel:sheet2:row42s> ;
         csvw:rownum     42 .
 
+<urn:excel:sheet3:row39s>
+        <urn:property:NAAR_BEGRIP>  "fiets" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "fietsversnelling" ;
+        <urn:property:VERWOORDING>  "van een" .
+
 <urn:excel:sheet2:row9>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row9s> ;
@@ -4547,7 +4595,7 @@
         csvw:rownum     55 .
 
 <urn:excel:sheet2:row3s>
-        <urn:property:DEFINITIE>       "garantienummer op de [batterij] (wanneer e-bike)" ;
+        <urn:property:DEFINITIE>       "een garantienummer is een uniek nummer van een [artikel] dat nodig is om garantie te kunnen krijgen op een artikel" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
         <urn:property:VOORKEURSTERM>   "garantienummer" .
 
@@ -4593,10 +4641,9 @@
         csvw:rownum     68 .
 
 <urn:excel:sheet2:row29s>
-        <urn:property:DEFINITIE>       "Een faktuuradres is een [postadres] waar formele post naartoe gestuurd wordt" ;
+        <urn:property:DEFINITIE>       "Een leveringsadres is een [adres] van een [locatie] waar een [levering] wordt afgeleverd" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:TOELICHTING>     "Onder formele post vallen in ieder geval faktoren, maar ook aanmaningen en andere verplichting-gerelateerde post. Afgesproken is dat formele post altijd naar een bekend adres wordt gestuurd." ;
-        <urn:property:VOORKEURSTERM>   "faktuuradres" .
+        <urn:property:VOORKEURSTERM>   "leveringsadres" .
 
 <urn:excel:sheet3:row188>
         a               csvw:Row ;
@@ -4680,9 +4727,9 @@
         csvw:rownum     395 .
 
 <urn:excel:sheet2:row37s>
-        <urn:property:DEFINITIE>       "Een koper is een [klant] die een [koop] is aangegaan" ;
+        <urn:property:DEFINITIE>       "Een koop is een overeenkomst tussen de [fietsenwinkeleigenaar] en een klant met betrekking tot één of meerdere [artikelen]" ;
         <urn:property:HOOFDONDERWERP>  "Verkoop" ;
-        <urn:property:VOORKEURSTERM>   "koper" .
+        <urn:property:VOORKEURSTERM>   "koop" .
 
 <urn:excel:sheet3:row268>
         a               csvw:Row ;
@@ -4720,9 +4767,10 @@
         csvw:rownum     270 .
 
 <urn:excel:sheet2:row13s>
-        <urn:property:DEFINITIE>       "De datum van de [levering] van één of meerdere artikelen" ;
-        <urn:property:HOOFDONDERWERP>  "Logistiek" ;
-        <urn:property:VOORKEURSTERM>   "leveringsdatum" .
+        <urn:property:DEFINITIE>       "een typenummer is een unieke aanduiding voor het type [artikel]" ;
+        <urn:property:HOOFDONDERWERP>  "Goederen" ;
+        <urn:property:TOELICHTING>     "Als twee artikelen hetzelfde typenummer hebben, dan betekent dit dat de artikelen niet van elkaar zijn te onderscheiden, met uitzondering van enkele cosmetische zaken, zoals kleur en de framemaat." ;
+        <urn:property:VOORKEURSTERM>   "typenummer" .
 
 <urn:excel:sheet2:row155>
         a               csvw:Row ;
@@ -4870,11 +4918,12 @@
         csvw:rownum     350 .
 
 <urn:excel:sheet2:row21s>
-        <urn:property:DEFINITIE>       "Een kvk-nummer is een door de Kamer toegekend uniek nummer van de [onderneming]" ;
+        <urn:property:DEFINITIE>       "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:KENNISBRONNEN>   "Artikel 9 lid a, Hrw2007" ;
-        <urn:property:TOELICHTING>     "Met \"Kamer\" wordt hier de Kamer van Koophandel (kvk) bedoelt" ;
-        <urn:property:VOORKEURSTERM>   "kvk-nummer" .
+        <urn:property:KENNISBRONNEN>   "Artikel 2, Hrb2008" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd" ;
+        <urn:property:VOORKEURSTERM>   "onderneming" .
 
 <urn:excel:sheet2:row235>
         a               csvw:Row ;
@@ -5364,6 +5413,11 @@
         csvw:describes  <urn:excel:sheet2:row109s> ;
         csvw:rownum     109 .
 
+<urn:excel:sheet2:row403>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet2:row403s> ;
+        csvw:rownum     403 .
+
 <urn:excel:sheet5:row185>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet5:row185s> ;
@@ -5632,10 +5686,9 @@
         csvw:rownum     193 .
 
 <urn:excel:sheet2:row18s>
-        <urn:property:DEFINITIE>       "Een bedrag in euro's inclusief BTW waarvoor een [artikel] gekocht mag worden" ;
-        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
-        <urn:property:TOELICHTING>     "De verkoopprijs is het bedrag dat de koper van een artikel daadwerkelijk betaald voor het artikel" ;
-        <urn:property:VOORKEURSTERM>   "verkoopprijs" .
+        <urn:property:DEFINITIE>       "Een fietsversnelling is een constructie op een [fiets] waarmee de verhouding tussen de [aandrijving] en de wielen geregeld kan worden" ;
+        <urn:property:HOOFDONDERWERP>  "Goederen" ;
+        <urn:property:VOORKEURSTERM>   "fietsversnelling" .
 
 <urn:excel:sheet3:row372>
         a               csvw:Row ;
@@ -5661,6 +5714,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row12s> ;
         csvw:rownum     12 .
+
+<urn:excel:sheet3:row36s>
+        <urn:property:NAAR_BEGRIP>  "levering" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "leveringsadres" ;
+        <urn:property:VERWOORDING>  "van een" .
 
 <urn:excel:sheet3:row385>
         a               csvw:Row ;
@@ -5769,9 +5828,9 @@
         csvw:rownum     285 .
 
 <urn:excel:sheet2:row26s>
-        <urn:property:DEFINITIE>       "Een onbekend adres ie een [adres] dat niet voorkomt in openbare bronnen" ;
+        <urn:property:DEFINITIE>       "Een bekend adres is een [adres] dat voorkomt in openbare bronnen" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "onbekend adres" .
+        <urn:property:VOORKEURSTERM>   "bekend adres" .
 
 <urn:excel:sheet3:row158>
         a               csvw:Row ;
@@ -5865,9 +5924,9 @@
         csvw:rownum     365 .
 
 <urn:excel:sheet2:row34s>
-        <urn:property:DEFINITIE>       "Een leverancier is een [onderneming] die [leveringen] verricht aan andere [ondernemingen]" ;
+        <urn:property:DEFINITIE>       "Een derailleurversnelling is een [fietsversnelling] die in een open constructie in samenhang met de [kettingaandrijving] is geconstrueerd" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "leverancier" .
+        <urn:property:VOORKEURSTERM>   "derailleurversnelling" .
 
 <urn:excel:sheet3:row238>
         a               csvw:Row ;
@@ -5910,13 +5969,10 @@
         csvw:rownum     240 .
 
 <urn:excel:sheet2:row10s>
-        <urn:property:ALTERNATIEVE_TERMEN>
-                "e-bike\nelektrische fiets" ;
-        <urn:property:ALTERNATIEVE_TERMEN_line>
-                "elektrische fiets" , "e-bike" ;
-        <urn:property:DEFINITIE>       "Een fiets met trapondersteuning is een [fiets] die is voorzien van een elektrische hulpmotor met een nominaal continu vermogen van maximaal 250 Watt en waarvan de aandrijfkracht geleidelijk vermindert en tenslotte wordt onderbroken wanneer het voertuig een snelheid van 25 km/h bereikt, of eerder, indien de bestuurder ophoudt met trappen." ;
+        <urn:property:DEFINITIE>       "een framemaat is een aanduiding voor de grootte van het frame van een [fiets]" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "fiets met trapondersteuning" .
+        <urn:property:TOELICHTING>     "Voor een framemaat wordt niet de feitelijke maat van het frame gebruikt, maar de lengte van de persoon op de fiets. Daarbij wordt een categorisering aangehouden die per merk kan verschillen (bijvoorbeeld de framemaat \"L\" die kan staan voor fietsen voor mensen met lengte 1.70 tot 1.80)" ;
+        <urn:property:VOORKEURSTERM>   "framemaat" .
 
 <urn:excel:sheet2:row125>
         a               csvw:Row ;
@@ -5995,7 +6051,7 @@
 
 <urn:excel:sheet2>  a  csvw:Table ;
         rdfs:label  "Begrippen" ;
-        csvw:row    <urn:excel:sheet2:row312> , <urn:excel:sheet2:row330> , <urn:excel:sheet2:row352> , <urn:excel:sheet2:row73> , <urn:excel:sheet2:row283> , <urn:excel:sheet2:row220> , <urn:excel:sheet2:row247> , <urn:excel:sheet2:row151> , <urn:excel:sheet2:row115> , <urn:excel:sheet2:row269> , <urn:excel:sheet2:row173> , <urn:excel:sheet2:row137> , <urn:excel:sheet2:row81> , <urn:excel:sheet2:row303> , <urn:excel:sheet2:row343> , <urn:excel:sheet2:row83> , <urn:excel:sheet2:row16> , <urn:excel:sheet2:row93> , <urn:excel:sheet2:row238> , <urn:excel:sheet2:row72> , <urn:excel:sheet2:row336> , <urn:excel:sheet2:row204> , <urn:excel:sheet2:row376> , <urn:excel:sheet2:row280> , <urn:excel:sheet2:row244> , <urn:excel:sheet2:row340> , <urn:excel:sheet2:row398> , <urn:excel:sheet2:row338> , <urn:excel:sheet2:row112> , <urn:excel:sheet2:row266> , <urn:excel:sheet2:row206> , <urn:excel:sheet2:row302> , <urn:excel:sheet2:row197> , <urn:excel:sheet2:row68> , <urn:excel:sheet2:row228> , <urn:excel:sheet2:row45> , <urn:excel:sheet2:row342> , <urn:excel:sheet2:row63> , <urn:excel:sheet2:row210> , <urn:excel:sheet2:row274> , <urn:excel:sheet2:row367> , <urn:excel:sheet2:row263> , <urn:excel:sheet2:row203> , <urn:excel:sheet2:row131> , <urn:excel:sheet2:row187> , <urn:excel:sheet2:row29> , <urn:excel:sheet2:row243> , <urn:excel:sheet2:row397> , <urn:excel:sheet2:row111> , <urn:excel:sheet2:row265> , <urn:excel:sheet2:row133> , <urn:excel:sheet2:row49> , <urn:excel:sheet2:row20> , <urn:excel:sheet2:row326> , <urn:excel:sheet2:row42> , <urn:excel:sheet2:row348> , <urn:excel:sheet2:row381> , <urn:excel:sheet2:row366> , <urn:excel:sheet2:row216> , <urn:excel:sheet2:row234> , <urn:excel:sheet2:row299> , <urn:excel:sheet2:row167> , <urn:excel:sheet2:row332> , <urn:excel:sheet2:row200> , <urn:excel:sheet2:row218> , <urn:excel:sheet2:row318> , <urn:excel:sheet2:row402> , <urn:excel:sheet2:row175> , <urn:excel:sheet2:row289> , <urn:excel:sheet2:row193> , <urn:excel:sheet2:row46> , <urn:excel:sheet2:row139> , <urn:excel:sheet2:row157> , <urn:excel:sheet2:row41> , <urn:excel:sheet2:row361> , <urn:excel:sheet2:row380> , <urn:excel:sheet2:row119> , <urn:excel:sheet2:row177> , <urn:excel:sheet2:row323> , <urn:excel:sheet2:row166> , <urn:excel:sheet2:row270> , <urn:excel:sheet2:row363> , <urn:excel:sheet2:row345> , <urn:excel:sheet2:row66> , <urn:excel:sheet2:row97> , <urn:excel:sheet2:row213> , <urn:excel:sheet2:row36> , <urn:excel:sheet2:row317> , <urn:excel:sheet2:row401> , <urn:excel:sheet2:row11> , <urn:excel:sheet2:row371> , <urn:excel:sheet2:row150> , <urn:excel:sheet2:row360> , <urn:excel:sheet2:row114> , <urn:excel:sheet2:row268> , <urn:excel:sheet2:row172> , <urn:excel:sheet2:row136> , <urn:excel:sheet2:row322> , <urn:excel:sheet2:row344> , <urn:excel:sheet2:row80> , <urn:excel:sheet2:row65> , <urn:excel:sheet2:row96> , <urn:excel:sheet2:row212> , <urn:excel:sheet2:row294> , <urn:excel:sheet2:row369> , <urn:excel:sheet2:row82> , <urn:excel:sheet2:row15> , <urn:excel:sheet2:row237> , <urn:excel:sheet2:row105> , <urn:excel:sheet2:row10> , <urn:excel:sheet2:row209> , <urn:excel:sheet2:row267> , <urn:excel:sheet2:row171> , <urn:excel:sheet2:row135> , <urn:excel:sheet2:row87> , <urn:excel:sheet2:row69> , <urn:excel:sheet2:row301> , <urn:excel:sheet2:row196> , <urn:excel:sheet2:row44> , <urn:excel:sheet2:row341> , <urn:excel:sheet2:row62> , <urn:excel:sheet2:row368> , <urn:excel:sheet2:row14> , <urn:excel:sheet2:row236> , <urn:excel:sheet2:row104> , <urn:excel:sheet2:row273> , <urn:excel:sheet2:row258> , <urn:excel:sheet2:row141> , <urn:excel:sheet2:row351> , <urn:excel:sheet2:row130> , <urn:excel:sheet2:row39> , <urn:excel:sheet2:row70> , <urn:excel:sheet2:row34> , <urn:excel:sheet2:row396> , <urn:excel:sheet2:row110> , <urn:excel:sheet2:row264> , <urn:excel:sheet2:row300> , <urn:excel:sheet2:row195> , <urn:excel:sheet2:row132> , <urn:excel:sheet2:row159> , <urn:excel:sheet2:row61> , <urn:excel:sheet2:row325> , <urn:excel:sheet2:row272> , <urn:excel:sheet2:row290> , <urn:excel:sheet2:row365> , <urn:excel:sheet2:row140> , <urn:excel:sheet2:row215> , <urn:excel:sheet2:row233> , <urn:excel:sheet2:row387> , <urn:excel:sheet2:row38> , <urn:excel:sheet2:row327> , <urn:excel:sheet2:row101> , <urn:excel:sheet2:row349> , <urn:excel:sheet2:row217> , <urn:excel:sheet2:row31> , <urn:excel:sheet2:row395> , <urn:excel:sheet2:row384> , <urn:excel:sheet2:row359> , <urn:excel:sheet2:row174> , <urn:excel:sheet2:row288> , <urn:excel:sheet2:row192> , <urn:excel:sheet2:row138> , <urn:excel:sheet2:row324> , <urn:excel:sheet2:row156> , <urn:excel:sheet2:row252> , <urn:excel:sheet2:row40> , <urn:excel:sheet2:row120> , <urn:excel:sheet2:row364> , <urn:excel:sheet2:row118> , <urn:excel:sheet2:row176> , <urn:excel:sheet2:row232> , <urn:excel:sheet2:row386> , <urn:excel:sheet2:row100> , <urn:excel:sheet2:row254> , <urn:excel:sheet2:row19> , <urn:excel:sheet2:row296> , <urn:excel:sheet2:row164> , <urn:excel:sheet2:row35> , <urn:excel:sheet2:row316> , <urn:excel:sheet2:row12> , <urn:excel:sheet2:row30> , <urn:excel:sheet2:row298> , <urn:excel:sheet2:row287> , <urn:excel:sheet2:row191> , <urn:excel:sheet2:row370> , <urn:excel:sheet2:row155> , <urn:excel:sheet2:row89> , <urn:excel:sheet2:row109> , <urn:excel:sheet2:row321> , <urn:excel:sheet2:row18> , <urn:excel:sheet2:row64> , <urn:excel:sheet2:row307> , <urn:excel:sheet2:row211> , <urn:excel:sheet2:row106> , <urn:excel:sheet2:row293> , <urn:excel:sheet2:row278> , <urn:excel:sheet2:row128> , <urn:excel:sheet2:row161> , <urn:excel:sheet2:row315> , <urn:excel:sheet2:row108> , <urn:excel:sheet2:row391> , <urn:excel:sheet2:row208> , <urn:excel:sheet2:row304> , <urn:excel:sheet2:row355> , <urn:excel:sheet2:row170> , <urn:excel:sheet2:row134> , <urn:excel:sheet2:row320> , <urn:excel:sheet2:row86> , <urn:excel:sheet2:row6> , <urn:excel:sheet2:row306> , <urn:excel:sheet2:row199> , <urn:excel:sheet2:row292> , <urn:excel:sheet2:row160> , <urn:excel:sheet2:row13> , <urn:excel:sheet2:row235> , <urn:excel:sheet2:row389> , <urn:excel:sheet2:row103> , <urn:excel:sheet2:row257> , <urn:excel:sheet2:row207> , <urn:excel:sheet2:row125> , <urn:excel:sheet2:row350> , <urn:excel:sheet2:row85> , <urn:excel:sheet2:row33> , <urn:excel:sheet2:row5> , <urn:excel:sheet2:row55> , <urn:excel:sheet2:row379> , <urn:excel:sheet2:row194> , <urn:excel:sheet2:row71> , <urn:excel:sheet2:row158> , <urn:excel:sheet2:row60> , <urn:excel:sheet2:row388> , <urn:excel:sheet2:row102> , <urn:excel:sheet2:row271> , <urn:excel:sheet2:row256> , <urn:excel:sheet2:row124> , <urn:excel:sheet2:row91> , <urn:excel:sheet2:row37> , <urn:excel:sheet2:row311> , <urn:excel:sheet2:row59> , <urn:excel:sheet2:row32> , <urn:excel:sheet2:row149> , <urn:excel:sheet2:row54> , <urn:excel:sheet2:row2> , <urn:excel:sheet2:row394> , <urn:excel:sheet2:row179> , <urn:excel:sheet2:row358> , <urn:excel:sheet2:row262> , <urn:excel:sheet2:row226> , <urn:excel:sheet2:row251> , <urn:excel:sheet2:row28> , <urn:excel:sheet2:row309> , <urn:excel:sheet2:row90> , <urn:excel:sheet2:row231> , <urn:excel:sheet2:row23> , <urn:excel:sheet2:row385> , <urn:excel:sheet2:row253> , <urn:excel:sheet2:row58> , <urn:excel:sheet2:row295> , <urn:excel:sheet2:row121> , <urn:excel:sheet2:row163> , <urn:excel:sheet2:row148> , <urn:excel:sheet2:row373> , <urn:excel:sheet2:row241> , <urn:excel:sheet2:row185> , <urn:excel:sheet2:row1> , <urn:excel:sheet2:row335> , <urn:excel:sheet2:row393> , <urn:excel:sheet2:row297> , <urn:excel:sheet2:row375> , <urn:excel:sheet2:row51> , <urn:excel:sheet2:row357> , <urn:excel:sheet2:row165> , <urn:excel:sheet2:row78> , <urn:excel:sheet2:row261> , <urn:excel:sheet2:row190> , <urn:excel:sheet2:row225> , <urn:excel:sheet2:row154> , <urn:excel:sheet2:row88> , <urn:excel:sheet2:row27> , <urn:excel:sheet2:row308> , <urn:excel:sheet2:row17> , <urn:excel:sheet2:row162> , <urn:excel:sheet2:row184> , <urn:excel:sheet2:row259> , <urn:excel:sheet2:row277> , <urn:excel:sheet2:row127> , <urn:excel:sheet2:row145> , <urn:excel:sheet2:row50> , <urn:excel:sheet2:row239> , <urn:excel:sheet2:row314> , <urn:excel:sheet2:row107> , <urn:excel:sheet2:row7> , <urn:excel:sheet2:row390> , <urn:excel:sheet2:row129> , <urn:excel:sheet2:row354> , <urn:excel:sheet2:row75> , <urn:excel:sheet2:row222> , <urn:excel:sheet2:row285> , <urn:excel:sheet2:row249> , <urn:excel:sheet2:row153> , <urn:excel:sheet2:row9> , <urn:excel:sheet2:row24> , <urn:excel:sheet2:row117> , <urn:excel:sheet2:row142> , <urn:excel:sheet2:row305> , <urn:excel:sheet2:row400> , <urn:excel:sheet2:row198> , <urn:excel:sheet2:row291> , <urn:excel:sheet2:row276> , <urn:excel:sheet2:row126> , <urn:excel:sheet2:row144> , <urn:excel:sheet2:row181> , <urn:excel:sheet2:row313> , <urn:excel:sheet2:row331> , <urn:excel:sheet2:row79> , <urn:excel:sheet2:row353> , <urn:excel:sheet2:row56> , <urn:excel:sheet2:row95> , <urn:excel:sheet2:row74> , <urn:excel:sheet2:row221> , <urn:excel:sheet2:row84> , <urn:excel:sheet2:row4> , <urn:excel:sheet2:row378> , <urn:excel:sheet2:row282> , <urn:excel:sheet2:row246> , <urn:excel:sheet2:row92> , <urn:excel:sheet2:row329> , <urn:excel:sheet2:row180> , <urn:excel:sheet2:row255> , <urn:excel:sheet2:row219> , <urn:excel:sheet2:row123> , <urn:excel:sheet2:row94> , <urn:excel:sheet2:row310> , <urn:excel:sheet2:row3> , <urn:excel:sheet2:row337> , <urn:excel:sheet2:row53> , <urn:excel:sheet2:row205> , <urn:excel:sheet2:row377> , <urn:excel:sheet2:row281> , <urn:excel:sheet2:row227> , <urn:excel:sheet2:row189> , <urn:excel:sheet2:row245> , <urn:excel:sheet2:row399> , <urn:excel:sheet2:row339> , <urn:excel:sheet2:row113> , <urn:excel:sheet2:row178> , <urn:excel:sheet2:row328> , <urn:excel:sheet2:row229> , <urn:excel:sheet2:row122> , <urn:excel:sheet2:row22> , <urn:excel:sheet2:row186> , <urn:excel:sheet2:row57> , <urn:excel:sheet2:row279> , <urn:excel:sheet2:row383> , <urn:excel:sheet2:row147> , <urn:excel:sheet2:row52> , <urn:excel:sheet2:row372> , <urn:excel:sheet2:row240> , <urn:excel:sheet2:row169> , <urn:excel:sheet2:row188> , <urn:excel:sheet2:row334> , <urn:excel:sheet2:row392> , <urn:excel:sheet2:row202> , <urn:excel:sheet2:row356> , <urn:excel:sheet2:row77> , <urn:excel:sheet2:row260> , <urn:excel:sheet2:row374> , <urn:excel:sheet2:row224> , <urn:excel:sheet2:row242> , <urn:excel:sheet2:row26> , <urn:excel:sheet2:row48> , <urn:excel:sheet2:row21> , <urn:excel:sheet2:row43> , <urn:excel:sheet2:row382> , <urn:excel:sheet2:row146> , <urn:excel:sheet2:row250> , <urn:excel:sheet2:row183> , <urn:excel:sheet2:row168> , <urn:excel:sheet2:row347> , <urn:excel:sheet2:row333> , <urn:excel:sheet2:row99> , <urn:excel:sheet2:row201> , <urn:excel:sheet2:row76> , <urn:excel:sheet2:row319> , <urn:excel:sheet2:row223> , <urn:excel:sheet2:row25> , <urn:excel:sheet2:row47> , <urn:excel:sheet2:row284> , <urn:excel:sheet2:row248> , <urn:excel:sheet2:row152> , <urn:excel:sheet2:row362> , <urn:excel:sheet2:row8> , <urn:excel:sheet2:row116> , <urn:excel:sheet2:row230> , <urn:excel:sheet2:row286> , <urn:excel:sheet2:row182> , <urn:excel:sheet2:row346> , <urn:excel:sheet2:row275> , <urn:excel:sheet2:row67> , <urn:excel:sheet2:row98> , <urn:excel:sheet2:row214> , <urn:excel:sheet2:row143> .
+        csvw:row    <urn:excel:sheet2:row312> , <urn:excel:sheet2:row330> , <urn:excel:sheet2:row352> , <urn:excel:sheet2:row73> , <urn:excel:sheet2:row283> , <urn:excel:sheet2:row220> , <urn:excel:sheet2:row247> , <urn:excel:sheet2:row151> , <urn:excel:sheet2:row115> , <urn:excel:sheet2:row269> , <urn:excel:sheet2:row173> , <urn:excel:sheet2:row137> , <urn:excel:sheet2:row81> , <urn:excel:sheet2:row303> , <urn:excel:sheet2:row343> , <urn:excel:sheet2:row83> , <urn:excel:sheet2:row16> , <urn:excel:sheet2:row93> , <urn:excel:sheet2:row238> , <urn:excel:sheet2:row72> , <urn:excel:sheet2:row336> , <urn:excel:sheet2:row204> , <urn:excel:sheet2:row376> , <urn:excel:sheet2:row280> , <urn:excel:sheet2:row244> , <urn:excel:sheet2:row340> , <urn:excel:sheet2:row398> , <urn:excel:sheet2:row338> , <urn:excel:sheet2:row112> , <urn:excel:sheet2:row266> , <urn:excel:sheet2:row206> , <urn:excel:sheet2:row302> , <urn:excel:sheet2:row197> , <urn:excel:sheet2:row68> , <urn:excel:sheet2:row228> , <urn:excel:sheet2:row45> , <urn:excel:sheet2:row342> , <urn:excel:sheet2:row63> , <urn:excel:sheet2:row210> , <urn:excel:sheet2:row274> , <urn:excel:sheet2:row367> , <urn:excel:sheet2:row263> , <urn:excel:sheet2:row203> , <urn:excel:sheet2:row131> , <urn:excel:sheet2:row187> , <urn:excel:sheet2:row29> , <urn:excel:sheet2:row243> , <urn:excel:sheet2:row397> , <urn:excel:sheet2:row111> , <urn:excel:sheet2:row265> , <urn:excel:sheet2:row133> , <urn:excel:sheet2:row49> , <urn:excel:sheet2:row20> , <urn:excel:sheet2:row326> , <urn:excel:sheet2:row42> , <urn:excel:sheet2:row348> , <urn:excel:sheet2:row381> , <urn:excel:sheet2:row366> , <urn:excel:sheet2:row216> , <urn:excel:sheet2:row234> , <urn:excel:sheet2:row299> , <urn:excel:sheet2:row167> , <urn:excel:sheet2:row332> , <urn:excel:sheet2:row200> , <urn:excel:sheet2:row218> , <urn:excel:sheet2:row318> , <urn:excel:sheet2:row402> , <urn:excel:sheet2:row175> , <urn:excel:sheet2:row289> , <urn:excel:sheet2:row193> , <urn:excel:sheet2:row46> , <urn:excel:sheet2:row139> , <urn:excel:sheet2:row157> , <urn:excel:sheet2:row41> , <urn:excel:sheet2:row361> , <urn:excel:sheet2:row380> , <urn:excel:sheet2:row119> , <urn:excel:sheet2:row177> , <urn:excel:sheet2:row323> , <urn:excel:sheet2:row166> , <urn:excel:sheet2:row270> , <urn:excel:sheet2:row363> , <urn:excel:sheet2:row345> , <urn:excel:sheet2:row66> , <urn:excel:sheet2:row97> , <urn:excel:sheet2:row213> , <urn:excel:sheet2:row36> , <urn:excel:sheet2:row317> , <urn:excel:sheet2:row401> , <urn:excel:sheet2:row11> , <urn:excel:sheet2:row371> , <urn:excel:sheet2:row150> , <urn:excel:sheet2:row360> , <urn:excel:sheet2:row114> , <urn:excel:sheet2:row268> , <urn:excel:sheet2:row172> , <urn:excel:sheet2:row136> , <urn:excel:sheet2:row322> , <urn:excel:sheet2:row344> , <urn:excel:sheet2:row80> , <urn:excel:sheet2:row65> , <urn:excel:sheet2:row96> , <urn:excel:sheet2:row212> , <urn:excel:sheet2:row294> , <urn:excel:sheet2:row369> , <urn:excel:sheet2:row82> , <urn:excel:sheet2:row15> , <urn:excel:sheet2:row237> , <urn:excel:sheet2:row105> , <urn:excel:sheet2:row10> , <urn:excel:sheet2:row209> , <urn:excel:sheet2:row267> , <urn:excel:sheet2:row171> , <urn:excel:sheet2:row135> , <urn:excel:sheet2:row87> , <urn:excel:sheet2:row69> , <urn:excel:sheet2:row301> , <urn:excel:sheet2:row196> , <urn:excel:sheet2:row44> , <urn:excel:sheet2:row341> , <urn:excel:sheet2:row62> , <urn:excel:sheet2:row368> , <urn:excel:sheet2:row14> , <urn:excel:sheet2:row236> , <urn:excel:sheet2:row104> , <urn:excel:sheet2:row273> , <urn:excel:sheet2:row258> , <urn:excel:sheet2:row141> , <urn:excel:sheet2:row351> , <urn:excel:sheet2:row130> , <urn:excel:sheet2:row39> , <urn:excel:sheet2:row70> , <urn:excel:sheet2:row34> , <urn:excel:sheet2:row396> , <urn:excel:sheet2:row110> , <urn:excel:sheet2:row264> , <urn:excel:sheet2:row300> , <urn:excel:sheet2:row195> , <urn:excel:sheet2:row132> , <urn:excel:sheet2:row159> , <urn:excel:sheet2:row61> , <urn:excel:sheet2:row325> , <urn:excel:sheet2:row272> , <urn:excel:sheet2:row290> , <urn:excel:sheet2:row365> , <urn:excel:sheet2:row140> , <urn:excel:sheet2:row215> , <urn:excel:sheet2:row233> , <urn:excel:sheet2:row387> , <urn:excel:sheet2:row38> , <urn:excel:sheet2:row327> , <urn:excel:sheet2:row101> , <urn:excel:sheet2:row349> , <urn:excel:sheet2:row217> , <urn:excel:sheet2:row31> , <urn:excel:sheet2:row395> , <urn:excel:sheet2:row384> , <urn:excel:sheet2:row359> , <urn:excel:sheet2:row174> , <urn:excel:sheet2:row288> , <urn:excel:sheet2:row192> , <urn:excel:sheet2:row138> , <urn:excel:sheet2:row324> , <urn:excel:sheet2:row156> , <urn:excel:sheet2:row252> , <urn:excel:sheet2:row40> , <urn:excel:sheet2:row120> , <urn:excel:sheet2:row364> , <urn:excel:sheet2:row118> , <urn:excel:sheet2:row176> , <urn:excel:sheet2:row232> , <urn:excel:sheet2:row386> , <urn:excel:sheet2:row100> , <urn:excel:sheet2:row254> , <urn:excel:sheet2:row19> , <urn:excel:sheet2:row296> , <urn:excel:sheet2:row164> , <urn:excel:sheet2:row35> , <urn:excel:sheet2:row316> , <urn:excel:sheet2:row12> , <urn:excel:sheet2:row30> , <urn:excel:sheet2:row298> , <urn:excel:sheet2:row287> , <urn:excel:sheet2:row191> , <urn:excel:sheet2:row370> , <urn:excel:sheet2:row155> , <urn:excel:sheet2:row89> , <urn:excel:sheet2:row109> , <urn:excel:sheet2:row321> , <urn:excel:sheet2:row18> , <urn:excel:sheet2:row64> , <urn:excel:sheet2:row307> , <urn:excel:sheet2:row211> , <urn:excel:sheet2:row106> , <urn:excel:sheet2:row293> , <urn:excel:sheet2:row278> , <urn:excel:sheet2:row128> , <urn:excel:sheet2:row161> , <urn:excel:sheet2:row315> , <urn:excel:sheet2:row108> , <urn:excel:sheet2:row391> , <urn:excel:sheet2:row208> , <urn:excel:sheet2:row304> , <urn:excel:sheet2:row355> , <urn:excel:sheet2:row170> , <urn:excel:sheet2:row134> , <urn:excel:sheet2:row320> , <urn:excel:sheet2:row86> , <urn:excel:sheet2:row6> , <urn:excel:sheet2:row306> , <urn:excel:sheet2:row199> , <urn:excel:sheet2:row292> , <urn:excel:sheet2:row160> , <urn:excel:sheet2:row13> , <urn:excel:sheet2:row235> , <urn:excel:sheet2:row389> , <urn:excel:sheet2:row103> , <urn:excel:sheet2:row257> , <urn:excel:sheet2:row207> , <urn:excel:sheet2:row125> , <urn:excel:sheet2:row350> , <urn:excel:sheet2:row85> , <urn:excel:sheet2:row33> , <urn:excel:sheet2:row5> , <urn:excel:sheet2:row55> , <urn:excel:sheet2:row379> , <urn:excel:sheet2:row194> , <urn:excel:sheet2:row71> , <urn:excel:sheet2:row158> , <urn:excel:sheet2:row60> , <urn:excel:sheet2:row388> , <urn:excel:sheet2:row102> , <urn:excel:sheet2:row271> , <urn:excel:sheet2:row256> , <urn:excel:sheet2:row124> , <urn:excel:sheet2:row91> , <urn:excel:sheet2:row37> , <urn:excel:sheet2:row311> , <urn:excel:sheet2:row59> , <urn:excel:sheet2:row32> , <urn:excel:sheet2:row149> , <urn:excel:sheet2:row54> , <urn:excel:sheet2:row2> , <urn:excel:sheet2:row394> , <urn:excel:sheet2:row179> , <urn:excel:sheet2:row358> , <urn:excel:sheet2:row262> , <urn:excel:sheet2:row226> , <urn:excel:sheet2:row251> , <urn:excel:sheet2:row28> , <urn:excel:sheet2:row309> , <urn:excel:sheet2:row90> , <urn:excel:sheet2:row231> , <urn:excel:sheet2:row23> , <urn:excel:sheet2:row385> , <urn:excel:sheet2:row253> , <urn:excel:sheet2:row58> , <urn:excel:sheet2:row295> , <urn:excel:sheet2:row121> , <urn:excel:sheet2:row163> , <urn:excel:sheet2:row148> , <urn:excel:sheet2:row373> , <urn:excel:sheet2:row241> , <urn:excel:sheet2:row185> , <urn:excel:sheet2:row1> , <urn:excel:sheet2:row335> , <urn:excel:sheet2:row393> , <urn:excel:sheet2:row297> , <urn:excel:sheet2:row375> , <urn:excel:sheet2:row51> , <urn:excel:sheet2:row357> , <urn:excel:sheet2:row165> , <urn:excel:sheet2:row78> , <urn:excel:sheet2:row261> , <urn:excel:sheet2:row190> , <urn:excel:sheet2:row225> , <urn:excel:sheet2:row154> , <urn:excel:sheet2:row88> , <urn:excel:sheet2:row27> , <urn:excel:sheet2:row308> , <urn:excel:sheet2:row17> , <urn:excel:sheet2:row162> , <urn:excel:sheet2:row184> , <urn:excel:sheet2:row259> , <urn:excel:sheet2:row277> , <urn:excel:sheet2:row127> , <urn:excel:sheet2:row145> , <urn:excel:sheet2:row50> , <urn:excel:sheet2:row239> , <urn:excel:sheet2:row314> , <urn:excel:sheet2:row107> , <urn:excel:sheet2:row7> , <urn:excel:sheet2:row390> , <urn:excel:sheet2:row129> , <urn:excel:sheet2:row354> , <urn:excel:sheet2:row75> , <urn:excel:sheet2:row222> , <urn:excel:sheet2:row285> , <urn:excel:sheet2:row249> , <urn:excel:sheet2:row153> , <urn:excel:sheet2:row9> , <urn:excel:sheet2:row24> , <urn:excel:sheet2:row117> , <urn:excel:sheet2:row142> , <urn:excel:sheet2:row305> , <urn:excel:sheet2:row400> , <urn:excel:sheet2:row198> , <urn:excel:sheet2:row291> , <urn:excel:sheet2:row276> , <urn:excel:sheet2:row126> , <urn:excel:sheet2:row144> , <urn:excel:sheet2:row181> , <urn:excel:sheet2:row313> , <urn:excel:sheet2:row331> , <urn:excel:sheet2:row79> , <urn:excel:sheet2:row353> , <urn:excel:sheet2:row56> , <urn:excel:sheet2:row95> , <urn:excel:sheet2:row74> , <urn:excel:sheet2:row221> , <urn:excel:sheet2:row84> , <urn:excel:sheet2:row4> , <urn:excel:sheet2:row378> , <urn:excel:sheet2:row282> , <urn:excel:sheet2:row246> , <urn:excel:sheet2:row92> , <urn:excel:sheet2:row329> , <urn:excel:sheet2:row180> , <urn:excel:sheet2:row255> , <urn:excel:sheet2:row219> , <urn:excel:sheet2:row123> , <urn:excel:sheet2:row94> , <urn:excel:sheet2:row310> , <urn:excel:sheet2:row3> , <urn:excel:sheet2:row337> , <urn:excel:sheet2:row53> , <urn:excel:sheet2:row205> , <urn:excel:sheet2:row377> , <urn:excel:sheet2:row281> , <urn:excel:sheet2:row227> , <urn:excel:sheet2:row189> , <urn:excel:sheet2:row245> , <urn:excel:sheet2:row399> , <urn:excel:sheet2:row339> , <urn:excel:sheet2:row113> , <urn:excel:sheet2:row178> , <urn:excel:sheet2:row328> , <urn:excel:sheet2:row229> , <urn:excel:sheet2:row122> , <urn:excel:sheet2:row22> , <urn:excel:sheet2:row186> , <urn:excel:sheet2:row57> , <urn:excel:sheet2:row279> , <urn:excel:sheet2:row383> , <urn:excel:sheet2:row147> , <urn:excel:sheet2:row52> , <urn:excel:sheet2:row372> , <urn:excel:sheet2:row240> , <urn:excel:sheet2:row169> , <urn:excel:sheet2:row188> , <urn:excel:sheet2:row334> , <urn:excel:sheet2:row392> , <urn:excel:sheet2:row202> , <urn:excel:sheet2:row356> , <urn:excel:sheet2:row77> , <urn:excel:sheet2:row260> , <urn:excel:sheet2:row374> , <urn:excel:sheet2:row224> , <urn:excel:sheet2:row242> , <urn:excel:sheet2:row26> , <urn:excel:sheet2:row48> , <urn:excel:sheet2:row21> , <urn:excel:sheet2:row43> , <urn:excel:sheet2:row382> , <urn:excel:sheet2:row146> , <urn:excel:sheet2:row250> , <urn:excel:sheet2:row183> , <urn:excel:sheet2:row168> , <urn:excel:sheet2:row347> , <urn:excel:sheet2:row333> , <urn:excel:sheet2:row99> , <urn:excel:sheet2:row201> , <urn:excel:sheet2:row76> , <urn:excel:sheet2:row319> , <urn:excel:sheet2:row223> , <urn:excel:sheet2:row25> , <urn:excel:sheet2:row403> , <urn:excel:sheet2:row47> , <urn:excel:sheet2:row284> , <urn:excel:sheet2:row248> , <urn:excel:sheet2:row152> , <urn:excel:sheet2:row362> , <urn:excel:sheet2:row8> , <urn:excel:sheet2:row116> , <urn:excel:sheet2:row230> , <urn:excel:sheet2:row286> , <urn:excel:sheet2:row182> , <urn:excel:sheet2:row346> , <urn:excel:sheet2:row275> , <urn:excel:sheet2:row67> , <urn:excel:sheet2:row98> , <urn:excel:sheet2:row214> , <urn:excel:sheet2:row143> .
 
 <urn:excel:sheet3:row318>
         a               csvw:Row ;
@@ -6771,9 +6827,11 @@
         csvw:rownum     327 .
 
 <urn:excel:sheet2:row39s>
-        <urn:property:DEFINITIE>       "Een verkoper is een medewerker in de fietsenwinkel die een [koop] regelt" ;
-        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
-        <urn:property:VOORKEURSTERM>   "verkoper" .
+        <urn:property:DEFINITIE>       "Een fietsenwinkeleigenaar is degene die een [fietsenwinkelonderneming] voert" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "Voorlopig even geen relatie gelegd naar de natuurlijke persoon of rechtspersoon" ;
+        <urn:property:VOORKEURSTERM>   "fietsenwinkeleigenaar" .
 
 <urn:excel:sheet3:row288>
         a               csvw:Row ;
@@ -6811,9 +6869,10 @@
         csvw:rownum     290 .
 
 <urn:excel:sheet2:row15s>
-        <urn:property:DEFINITIE>       "een aandrijving is een constructie op een [fiets] waarmee de spierkracht wordt overgebracht op de wielen" ;
-        <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "aandrijving" .
+        <urn:property:DEFINITIE>       "Een gebeurtenis waarbij [artikelen] op een afgesproken [locatie] worden gebracht op basis van een eerder afgesproken overeenkomst" ;
+        <urn:property:HOOFDONDERWERP>  "Logistiek" ;
+        <urn:property:TOELICHTING>     "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon" ;
+        <urn:property:VOORKEURSTERM>   "levering" .
 
 <urn:excel:sheet2:row175>
         a               csvw:Row ;
@@ -6961,13 +7020,9 @@
         csvw:rownum     255 .
 
 <urn:excel:sheet2:row23s>
-        <urn:property:DEFINITIE>       "Een adres is een administratieve aanduiding van een plek op aarde, bestaande uit de plaatsnaam, straatnaam en nummeraanduiding" ;
+        <urn:property:DEFINITIE>       "Een fietsenwinkelonderneming is een [onderneming] die [fietsen] verkoopt in een [fietsenwinkel]" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:KENNISBRONNEN>   "FWA" ;
-        <urn:property:REDACTIONELE_OPMERKING>
-                "Adres volgt uit de afspraken die fietsenwinkels met elkaar hebben gemaakt en wijkt deels af van de definitie uit de openbare bronnen (zoals bijvoorbeeld de Basisregistratie adressen en gebouwen)" ;
-        <urn:property:TOELICHTING>     "Fietsenwinkels maken gebruiken van adresbestanden, gebaseerd op openbare bronnen. Echter, mocht een opgegeven adres niet in deze bronnen voorkomen, dan wordt het wel als een adres gezien. In zo'n geval zal een dergelijk adres ook geen postcode hebben." ;
-        <urn:property:VOORKEURSTERM>   "adres" .
+        <urn:property:VOORKEURSTERM>   "fietsenwinkelonderneming" .
 
 <urn:excel:sheet3:row128>
         a               csvw:Row ;
@@ -6990,7 +7045,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "41896226-3428-4428-96D3-7FFFFFFFB091" .
+        <urn:property:Rubriek>  "1B98E390-09A2-490C-9982-68A41E0B783A" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;
@@ -7011,6 +7066,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet4:row130s> ;
         csvw:rownum     130 .
+
+<urn:excel:sheet3:row41s>
+        <urn:property:NAAR_BEGRIP>  "fiets" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "framemaat" ;
+        <urn:property:VERWOORDING>  "van een" .
 
 <urn:excel:sheet4:row308>
         a               csvw:Row ;
@@ -7073,10 +7134,10 @@
         csvw:rownum     335 .
 
 <urn:excel:sheet2:row31s>
-        <urn:property:DEFINITIE>       "Een kettingaandrijving is een aandrijving met behulp van een ketting" ;
+        <urn:property:DEFINITIE>       "Een riemaandrijving is een aandrijving met behulp van een riem" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:TOELICHTING>     "Een kettingaandrijving is de meest gebruikte vorm van aandrijving op een fiets. Een fiets met een derrailleur (zoals de meeste racefietsen, mountainbikes en tourfietsen) vereist een kettingaandrijving." ;
-        <urn:property:VOORKEURSTERM>   "kettingaandrijving" .
+        <urn:property:TOELICHTING>     "Bij een riemaandrijving is de ketting vervangen door een riem. De riem heeft minder onderhoud nodig en is ook stiller. Het is echter niet mogelijk om een riem te gebruiken met een derrailleur, een naafversnelling is noodzakelijk." ;
+        <urn:property:VOORKEURSTERM>   "riemaandrijving" .
 
 <urn:excel:sheet3:row208>
         a               csvw:Row ;
@@ -7781,6 +7842,12 @@
         csvw:describes  <urn:excel:sheet4:row5s> ;
         csvw:rownum     5 .
 
+<urn:excel:sheet3:row38s>
+        <urn:property:NAAR_BEGRIP>  "fiets" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "aandrijving" ;
+        <urn:property:VERWOORDING>  "van een" .
+
 <urn:excel:sheet5:row93>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet5:row93s> ;
@@ -7822,9 +7889,10 @@
         csvw:rownum     45 .
 
 <urn:excel:sheet2:row2s>
-        <urn:property:DEFINITIE>       "de batterij van de E-Bike" ;
+        <urn:property:DEFINITIE>       "Een batterij is een [artikel] dat gebruikt wordt voor de opslag van elektrische energie" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
         <urn:property:KENNISBRONNEN>   "FWA" ;
+        <urn:property:TOELICHTING>     "In de fietsenwinkel worden alleen batterijen voor e-bikes verkocht. Deze voldoen aan specifieke normen die gelden voor dergelijke batterijen" ;
         <urn:property:VOORKEURSTERM>   "batterij" .
 
 <urn:excel:sheet5:row280>
@@ -7884,9 +7952,10 @@
         csvw:rownum     293 .
 
 <urn:excel:sheet2:row28s>
-        <urn:property:DEFINITIE>       "Een leveringsadres is een [adres] van een [locatie] waar een [levering] wordt afgeleverd" ;
+        <urn:property:DEFINITIE>       "Een postadres is een [adres] waar post naartoe gestuurd kan worden" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:VOORKEURSTERM>   "leveringsadres" .
+        <urn:property:TOELICHTING>     "Het postadres wordt onder meer gebruikt voor het versturen van fakturen en aanbiedingen naar klanten. Een postadres is een locatie, maar hoeft niet de locatie te zijn waar de klant zijn fiets geleverd wenst te hebben" ;
+        <urn:property:VOORKEURSTERM>   "postadres" .
 
 <urn:excel:sheet3:row178>
         a               csvw:Row ;
@@ -7965,9 +8034,13 @@
         csvw:rownum     385 .
 
 <urn:excel:sheet2:row36s>
-        <urn:property:DEFINITIE>       "Een koop is een overeenkomst tussen de [fietsenwinkeleigenaar] en een klant met betrekking tot één of meerdere [artikelen]" ;
-        <urn:property:HOOFDONDERWERP>  "Verkoop" ;
-        <urn:property:VOORKEURSTERM>   "koop" .
+        <urn:property:DEFINITIE>       "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont" ;
+        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:KENNISBRONNEN>   "FWA" ;
+        <urn:property:REDACTIONELE_OPMERKING>
+                "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon" ;
+        <urn:property:TOELICHTING>     "Met een persoon wordt hier een natuurlijk persoon bedoelt die als koper mag optreden (dwz: een overeenkomst mag aangaan)" ;
+        <urn:property:VOORKEURSTERM>   "klant" .
 
 <urn:excel:sheet3:row258>
         a               csvw:Row ;
@@ -8005,9 +8078,10 @@
         csvw:rownum     260 .
 
 <urn:excel:sheet2:row12s>
-        <urn:property:DEFINITIE>       "het type nummer van een [artikel]" ;
+        <urn:property:DEFINITIE>       "Een fatbike is een zware [fiets met trapondersteuning] en heeft dikke banden" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:VOORKEURSTERM>   "typenummer" .
+        <urn:property:TOELICHTING>     "Een fatbike valt binnen de categorie van fietsen met trapondersteuning. Er zijn geen formele regels wat een fatbike is en wat niet. Fatbikes zijn te herkennen doordat ze zwaarder zijn dan de gemiddelde fiets met trapondersteuning en dikke banden hebben. Ook heeft een fatbike vaak een grote koplamp en een zadel waar je met z'n 2-en op kunt zitten." ;
+        <urn:property:VOORKEURSTERM>   "fatbike" .
 
 <urn:excel:sheet2:row145>
         a               csvw:Row ;
@@ -8160,12 +8234,11 @@
         csvw:rownum     340 .
 
 <urn:excel:sheet2:row20s>
-        <urn:property:DEFINITIE>       "Een organisatorische eenheid van één of meer personen waarin door voldoende inbreng van arbeid of middelen, ten behoeve van derden diensten of [artikelen] worden geleverd of werken tot stand worden gebracht met het oogmerk daarmee materieel voordeel te behalen" ;
-        <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
-        <urn:property:KENNISBRONNEN>   "Artikel 2, Hrb2008" ;
-        <urn:property:REDACTIONELE_OPMERKING>
-                "In de definitie is \"goederen\" aangepast in \"artikelen\" om aan te sluiten bij de voorkeursterm die in het begrippenkader Fietsenwinkel wordt gehanteerd" ;
-        <urn:property:VOORKEURSTERM>   "onderneming" .
+        <urn:property:ALTERNATIEVE_TERMEN>
+                "goed" ;
+        <urn:property:DEFINITIE>       "Een artikel is een materieël object dat als geheel kan worden bezit of gekocht" ;
+        <urn:property:HOOFDONDERWERP>  "Goederen" ;
+        <urn:property:VOORKEURSTERM>   "artikel" .
 
 <urn:excel:sheet2:row225>
         a               csvw:Row ;
