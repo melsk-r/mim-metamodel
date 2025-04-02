@@ -561,7 +561,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:inScheme    <urn:name:scheme:Goederen>;
         skos:prefLabel   "framemaat"@nl;
         skos:related     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
-        skos:scopeNote   "De framemaat wordt in centimeters gemeten tussen de onderkant en bovenkant van het frame"@nl .
+        skos:scopeNote   "De framemaat wordt in centimeters gemeten vanaf het hart van de trapas tot aan het punt waar het zadel uit het frame (zou) komen"@nl .
 
 <urn:uuid:1a68df45-c4d2-5fe0-ba1d-8f452d13cb4a>
         rdf:type         skos:Concept;
@@ -750,7 +750,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         rdf:type       dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-04-02T13:18:48.803+02:00"^^xsd:dateTime;
+        dct:issued     "2025-04-02T13:31:35.290+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .

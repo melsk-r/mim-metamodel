@@ -197,7 +197,7 @@ Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
 
 > een framemaat is een aanduiding voor de grootte van het frame van een [fiets](#fiets)
 
-Toelichting: De framemaat wordt in centimeters gemeten tussen de onderkant en bovenkant van het frame
+Toelichting: De framemaat wordt in centimeters gemeten vanaf het hart van de trapas tot aan het punt waar het zadel uit het frame (zou) komen
 
 Gerelateerd: [fiets](#fiets)
 
