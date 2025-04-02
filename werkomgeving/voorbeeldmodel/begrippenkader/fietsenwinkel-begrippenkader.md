@@ -54,7 +54,9 @@ Gerelateerd: [fietsen](#fietsen), [fietsenwinkel](#fietsenwinkel), [Fietsenwinke
 
 ### handelsnaam
 
-> De handelsnaam van een [onderneming](#onderneming)
+> De naam van een [onderneming](#onderneming) zoals deze door de onderneming in de praktijk wordt gebruikt
+
+Toelichting: De handelsnaam staat bijvoorbeeld op de gevel van locatie waar goederen worden verkocht en wordt gebruikt in communicatie met klanten en leveranciers
 
 Gerelateerd: [onderneming](#onderneming)
 
@@ -263,7 +265,7 @@ Gerelateerd: [artikel](#artikel)
 
 Toelichting: De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon
 
-Gerelateerd: [locatie](#locatie), [artikel](#artikel)
+Gerelateerd: [artikel](#artikel), [locatie](#locatie)
 
 ### leveringsdatum
 

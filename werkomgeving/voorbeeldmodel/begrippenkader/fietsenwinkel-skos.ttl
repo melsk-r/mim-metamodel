@@ -15,6 +15,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:b5e6aa33-40ac-5872-9fe9-0a381a2039d2>;
         rdfs:label     "is een" .
 
+<urn:uuid:98e95634-c982-5991-86fb-8514ab0f90e6>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:242b2f71-cceb-53b6-acdd-4afcd5cb162e>;
+        rdfs:label     "voor een groep van" .
+
+<urn:uuid:bc8a561a-7ee4-5324-8acb-6f83dacea180>
+        rdf:object     <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:d89f6162-e4dd-55a5-94f0-80d63ab84ca8>;
+        rdfs:label     "betreffende een" .
+
 <urn:uuid:3203d708-3f1e-59dc-8c86-91e7b17afbf6>
         rdf:object     <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
         rdf:predicate  skosthes:broaderGeneric;
@@ -27,11 +39,23 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:a784ccd4-27f8-58b5-8b63-baeb0ee76c3f>;
         rdfs:label     "is een" .
 
+<urn:uuid:d3d6eaad-d1b3-5629-b00c-61f445359b04>
+        rdf:object     <urn:uuid:85e08983-7b1b-522b-b9dd-51f17014d03f>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
+        rdfs:label     "is eigenaar van" .
+
 <urn:uuid:5bfc8012-78c3-52e8-9695-34c00117a87f>
         rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
         rdf:predicate  skosthes:broaderGeneric;
         rdf:subject    <urn:uuid:209a97f6-5ef5-5a7e-b33c-817352c868d4>;
         rdfs:label     "is een" .
+
+<urn:uuid:44d90737-d84d-5385-a2fc-a9fee78d0840>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:6b7c742e-3d62-53bb-a6fe-f41e23b26880>;
+        rdfs:label     "van een" .
 
 <urn:uuid:a4344b4d-afee-56f5-b194-e43d43685ece>
         rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
@@ -111,6 +135,18 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:cb9de3e6-8d00-546e-85ac-3aa9af9ce0d6>;
         rdfs:label     "is een" .
 
+<urn:uuid:d9f48c49-a929-5919-ac1a-efc048042d7a>
+        rdf:object     <urn:uuid:ef636583-b707-5455-a515-2a6c89241e8b>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        rdfs:label     "met" .
+
+<urn:uuid:a588fb46-5db0-5c69-bb9c-54a2fbf9bfe5>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:ba953dd7-02f1-5d68-8c12-bd727098452c>;
+        rdfs:label     "van een" .
+
 <urn:uuid:1b963e2d-f18e-5931-9170-55d8091652cb>
         rdf:object     <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
         rdf:predicate  skosthes:broaderGeneric;
@@ -123,17 +159,62 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:f3e9044d-3f6e-5b9d-aafc-6816ef609367>;
         rdfs:label     "is een" .
 
+<urn:uuid:a61c544c-0759-5931-b73e-aad8da37fb61>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdfs:label     "levert" .
+
+<urn:uuid:07d728bd-b663-5caf-824d-20f5ccf0a4a9>
+        rdf:object     <urn:uuid:0d4b78dd-25a0-5fa3-a642-7b5f3412a166>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdfs:label     "van verkoper" .
+
+<urn:uuid:9a518b25-891e-5ae4-88d0-ec63610ccd37>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:2e2b31de-a4b4-5575-a73b-5781ade3e570>;
+        rdfs:label     "van één of meerdere" .
+
 <urn:uuid:4e493061-fb4f-5600-bf6f-abb19498f093>
         rdf:object     <urn:uuid:6b5d36b9-488c-58c6-a03b-4053e5bd5427>;
         rdf:predicate  skosthes:broaderGeneric;
         rdf:subject    <urn:uuid:5fc1b506-2267-5d61-92ee-9e74a9cc8b1b>;
         rdfs:label     "is een" .
 
+<urn:uuid:69722e9f-deb2-5d71-9da1-10dc6f9a4af2>
+        rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>;
+        rdfs:label     "van een" .
+
+<urn:uuid:43dcedd3-5f75-5965-b21d-89392a1288ea>
+        rdf:object     <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
+        rdfs:label     "op" .
+
+<urn:uuid:63304f4f-af04-5cde-bee2-e14bae92cdb1>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:76a7688c-9318-55ae-a8cb-6a87b1dfaba2>;
+        rdfs:label     "van één of meerdere" .
+
 <urn:uuid:6dcf3fe0-71ee-55e0-904c-d77f36b6dcd1>
         rdf:object     <urn:uuid:7cf02304-45b8-5761-8740-b973605fe750>;
         rdf:predicate  skosthes:broaderGeneric;
         rdf:subject    <urn:uuid:926d355b-a003-5079-80d4-8ec038bbd32b>;
         rdfs:label     "is een" .
+
+<urn:uuid:aa59907a-2ad8-50b5-8865-7ee59e04584a>
+        rdf:type            skosxl:Label;
+        skosxl:literalForm  "klanten" .
+
+<urn:uuid:286b5cb9-1482-5deb-8ec9-80f54fce5718>
+        rdf:type            skosxl:Label;
+        skosxl:hiddenLabel  <urn:uuid:aa59907a-2ad8-50b5-8865-7ee59e04584a>;
+        skosxl:literalForm  "klant" .
 
 <urn:uuid:77b4c7bc-0584-576f-9880-ec9a2bb8fa90>
         rdf:type            skosxl:Label;
@@ -143,6 +224,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type            skosxl:Label;
         skosxl:hiddenLabel  <urn:uuid:77b4c7bc-0584-576f-9880-ec9a2bb8fa90>;
         skosxl:literalForm  "artikel" .
+
+<urn:uuid:96c060de-d7a6-5d3b-a455-4e09085b41eb>
+        rdf:type            skosxl:Label;
+        skosxl:literalForm  "leverancier" .
+
+<urn:uuid:0564dfdd-b3b5-5cc4-abd6-1339adb23514>
+        rdf:type            skosxl:Label;
+        skosxl:hiddenLabel  <urn:uuid:96c060de-d7a6-5d3b-a455-4e09085b41eb>;
+        skosxl:literalForm  "leveranciers" .
 
 <urn:uuid:0fbd531b-c880-5b4a-ac77-b7ebadd30d46>
         rdf:type            skosxl:Label;
@@ -370,6 +460,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         dct:source          <urn:uuid:f03684fe-c268-59a6-8db1-0ab894b5bd3f>;
         skos:definition     "Een klant is een persoon die een [artikel] koopt of daarvoor belangstelling toont"@nl;
         skos:editorialNote  "Aangezien we geen gegevens uit een basisregistratie wensen te halen m.b.t. klantgegevens, doen we ook geen moeite om het begrip klant te verbinden met het begrip natuurlijk persoon"@nl;
+        skos:hiddenLabel    "klanten";
         skos:inScheme       <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel      "klant"@nl;
         skos:related        <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
@@ -409,16 +500,17 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         skos:hiddenLabel  "leveringen";
         skos:inScheme     <urn:name:scheme:Logistiek>;
         skos:prefLabel    "levering"@nl;
-        skos:related      <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6> , <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111>;
+        skos:related      <urn:uuid:85530c9b-aba1-5313-8391-7d965831c111> , <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
         skos:scopeNote    "De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon"@nl .
 
 <urn:uuid:961caf62-5fb6-54d7-80c3-fb044d823551>
         rdf:type         skos:Concept;
         rdfs:label       "handelsnaam"@nl;
-        skos:definition  "De handelsnaam van een [onderneming]"@nl;
+        skos:definition  "De naam van een [onderneming] zoals deze door de onderneming in de praktijk wordt gebruikt"@nl;
         skos:inScheme    <urn:name:scheme:Actorenenlocaties>;
         skos:prefLabel   "handelsnaam"@nl;
-        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146> .
+        skos:related     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
+        skos:scopeNote   "De handelsnaam staat bijvoorbeeld op de gevel van locatie waar goederen worden verkocht en wordt gebruikt in communicatie met klanten en leveranciers"@nl .
 
 <urn:uuid:e23aa43e-579e-5e76-b5c5-3276d8552e20>
         rdf:type         skos:Concept;
@@ -587,7 +679,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         rdf:type       dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-04-01T23:59:43.120+02:00"^^xsd:dateTime;
+        dct:issued     "2025-04-02T11:03:26.057+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .

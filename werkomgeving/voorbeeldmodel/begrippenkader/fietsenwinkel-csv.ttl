@@ -84,8 +84,9 @@
         csvw:rownum     86 .
 
 <urn:excel:sheet2:row7s>
-        <urn:property:DEFINITIE>       "De handelsnaam van een [onderneming]" ;
+        <urn:property:DEFINITIE>       "De naam van een [onderneming] zoals deze door de onderneming in de praktijk wordt gebruikt" ;
         <urn:property:HOOFDONDERWERP>  "Actoren en locaties" ;
+        <urn:property:TOELICHTING>     "De handelsnaam staat bijvoorbeeld op de gevel van locatie waar goederen worden verkocht en wordt gebruikt in communicatie met klanten en leveranciers" ;
         <urn:property:VOORKEURSTERM>   "handelsnaam" .
 
 <urn:excel:sheet2:row95>
@@ -178,6 +179,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row207s> ;
         csvw:rownum     207 .
+
+<urn:excel:sheet3:row27s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "onderneming" ;
+        <urn:property:VERWOORDING>  "levert" .
 
 <urn:excel:sheet3:row295>
         a               csvw:Row ;
@@ -319,6 +326,12 @@
         csvw:describes  <urn:excel:sheet5:row76s> ;
         csvw:rownum     76 .
 
+<urn:excel:sheet3:row11s>
+        <urn:property:NAAR_BEGRIP>  "adres" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "postadres" ;
+        <urn:property:VERWOORDING>  "is een" .
+
 <urn:excel:sheet2:row15>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row15s> ;
@@ -329,21 +342,19 @@
         csvw:describes  <urn:excel:sheet3:row388s> ;
         csvw:rownum     388 .
 
-<urn:excel:sheet3:row11s>
-        <urn:property:NAAR_BEGRIP>  "adres" ;
-        <urn:property:RELATIE>      "is specialisatie van" ;
-        <urn:property:VAN_BEGRIP>   "postadres" ;
-        <urn:property:VERWOORDING>  "is een" .
+<urn:excel:sheet3:row135>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet3:row135s> ;
+        csvw:rownum     135 .
 
 <urn:excel:sheet2:row262>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row262s> ;
         csvw:rownum     262 .
 
-<urn:excel:sheet3:row135>
-        a               csvw:Row ;
-        csvw:describes  <urn:excel:sheet3:row135s> ;
-        csvw:rownum     135 .
+<urn:excel:sheet4:row6s>
+        <urn:property:ENKELVOUD>  "leveranciers" ;
+        <urn:property:MEERVOUD>   "leverancier" .
 
 <urn:excel:sheet4:row85>
         a               csvw:Row ;
@@ -1350,6 +1361,12 @@
         csvw:describes  <urn:excel:sheet2:row392s> ;
         csvw:rownum     392 .
 
+<urn:excel:sheet3:row24s>
+        <urn:property:NAAR_BEGRIP>  "fietsenwinkeleigenaar" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "koop" ;
+        <urn:property:VERWOORDING>  "van verkoper" .
+
 <urn:excel:sheet3:row265>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row265s> ;
@@ -1457,6 +1474,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row178s> ;
         csvw:rownum     178 .
+
+<urn:excel:sheet3:row32s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "verkoopprijs" ;
+        <urn:property:VERWOORDING>  "van een" .
 
 <urn:excel:sheet3:row345>
         a               csvw:Row ;
@@ -2280,6 +2303,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row101s> ;
         csvw:rownum     101 .
+
+<urn:excel:sheet3:row29s>
+        <urn:property:NAAR_BEGRIP>  "locatie" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "levering" ;
+        <urn:property:VERWOORDING>  "op" .
 
 <urn:excel:sheet4:row188>
         a               csvw:Row ;
@@ -3455,6 +3484,12 @@
         csvw:describes  <urn:excel:sheet2:row324s> ;
         csvw:rownum     324 .
 
+<urn:excel:sheet3:row26s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "koop" ;
+        <urn:property:VERWOORDING>  "van één of meerdere" .
+
 <urn:excel:sheet3:row285>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row285s> ;
@@ -3593,6 +3628,12 @@
         csvw:describes  <urn:excel:sheet5:row66s> ;
         csvw:rownum     66 .
 
+<urn:excel:sheet3:row10s>
+        <urn:property:NAAR_BEGRIP>  "adres" ;
+        <urn:property:RELATIE>      "is specialisatie van" ;
+        <urn:property:VAN_BEGRIP>   "onbekend adres" ;
+        <urn:property:VERWOORDING>  "is een" .
+
 <urn:excel:sheet3:row125>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row125s> ;
@@ -3613,11 +3654,9 @@
         csvw:describes  <urn:excel:sheet2:row252s> ;
         csvw:rownum     252 .
 
-<urn:excel:sheet3:row10s>
-        <urn:property:NAAR_BEGRIP>  "adres" ;
-        <urn:property:RELATIE>      "is specialisatie van" ;
-        <urn:property:VAN_BEGRIP>   "onbekend adres" ;
-        <urn:property:VERWOORDING>  "is een" .
+<urn:excel:sheet4:row5s>
+        <urn:property:ENKELVOUD>  "klant" ;
+        <urn:property:MEERVOUD>   "klanten" .
 
 <urn:excel:sheet4:row75>
         a               csvw:Row ;
@@ -4609,6 +4648,12 @@
         csvw:describes  <urn:excel:sheet2:row382s> ;
         csvw:rownum     382 .
 
+<urn:excel:sheet3:row23s>
+        <urn:property:NAAR_BEGRIP>  "fietsenwinkelonderneming" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "fietsenwinkeleigenaar" ;
+        <urn:property:VERWOORDING>  "is eigenaar van" .
+
 <urn:excel:sheet3:row255>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row255s> ;
@@ -4713,6 +4758,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row168s> ;
         csvw:rownum     168 .
+
+<urn:excel:sheet3:row31s>
+        <urn:property:NAAR_BEGRIP>  "adres" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "postcode" ;
+        <urn:property:VERWOORDING>  "voor een groep van" .
 
 <urn:excel:sheet3:row335>
         a               csvw:Row ;
@@ -5518,6 +5569,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row217s> ;
         csvw:rownum     217 .
+
+<urn:excel:sheet3:row28s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "levering" ;
+        <urn:property:VERWOORDING>  "van één of meerdere" .
 
 <urn:excel:sheet4:row178>
         a               csvw:Row ;
@@ -6682,6 +6739,12 @@
         csvw:describes  <urn:excel:sheet5:row390s> ;
         csvw:rownum     390 .
 
+<urn:excel:sheet3:row25s>
+        <urn:property:NAAR_BEGRIP>  "koop" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "koper" ;
+        <urn:property:VERWOORDING>  "betreffende een" .
+
 <urn:excel:sheet3:row275>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row275s> ;
@@ -6781,6 +6844,12 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row188s> ;
         csvw:rownum     188 .
+
+<urn:excel:sheet3:row33s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "typenummer" ;
+        <urn:property:VERWOORDING>  "van een" .
 
 <urn:excel:sheet3:row355>
         a               csvw:Row ;
@@ -6921,7 +6990,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "7FFFFFFF-457A-42CE-84FD-025BF4C01F65" .
+        <urn:property:Rubriek>  "41896226-3428-4428-96D3-7FFFFFFFB091" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;
@@ -7224,6 +7293,11 @@
         csvw:describes  <urn:excel:sheet4:row303s> ;
         csvw:rownum     303 .
 
+<urn:excel:sheet6:row8>
+        a               csvw:Row ;
+        csvw:describes  <urn:excel:sheet6:row8s> ;
+        csvw:rownum     8 .
+
 <urn:excel:sheet2:row29>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row29s> ;
@@ -7481,7 +7555,7 @@
 
 <urn:excel:sheet6>  a  csvw:Table ;
         rdfs:label  "Relatietypen" ;
-        csvw:row    <urn:excel:sheet6:row7> , <urn:excel:sheet6:row6> , <urn:excel:sheet6:row5> , <urn:excel:sheet6:row4> , <urn:excel:sheet6:row3> , <urn:excel:sheet6:row2> , <urn:excel:sheet6:row1> .
+        csvw:row    <urn:excel:sheet6:row8> , <urn:excel:sheet6:row7> , <urn:excel:sheet6:row6> , <urn:excel:sheet6:row3> , <urn:excel:sheet6:row2> , <urn:excel:sheet6:row5> , <urn:excel:sheet6:row4> , <urn:excel:sheet6:row1> .
 
 <urn:excel:sheet4:row311>
         a               csvw:Row ;
@@ -7864,6 +7938,12 @@
         csvw:describes  <urn:excel:sheet2:row372s> ;
         csvw:rownum     372 .
 
+<urn:excel:sheet3:row22s>
+        <urn:property:NAAR_BEGRIP>  "onderneming" ;
+        <urn:property:RELATIE>      "is eigenschap van" ;
+        <urn:property:VAN_BEGRIP>   "handelsnaam" ;
+        <urn:property:VERWOORDING>  "van een" .
+
 <urn:excel:sheet3:row245>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row245s> ;
@@ -7959,6 +8039,12 @@
         csvw:describes  <urn:excel:sheet2:row158s> ;
         csvw:rownum     158 .
 
+<urn:excel:sheet3:row30s>
+        <urn:property:NAAR_BEGRIP>  "adres" ;
+        <urn:property:RELATIE>      "heeft eigenschap" ;
+        <urn:property:VAN_BEGRIP>   "locatie" ;
+        <urn:property:VERWOORDING>  "met" .
+
 <urn:excel:sheet3:row325>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet3:row325s> ;
@@ -8042,6 +8128,11 @@
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet2:row53s> ;
         csvw:rownum     53 .
+
+<urn:excel:sheet6:row8s>
+        <urn:property:Omschrijving>  "«heeft eigenschap van» relateert een begrip aan een ander begrip dat een eigenschap hiervan is" ;
+        <urn:property:Opmerking>     "Deze relatie wordt in SKOS als skos:related uitgedrukt. Feitelijk is het een relatie die op conceptueel niveau pas daadwerkelijk tot uitdrukking komt" ;
+        <urn:property:Relatie>       "heeft eigenschap" .
 
 <urn:excel:sheet4:row299>
         a               csvw:Row ;
