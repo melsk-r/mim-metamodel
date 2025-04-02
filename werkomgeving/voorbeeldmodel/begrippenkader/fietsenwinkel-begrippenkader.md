@@ -54,7 +54,7 @@ Gerelateerd: [fietsen](#fietsen), [fietsenwinkel](#fietsenwinkel), [Fietsenwinke
 
 ### handelsnaam
 
-> De naam van een [onderneming](#onderneming) zoals deze door de onderneming in de praktijk wordt gebruikt
+> Een handelsnaam is de naam van een [onderneming](#onderneming) zoals deze door de onderneming in de praktijk wordt gebruikt
 
 Toelichting: De handelsnaam staat bijvoorbeeld op de gevel van locatie waar goederen worden verkocht en wordt gebruikt in communicatie met klanten en leveranciers
 
@@ -92,7 +92,7 @@ Gerelateerd: [levering](#levering), [locatie](#locatie)
 
 ### locatie
 
-> een fysieke plek op aarde met een [adres](#adres)
+> een locatie is een fysieke plek op aarde met een [adres](#adres)
 
 Gerelateerd: [adres](#adres)
 
@@ -191,7 +191,7 @@ Specialisatie van: [fiets](#fiets)
 
 > Een fietsversnelling is een constructie op een [fiets](#fiets) waarmee de verhouding tussen de [aandrijving](#aandrijving) en de wielen geregeld kan worden
 
-Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
+Gerelateerd: [fiets](#fiets), [aandrijving](#aandrijving)
 
 ### framemaat
 
@@ -228,12 +228,6 @@ Gerelateerd: [levering](#levering)
 > Een naafversnelling is een [fietsversnelling](#fietsversnelling) die in een gesloten constructie in de naaf van een wiel is verwerkt
 
 Specialisatie van: [fietsversnelling](#fietsversnelling)
-
-### omvang
-
-> De omvang van een [artikel](#artikel) in hoogte, breedte en lengtede omvang van de fiets in dimensies vanaf voor tot achterband (opgepompt), uitersten van trappers of bak of bagagedrager, en hoogste punt vanaf de weg (stuur, zadel).
-
-Gerelateerd: [artikel](#artikel)
 
 ### riemaandrijving
 
@@ -273,7 +267,7 @@ Gerelateerd: [artikel](#artikel)
 
 ### levering
 
-> Een gebeurtenis waarbij [artikelen](#artikel) op een afgesproken [locatie](#locatie) worden gebracht op basis van een eerder afgesproken overeenkomst
+> Een levering is een gebeurtenis waarbij [artikelen](#artikel) op een afgesproken [locatie](#locatie) worden gebracht op basis van een eerder afgesproken overeenkomst
 
 Toelichting: De levering is voltooid als de goederen op de afgesproken locatie aanwezig zijn. Er is sprake van een deellevering als een gedeelte van de goederen aanwezig zijn. Welke goederen daadwerkelijk geleverd zijn, volgt uit de pakbon
 
@@ -281,7 +275,7 @@ Gerelateerd: [artikel](#artikel), [locatie](#locatie)
 
 ### leveringsdatum
 
-> De datum van de [levering](#levering) van één of meerdere artikelen
+> Een leveringsdatum is de datum van de [levering](#levering) van één of meerdere artikelen
 
 Gerelateerd: [levering](#levering)
 
