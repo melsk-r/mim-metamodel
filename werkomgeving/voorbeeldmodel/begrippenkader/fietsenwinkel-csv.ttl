@@ -5853,6 +5853,12 @@
         csvw:describes  <urn:excel:sheet4:row160s> ;
         csvw:rownum     160 .
 
+<urn:excel:sheet3:row44s>
+        <urn:property:NAAR_BEGRIP>  "artikel" ;
+        <urn:property:RELATIE>      "is gerelateerd aan" ;
+        <urn:property:VAN_BEGRIP>   "klant" ;
+        <urn:property:VERWOORDING>  "heeft belangstelling voor" .
+
 <urn:excel:sheet1:row8>
         a               csvw:Row ;
         csvw:describes  <urn:excel:sheet1:row8s> ;
@@ -7035,7 +7041,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "71FA20A2-664C-4FA1-BF69-7FFFFFFF45E2" .
+        <urn:property:Rubriek>  "7FFFFFFF-62F6-4F34-BAC4-0228B9D9E31C" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;

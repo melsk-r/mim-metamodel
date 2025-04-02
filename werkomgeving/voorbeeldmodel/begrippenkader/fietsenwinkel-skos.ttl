@@ -135,6 +135,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:subject    <urn:uuid:5fc1b506-2267-5d61-92ee-9e74a9cc8b1b>;
         rdfs:label     "is een" .
 
+<urn:uuid:2abf6637-b7dc-58e4-a8b5-237504c893ca>
+        rdf:object     <urn:uuid:c8ae0d3b-ad74-5600-b1a4-15de4f4015c6>;
+        rdf:predicate  skos:related;
+        rdf:subject    <urn:uuid:7cc7116c-1ec2-5edf-85e8-bc4c3b03194c>;
+        rdfs:label     "heeft belangstelling voor" .
+
 <urn:uuid:69722e9f-deb2-5d71-9da1-10dc6f9a4af2>
         rdf:object     <urn:uuid:0187e81b-20ee-5a20-81fc-f03450d8a146>;
         rdf:predicate  skos:related;
@@ -742,7 +748,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:e8805ef6-14bf-509f-89b6-183b5c3315bd>
         rdf:type       dcat:Dataset;
         rdfs:label     "Fietsenwinkel 1.0.0";
-        dct:issued     "2025-04-02T13:41:01.380+02:00"^^xsd:dateTime;
+        dct:issued     "2025-04-02T14:08:48.847+02:00"^^xsd:dateTime;
         dct:modified   "2025-03-27"^^xsd:date;
         dcat:inSeries  <urn:uuid:bf331996-294f-5c48-9429-dbfc10816705>;
         dcat:version   "1.0.0 snapshot 1" .
