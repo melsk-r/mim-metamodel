@@ -5971,7 +5971,7 @@
 <urn:excel:sheet2:row10s>
         <urn:property:DEFINITIE>       "een framemaat is een aanduiding voor de grootte van het frame van een [fiets]" ;
         <urn:property:HOOFDONDERWERP>  "Goederen" ;
-        <urn:property:TOELICHTING>     "Voor een framemaat wordt niet de feitelijke maat van het frame gebruikt, maar de lengte van de persoon op de fiets. Daarbij wordt een categorisering aangehouden die per merk kan verschillen (bijvoorbeeld de framemaat \"L\" die kan staan voor fietsen voor mensen met lengte 1.70 tot 1.80)" ;
+        <urn:property:TOELICHTING>     "De framemaat wordt in centimeters gemeten tussen de onderkant en bovenkant van het frame" ;
         <urn:property:VOORKEURSTERM>   "framemaat" .
 
 <urn:excel:sheet2:row125>
@@ -7045,7 +7045,7 @@
         csvw:rownum     96 .
 
 <urn:excel:sheet1:row8s>
-        <urn:property:Rubriek>  "1B98E390-09A2-490C-9982-68A41E0B783A" .
+        <urn:property:Rubriek>  "7FFFFFFF-D12F-41FB-8733-7FFFFFFFFFDB" .
 
 <urn:excel:sheet4:row383>
         a               csvw:Row ;

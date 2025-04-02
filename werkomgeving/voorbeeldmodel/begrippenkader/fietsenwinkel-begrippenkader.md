@@ -197,7 +197,7 @@ Gerelateerd: [aandrijving](#aandrijving), [fiets](#fiets)
 
 > een framemaat is een aanduiding voor de grootte van het frame van een [fiets](#fiets)
 
-Toelichting: Voor een framemaat wordt niet de feitelijke maat van het frame gebruikt, maar de lengte van de persoon op de fiets. Daarbij wordt een categorisering aangehouden die per merk kan verschillen (bijvoorbeeld de framemaat "L" die kan staan voor fietsen voor mensen met lengte 1.70 tot 1.80)
+Toelichting: De framemaat wordt in centimeters gemeten tussen de onderkant en bovenkant van het frame
 
 Gerelateerd: [fiets](#fiets)
 
