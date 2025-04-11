@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.23.2-->
+  <key for="port" id="d0" yfiles.type="portgraphics"/>
+  <key for="port" id="d1" yfiles.type="portgeometry"/>
+  <key for="port" id="d2" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d3"/>
+  <key attr.name="description" attr.type="string" for="node" id="d4"/>
+  <key for="node" id="d5" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d6" yfiles.type="resources"/>
+  <key attr.name="statement-url" attr.type="string" for="edge" id="d7"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:3889C13B-D1A6-440e-AB89-1E6AC14950B8]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="90.0" width="139.4608193540953" x="1042.145878295884" y="-737.3582473411557"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.4608193540953" x="0.0" xml:space="preserve" y="26.1328125">Klant</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">nieuwsbrief: Boolean
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:D1D7D872-DF40-406b-B40C-2D4381AD847C]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="97.6858747545258" width="185.0402883118536" x="468.51738931514853" y="-1097.6521759362208"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="185.0402883118536" x="0.0" xml:space="preserve" y="26.1328125">Winkel</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">naam: CharacterString
+locatie: Geografische locatie
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:7F009296-C9A6-42d9-AE1F-A6BE8BFA8FF0]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="82.31412524547409" width="161.9826640482761" x="562.9918339027225" y="-447.1137571291881"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.9826640482761" x="0.0" xml:space="preserve" y="26.1328125">Sportfiets</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">soort: Sportfiets soorten
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="241.73127168431984" width="193.36459847083142" x="464.3552342356596" y="-813.2238831833156"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="193.36459847083142" x="0.0" xml:space="preserve" y="26.1328125">Fiets</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">versnellingen: Integer [0..1]
+verkoopprijs: Decimal
+typenummer: CharacterString
+omvang: Dimensies
+leveringsdatum: Date
+volgnummer: Integer
+id: CharacterString
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:27A79321-8FC3-4b2e-8962-48A41DC66766]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="98.08359999999993" width="193.31703465415308" x="1339.0624361232672" y="-287.08269829231085"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="193.31703465415308" x="0.0" xml:space="preserve" y="26.1328125">Creditcard</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">Kaartnummer: CharacterString
+Verloopdatum: CharacterString
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:C0EDB7BB-8747-4fca-ACCB-D1D2C182B4C2]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="82.31412524547409" width="161.98266404827604" x="1131.2911359647542" y="-287.08269829231085"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.98266404827604" x="0.0" xml:space="preserve" y="26.1328125">Bankrekening</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">Rekeningnummer: IBAN
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:2D448C2E-89D0-4fde-8A11-1146D053F3BD]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="83.59510437122833" width="177.35441355732792" x="1004.2522840926513" y="-626.8052465605324"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.35441355732792" x="0.0" xml:space="preserve" y="26.1328125">Leverancier</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACD]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="83.59510437122833" width="139.4608193540953" x="1266.0294231882253" y="-663.914364755584"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.4608193540953" x="0.0" xml:space="preserve" y="26.1328125">Contact</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Union" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">naam: CharacterString
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:70BC0546-B6E0-49b7-9A79-E823F4D86D0A]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="127.88010416959719" width="224.7506412102373" x="-170.78608075940963" y="-741.2011847184185"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="224.7506412102373" x="0.0" xml:space="preserve" y="26.1328125">Batterij</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">omvang: Dimensies
+garantienummer: Garantienummer
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:DAFDB181-6B75-4ad9-8D97-3E59B9E69909]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="97.68587475452568" width="210.60778341214302" x="1321.771687365277" y="-959.4644813968183"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="210.60778341214302" x="0.0" xml:space="preserve" y="26.1328125">Persoon</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">voornaam: CharacterString [0..1]
+achternaam: CharacterString
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:5A3BD39C-86C8-4541-87FC-D0624260768A]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="90.0" width="80.0" x="452.99183390272253" y="-445.5693722740177"/>
+          <y:Fill color="#FFFFC7" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.0" x="0.0" xml:space="preserve" y="26.1328125">Stadsfiets</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:1A23AC81-D1EE-4896-93A5-1C697F4DE163]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="56.694542730387866" width="153.01581016799582" x="753.0274978244506" y="-1046.7427180956317"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="153.01581016799582" x="0.0" xml:space="preserve" y="26.1328125">Geografische locatie</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Union" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:39BFBB8F-AD55-498f-8C9D-A50F7935D68F]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="64.38041748491378" width="139.4608193540953" x="1266.0294231882253" y="-427.8273469838963"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.4608193540953" x="0.0" xml:space="preserve" y="26.1328125">Betaalmiddel</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Union" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:2B05F37E-ECA2-44e3-AEB3-BF979349B52D]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="123.30545726961202" width="153.01581016799582" x="806.8562067024732" y="-414.0007227507708"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="153.01581016799582" x="0.0" xml:space="preserve" y="26.1328125">Sportfiets soorten</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Classificatie" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">Canondale
+Cube
+Bianchi
+Giant
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:7A289B92-0934-4073-B688-CBC48FD494CD]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="49.74079110184857" width="122.97471691927277" x="-32.261583772899485" y="-897.6703552087838"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.97471691927277" x="0.0" xml:space="preserve" y="26.1328125">Kettingsoorten</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Classificatie" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:9B715549-F130-4d41-9BA0-4E8D6FFA84EC]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="49.7407911018488" width="122.97471691927277" x="-32.261583772899485" y="-991.8506276628136"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.97471691927277" x="0.0" xml:space="preserve" y="26.1328125">Snaarsoorten</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Classificatie" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:D3F706FC-6A43-4c26-849E-9A6610B0484D]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="107.93370776056031" width="199.13105869515107" x="159.5943679956681" y="-813.2238831833156"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.13105869515107" x="0.0" xml:space="preserve" y="26.1328125">Dimensies</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Eigenschapscomplex" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">lengte: Integer
+hoogte: Integer
+breedte: Integer
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:39E798CA-774B-437f-9E55-2A90B4F13A9B]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="107.93370776056031" width="210.60778341214314" x="987.6255991652437" y="-438.45650302199914"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="210.60778341214314" x="0.0" xml:space="preserve" y="26.1328125">Ingeschreven bedrijf</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">bedrijfsnaam: CharacterString
+vestigingsadres: CharacterString
+kvk nummer: CharacterString
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:C85307A5-A35E-431d-B055-1363DD188AC4]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="97.68587475452568" width="224.7506412102373" x="743.5301317893959" y="-899.1174585303398"/>
+          <y:Fill color="#00FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="224.7506412102373" x="0.0" xml:space="preserve" y="26.1328125">Verkoop</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Relatieklasse" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">verkoopdatum: Date
+garantienummer: Garantienummer
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:7D1B1870-6B45-49d9-A853-F26E28CC83B2]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="107.93370776056031" width="224.7506412102373" x="1011.170547217875" y="-1108.2823640281238"/>
+          <y:Fill color="#FF9900" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="224.7506412102373" x="0.0" xml:space="preserve" y="26.1328125">Adres</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Gegevensgroeptype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">postcode: CharacterString
+huisnummer: CharacterString
+locatie: Geografische locatie [0..1]
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:C85307A5-A35E-431d-B055-1363DD188AC4_HELPER]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="5.0" width="1.0" x="855.4054523945146" y="-694.8582473411557"/>
+          <y:Fill color="#000000" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:792225F5-5E63-49fc-B7C1-FEC2B9E487B8]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="82.31412524547409" width="199.13105869515107" x="165.841359280574" y="-935.1971885219159"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.13105869515107" x="0.0" xml:space="preserve" y="26.1328125">Fiets met kettingaandrijving</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">soort ketting: Kettingsoort</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d3" xml:space="preserve"><![CDATA[urn:uuid:792225F5-5E63-49fc-B7C1-FEC2B9E487B8]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:UMLClassNode>
+          <y:Geometry height="82.31412524547409" width="199.13105869515107" x="165.841359280574" y="-1031.2246466955776"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.13105869515107" x="0.0" xml:space="preserve" y="26.1328125">Fiets met snaaraandrijving</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Objecttype" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">soort snaar: Snaarsoorten</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n11">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:D1D7D872-DF40-406b-B40C-2D4381AD847Cmim:typeurn:uuid:1A23AC81-D1EE-4896-93A5-1C697F4DE163]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="92.51061693397264" sy="30.143704392047425" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n13">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:7F009296-C9A6-42d9-AE1F-A6BE8BFA8FF0mim:typeurn:uuid:2B05F37E-ECA2-44e3-AEB3-BF979349B52D]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n3" target="n16">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2mim:typeurn:uuid:D3F706FC-6A43-4c26-849E-9A6610B0484D]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-96.65063124237952" sy="-15.007743201179096" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n8" target="n16">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:70BC0546-B6E0-49b7-9A79-E823F4D86D0Amim:typeurn:uuid:D3F706FC-6A43-4c26-849E-9A6610B0484D]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="112.36659687398712" sy="0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n21" target="n14">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:792225F5-5E63-49fc-B7C1-FEC2B9E487B8mim:typeurn:uuid:7A289B92-0934-4073-B688-CBC48FD494CD]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-99.56705270846734" sy="21.240166241319343" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n22" target="n15">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:792225F5-5E63-49fc-B7C1-FEC2B9E487B8mim:typeurn:uuid:9B715549-F130-4d41-9BA0-4E8D6FFA84EC]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-99.53320463120593" sy="23.08735196095131" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n19" target="n11">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:7D1B1870-6B45-49d9-A853-F26E28CC83B2mim:typeurn:uuid:1A23AC81-D1EE-4896-93A5-1C697F4DE163]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[mim:type]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-112.37162808496146" sy="35.9200634174058" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n1" target="n3">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:D1D7D872-DF40-406b-B40C-2D4381AD847Curn:uuid:08144BAA-00A3-4f48-AF37-661CBD3D9DD2urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:uuid:08144BAA-00A3-4f48-AF37-661CBD3D9DD2]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.5234375" x="1.499996849981585" xml:space="preserve" y="84.28369199718213">verhandelt<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.84375" x="-87.34375315001841" xml:space="preserve" y="84.28369199718213">«Relatiesoort»<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.755859375" x="1.499996849981585" xml:space="preserve" y="163.5884947463719">handelswaar<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="33.712890625" x="-35.212893775018415" xml:space="preserve" y="163.5884947463719">0..-1<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n3" target="n6">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2urn:uuid:CC306A36-585F-4f08-8728-116C447703DFurn:uuid:2D448C2E-89D0-4fde-8A11-1146D053F3BD]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:uuid:CC306A36-585F-4f08-8728-116C447703DF]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="96.72232849215027" sy="107.3505529662375" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.68359375" x="130.88437382925872" xml:space="preserve" y="-19.632816445230674">geleverd door<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.84375" x="130.30429570425872" xml:space="preserve" y="1.4999960547693263">«Relatiesoort»<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.826171875" x="270.6662245223388" xml:space="preserve" y="-19.632816445230674">aanleveraar<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.76953125" x="314.7228651473388" xml:space="preserve" y="1.4999960547693263">1..1<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n3" target="n8">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2urn:uuid:9431CA6C-1468-4755-929D-F4141C8987BEurn:uuid:70BC0546-B6E0-49b7-9A79-E823F4D86D0A]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:uuid:9431CA6C-1468-4755-929D-F4141C8987BE]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-64.99147117947075" sy="40.66898480525981" tx="112.34439463037609" ty="25.57187009772406"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="diamond" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.833984375" x="-259.0964808305845" xml:space="preserve" y="1.500007483635386">aangestuurd door<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.84375" x="-248.10136364308448" xml:space="preserve" y="-19.632805016364614">«Relatiesoort»<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.6171875" x="-405.37482553550046" xml:space="preserve" y="1.500007483635386">powerunit<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.76953125" x="-405.37482553550046" xml:space="preserve" y="-19.632805016364614">0..1<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n7" target="n12">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:B93B30C2-103B-4b4e-A940-5997B0595ACDurn:uuid:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1urn:uuid:39BFBB8F-AD55-498f-8C9D-A50F7935D68F]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[urn:uuid:15A6A6C2-C517-432d-BC60-2D0AECBD3CE1]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.220703125" x="1.4999451699604833" xml:space="preserve" y="67.20330764399904">betaling<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.84375" x="-87.34380483003952" xml:space="preserve" y="67.20330764399904">«Relatiesoort»<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.380859375" x="1.4999451699604833" xml:space="preserve" y="129.3828580942287">betaalmiddel<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="33.712890625" x="-35.21294545503952" xml:space="preserve" y="129.3828580942287">1..-1<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n20" target="n18">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n3" target="n20">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n20" target="n0">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.669921875" x="118.07049987791515" xml:space="preserve" y="-19.632783473968175">ontvanger<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="left" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.76953125" x="153.97089050291515" xml:space="preserve" y="1.5000290260318252">0..1<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.5" distanceToCenter="false" position="right" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n2" target="n3">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:7F009296-C9A6-42d9-AE1F-A6BE8BFA8FF0urn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n10" target="n3">
+      <data key="d7" xml:space="preserve"><![CDATA[urn:md5:urn:uuid:5A3BD39C-86C8-4541-87FC-D0624260768Aurn:uuid:D7087089-5FAD-47f5-836F-CC6167ADADE2]]></data>
+      <data key="d8" xml:space="preserve"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-0.0" tx="0.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n0" target="n9">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="6.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n7" target="n0">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n7" target="n6">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n6" target="n17">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="6.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n12" target="n5">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n12" target="n4">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n21" target="n3">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="99.58800433618745" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n22" target="n3">
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="99.58800433618745" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d6">
+    <y:Resources/>
+  </data>
+</graphml>
