@@ -3,9 +3,9 @@ PREFIX mim:  <http://modellen.mim-standaard.nl/def/mim#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
-<urn:relatiesoort:werktVoor>
-        a                    mim:Relatiesoort;
-        rdfs:label           "werkt voor";
+<urn:relatieklasse:dienstbetrekking>
+        a                    mim:Relatieklasse;
+        rdfs:label           "Dienstbetrekking";
         mim:doel             <urn:objecttype:organisatie>;
         mim:bron             <urn:objecttype:persoon>;
         mim:identifier       "TwerktVoor";
@@ -19,6 +19,11 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
                                mim:bron           <urn:objecttype:organisatie>;
                                mim:kardinaliteit  "0..*"
                              ];
+         mim:attribuut   [ a                  mim:Attribuutsoort;
+                           rdfs:label         "arbeidsovereenkomst";
+                           mim:identifier     "Tdienstbetrekking.arbeidsovereenkomst";
+                           mim:kardinaliteit  "1..1"
+                         ];
         mim:unidirectioneel  true
 .
 
