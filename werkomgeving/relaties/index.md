@@ -41,7 +41,7 @@ Bovenstaande typering kun je uitdrukken in FBM met onderstaand figuur.
 
 De typering van de dienstbetrekking is in MIM (nu) niet helemaal goed uit te drukken. Het meest in de buurt komt onderstaand figuur.
 
-Merk op: in onderstaand figuur is een eigenschap «arbeidsovereenkomst» opgenomen bij de relatieklasse. Dit is gedaan om de relatieklasse aan te geven waarom een relatieklasse in dit geval nodig zou (kunnen) zijn. In het FBM model is deze eigenschap voor de eenvoudig niet opgenomen. Ook zou je kunnen stellen dat «arbeidsovereenkomst» geen eigenschap is, maar een relatie naar een «Document» waarin de arbeidsovereenkomst is opgenomen. Dergelijke details zijn buiten scope van deze casus.
+Merk op: in onderstaand figuur is een eigenschap «arbeidsovereenkomst» opgenomen bij de relatieklasse. Dit is gedaan om te laten zien waarom een relatieklasse in dit geval nodig zou (kunnen) zijn. In het FBM model is deze eigenschap voor de eenvoudig niet opgenomen. Ook zou je kunnen stellen dat «arbeidsovereenkomst» geen eigenschap is, maar een relatie naar een «Document» waarin de arbeidsovereenkomst is opgenomen. Dergelijke details zijn buiten scope van deze casus.
 
 ![](dienstbetrekking-mim.svg)
 
@@ -81,3 +81,19 @@ Twee visualisaties zijn denkbaar, beiden visualiseren exact hetzelfde.
 
 ![](dienstbetrekking-mim-optie3a.svg)
 ![](dienstbetrekking-mim-optie3b.svg)
+
+## Voorstel voor verbetering
+
+Onderstaand enkele mogelijke voorstellen om relaties beter te kunnen typeren, waarbij rekening wordt gehouden met de huidige praktijk in MIM 1.2
+
+### Op conceptueel niveau
+
+1. Maak expliciet of het label op de lijn van de relatie de *naam* van de relatie voorstelt of de *verwoording*. Neem in het metamodel de mogelijkheid op om onderscheid te kunnen maken tussen de naam en 1 of meerdere verwoordingen;
+2. Gebruik op conceptueel niveau de "pijl" alleen als leesrichting (of gebruik hiervoor een andere methode, bv een driehoekje op de verwoording);
+3. Indien gebruik wordt gemaakt van een relatieklass, dan betreft de label op de lijn van de relatie altijd een *verwoording*
+4. Rolnamen staan *nooit* als label op de relatielijn (maar aan de rand). Wel kan het zo zijn dat de rolnaam en de verwoording (bijna) overeen komen. (de verwoording is dan bv "heeft werkgever").
+
+### Op logisch niveau
+
+1. Een relatie-lijn stelt een gegevenstype voor. Deze heeft (dus) ook altijd een richting en precies 1 naam. Dit mag de naam op de lijn zijn of de rolnaam. Alleen relatieroldoel bestaat.
+2. Indien de relatieklasse afzonderlijk wordt bijgehouden, ontstaan twee lijnen, voor elk gegevenstype één (zoals in situatie 3).
