@@ -24,21 +24,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>
         rdf:type      dct:BibliographicResource;
         rdfs:label    "Artikel 610, BW Boek 7";
-        dct:isPartOf  <urn:uuid:3f129f0d-9a1a-5568-8f58-52b3cc248983> , <urn:uuid:4032dd5d-680b-53b3-9d94-56337f32ca1b>;
+        dct:isPartOf  <urn:uuid:4032dd5d-680b-53b3-9d94-56337f32ca1b>;
         dct:title     "Artikel 610," .
 
 <urn:uuid:4032dd5d-680b-53b3-9d94-56337f32ca1b>
-        rdf:type        dct:BibliographicResource;
-        rdfs:label      "Burgerlijk Wetboek, Boek 7";
-        dct:identifier  "BW Boek 7";
-        dct:isPartOf    <urn:uuid:3f129f0d-9a1a-5568-8f58-52b3cc248983>;
-        dct:title       "Burgerlijk Wetboek, Boek 7" .
-
-<urn:uuid:3f129f0d-9a1a-5568-8f58-52b3cc248983>
-        rdf:type        dct:BibliographicResource;
-        rdfs:label      "Burgerlijk Wetboek";
-        dct:identifier  "BW";
-        dct:title       "Burgerlijk Wetboek" .
+        rdf:type                   dct:BibliographicResource;
+        rdfs:label                 "Burgerlijk Wetboek, Boek 7";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/BWBR0005290>;
+        dct:identifier             "BW Boek 7";
+        dct:title                  "Burgerlijk Wetboek, Boek 7" .
 
 <urn:uuid:62b28532-ddb6-59c8-8149-9106d2978317>
         rdf:type                    <http://bp4mc2.org/def/jas#Rechtsbetrekking> , skos:Concept;
@@ -73,7 +67,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type         <http://bp4mc2.org/def/jas#Rechtssubject> , skos:Concept;
         rdfs:label       "Werkgever"@nl;
         dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
-        skos:definition  "Een werkgever is een persoon die arbeid verricht voor een ander in ruil voor loon"@nl;
+        skos:definition  "Een werkgever is een organisatie die arbeid verricht voor een ander in ruil voor loon"@nl;
         skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
         skos:prefLabel   "Werkgever"@nl .
 
@@ -81,7 +75,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
         rdf:type         <http://bp4mc2.org/def/jas#Rechtssubject> , skos:Concept;
         rdfs:label       "Werknemer"@nl;
         dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
-        skos:definition  "Een werknemer is een persoon die arbeid laat verrichten door een ander in ruil voor loon"@nl;
+        skos:definition  "Een werknemer is een natuurlijk persoon die arbeid laat verrichten door een ander in ruil voor loon"@nl;
         skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
         skos:prefLabel   "Werknemer"@nl .
 
@@ -102,7 +96,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:b3072888-4ff7-57cd-9f89-41b66477cdbd>
         rdf:type       dcat:Dataset;
         rdfs:label     "Dienstbetrekking 1.0.0";
-        dct:issued     "2025-04-14T15:41:41.662+02:00"^^xsd:dateTime;
+        dct:issued     "2025-04-14T15:48:37.847+02:00"^^xsd:dateTime;
         dct:modified   "2025-04-07"^^xsd:date;
         dcat:inSeries  <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
         dcat:version   "1.0.0 snapshot 1" .
