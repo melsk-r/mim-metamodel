@@ -41,6 +41,8 @@ Bovenstaande typering kun je uitdrukken in FBM met onderstaand figuur.
 
 De typering van de dienstbetrekking is in MIM (nu) niet helemaal goed uit te drukken. Het meest in de buurt komt onderstaand figuur.
 
+Merk op: in onderstaand figuur is een eigenschap «arbeidsovereenkomst» opgenomen bij de relatieklasse. Dit is gedaan om de relatieklasse aan te geven waarom een relatieklasse in dit geval nodig zou (kunnen) zijn. In het FBM model is deze eigenschap voor de eenvoudig niet opgenomen. Ook zou je kunnen stellen dat «arbeidsovereenkomst» geen eigenschap is, maar een relatie naar een «Document» waarin de arbeidsovereenkomst is opgenomen. Dergelijke details zijn buiten scope van deze casus.
+
 ![](dienstbetrekking-mim.svg)
 
 Daarbij valt het volgende op:
@@ -75,7 +77,7 @@ In deze situatie willen we expliciet maken dat de relatie wordt bijgehouden in h
 
 In deze situatie willen we expliciet maken dat we gegevens van de relatie zelf bijhouden, los van de gegevens van een natuurlijk persoon of organisatie. Vanzelfsprekend kan deze relatie alleen bestaan indien beide objecten bestaan (!). Voor de naam van het gegevensobjecttype gebruiken we de naam van de relatie ("Dienstbetrekking"), voor de gegevenstypen gebruiken we de namen "werkgever" en "werknemer".
 
-Twee visualisatie zijn denkbaar, beiden visualiseren exact hetzelfde.
+Twee visualisaties zijn denkbaar, beiden visualiseren exact hetzelfde.
 
 ![](dienstbetrekking-mim-optie3a.svg)
 ![](dienstbetrekking-mim-optie3b.svg)
