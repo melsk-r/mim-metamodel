@@ -123,7 +123,12 @@
     </g>
     <g id="y.edge.2">
       <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
-        <path fill="none" d="M483.0167 275 L645 275"/>
+        <path fill="none" d="M482.9651 275 L645 275"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
+          <text x="490" xml:space="preserve" y="290.1016" stroke="none">1..*</text>
+        </g>
       </g>
     </g>
     <g id="y.edge.1">
