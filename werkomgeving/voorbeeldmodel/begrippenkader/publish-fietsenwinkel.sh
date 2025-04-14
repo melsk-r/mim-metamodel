@@ -28,7 +28,8 @@ fi
 java -jar ../../libs/excel2rdf.jar Fietsenwinkel.xlsx fietsenwinkel-csv.ttl
 # Convert: csv in rdf to skos
 java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-csv.ttl -o fietsenwinkel-skos.ttl -c ../../libs/csv2skos.yaml
+rm fietsenwinkel-csv.ttl
 # - Publicatie
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.md ../../libs/skos2md.xsl
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl localbiblio.js ../../libs/dct2md.xsl
+java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl ../../../modellen/fietsenwinkel/begrippenkader.md ../../libs/skos2md.xsl
+java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl ../../../modellen/fietsenwinkel/localbiblio.js ../../libs/dct2md.xsl
 java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.graphml ../../libs/skos2graphml.xsl ext fietsenwinkel-begrippenkader-edited.graphml
