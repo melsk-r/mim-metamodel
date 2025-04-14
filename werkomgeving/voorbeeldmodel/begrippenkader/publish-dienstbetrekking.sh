@@ -25,12 +25,12 @@ if [ ! -f "../../libs/skos2graphml.xsl" ]; then
 fi
 
 # Convert: .xlsx to .ttl (csv in rdf)
-java -jar ../../libs/excel2rdf.jar Fietsenwinkel.xlsx fietsenwinkel-csv.ttl
+java -jar ../../libs/excel2rdf.jar Dienstbetrekking.xlsx dienstbetrekking-csv.ttl
 # Convert: csv in rdf to skos
-java -jar ../../libs/rdf2rdf.jar -i fietsenwinkel-csv.ttl -o fietsenwinkel-skos.ttl -c ../../libs/csv2skos.yaml
-rm fietsenwinkel-csv.ttl
+java -jar ../../libs/rdf2rdf.jar -i dienstbetrekking-csv.ttl -o dienstbetrekking-skos.ttl -c ../../libs/csv2skos.yaml
+rm dienstbetrekking-csv.ttl
 # - Publicatie
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl ../../../modellen/fietsenwinkel/begrippenkader.md ../../libs/skos2md.xsl
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl ../../../modellen/fietsenwinkel/localbiblio.js ../../libs/dct2md.xsl
-java -jar ../../libs/rdf2xml.jar fietsenwinkel-skos.ttl fietsenwinkel-begrippenkader.graphml ../../libs/skos2graphml.xsl ext fietsenwinkel-begrippenkader-edited.graphml
-cp fietsenwinkel-skos.ttl ../../../modellen/fietsenwinkel/fietsenwinkel-skos.ttl
+java -jar ../../libs/rdf2xml.jar dienstbetrekking-skos.ttl ../../../modellen/dienstbetrekking/begrippenkader.md ../../libs/skos2md.xsl
+java -jar ../../libs/rdf2xml.jar dienstbetrekking-skos.ttl ../../../modellen/dienstbetrekking/localbiblio.js ../../libs/dct2md.xsl
+java -jar ../../libs/rdf2xml.jar dienstbetrekking-skos.ttl dienstbetrekking-begrippenkader.graphml ../../libs/skos2graphml.xsl # ext dienstbetrekking-begrippenkader-edited.graphml
+cp dienstbetrekking-skos.ttl ../../../modellen/dienstbetrekking/dienstbetrekking-skos.ttl
