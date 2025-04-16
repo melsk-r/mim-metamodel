@@ -52,7 +52,7 @@
           <y:Geometry height="90.0" width="141.0" x="577.0" y="137.0"/>
           <y:Fill color="#FFFFC7" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.0" x="0.0" xml:space="preserve" y="26.1328125">Dienstbetrekking</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.0" x="0.0" xml:space="preserve" y="26.1328125">werkt voor</y:NodeLabel>
           <y:UML clipContent="true" constraint="" detailsColor="#000000" omitDetails="false" stereotype="Relatieklasse" use3DEffect="false">
             <y:AttributeLabel xml:space="preserve">arbeidsovereenkomst</y:AttributeLabel>
             <y:MethodLabel xml:space="preserve"/>
