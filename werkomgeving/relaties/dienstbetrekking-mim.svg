@@ -7,15 +7,21 @@
         <path d="M0 0 L703 0 L703 244 L0 244 L0 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
-        <path d="M813 260 L1009 260 L1009 350 L813 350 L813 260 Z"/>
+        <path d="M321 122 L1024 122 L1024 366 L321 366 L321 122 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-        <path d="M336 260 L483 260 L483 350 L336 350 L336 260 Z"/>
+        <path d="M813 260 L1009 260 L1009 350 L813 350 L813 260 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
+        <path d="M336 260 L483 260 L483 350 L336 350 L336 260 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
         <path d="M577 137 L718 137 L718 227 L577 227 L577 137 Z"/>
       </clipPath>
     </defs>
+    <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="translate(-321,-122)" stroke="white">
+      <rect x="321" width="703" height="244" y="122" clip-path="url(#clipPath2)" stroke="none"/>
+    </g>
     <g id="y.node.0">
       <a target="_blank" xlink:type="simple" xlink:href="urn:objecttype:organisatie" xlink:show="new">
         <g fill="rgb(255,255,199)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)" stroke="rgb(255,255,199)">
@@ -23,17 +29,17 @@
         </g>
         <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
           <rect fill="none" x="813" width="196" height="90" y="260"/>
-          <text x="860.501" xml:space="preserve" y="276.6016" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none">&lt;&lt;Objecttype&gt;&gt;</text>
+          <text x="860.501" xml:space="preserve" y="276.6016" clip-path="url(#clipPath3)" font-family="sans-serif" stroke="none">&lt;&lt;Objecttype&gt;&gt;</text>
         </g>
         <g>
           <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-321,-122)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-            <text x="872.1492" xml:space="preserve" y="300.7012" clip-path="url(#clipPath2)" stroke="none">Organisatie</text>
+            <text x="872.1492" xml:space="preserve" y="300.7012" clip-path="url(#clipPath3)" stroke="none">Organisatie</text>
           </g>
         </g>
         <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)">
-          <line y2="308" fill="none" x1="814" clip-path="url(#clipPath2)" x2="1008" y1="308"/>
-          <text stroke-linecap="butt" x="818" y="325.0449" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">handelsnaam: CharacterString</text>
-          <line y2="332" fill="none" x1="814" clip-path="url(#clipPath2)" x2="1008" y1="332"/>
+          <line y2="308" fill="none" x1="814" clip-path="url(#clipPath3)" x2="1008" y1="308"/>
+          <text stroke-linecap="butt" x="818" y="325.0449" clip-path="url(#clipPath3)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">handelsnaam: CharacterString</text>
+          <line y2="332" fill="none" x1="814" clip-path="url(#clipPath3)" x2="1008" y1="332"/>
         </g>
       </a>
     </g>
@@ -44,17 +50,17 @@
         </g>
         <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
           <rect fill="none" x="336" width="147" height="90" y="260"/>
-          <text x="359.001" xml:space="preserve" y="276.6016" clip-path="url(#clipPath3)" font-family="sans-serif" stroke="none">&lt;&lt;Objecttype&gt;&gt;</text>
+          <text x="359.001" xml:space="preserve" y="276.6016" clip-path="url(#clipPath4)" font-family="sans-serif" stroke="none">&lt;&lt;Objecttype&gt;&gt;</text>
         </g>
         <g>
           <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-321,-122)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-            <text x="346.5916" xml:space="preserve" y="300.7012" clip-path="url(#clipPath3)" stroke="none">Natuurlijk persoon</text>
+            <text x="346.5916" xml:space="preserve" y="300.7012" clip-path="url(#clipPath4)" stroke="none">Natuurlijk persoon</text>
           </g>
         </g>
         <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)">
-          <line y2="308" fill="none" x1="337" clip-path="url(#clipPath3)" x2="482" y1="308"/>
-          <text stroke-linecap="butt" x="341" y="325.0449" clip-path="url(#clipPath3)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">naam: CharacterString</text>
-          <line y2="332" fill="none" x1="337" clip-path="url(#clipPath3)" x2="482" y1="332"/>
+          <line y2="308" fill="none" x1="337" clip-path="url(#clipPath4)" x2="482" y1="308"/>
+          <text stroke-linecap="butt" x="341" y="325.0449" clip-path="url(#clipPath4)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">naam: CharacterString</text>
+          <line y2="332" fill="none" x1="337" clip-path="url(#clipPath4)" x2="482" y1="332"/>
         </g>
       </a>
     </g>
@@ -65,17 +71,17 @@
         </g>
         <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
           <rect fill="none" x="577" width="141" height="90" y="137"/>
-          <text x="590.9014" xml:space="preserve" y="153.6016" clip-path="url(#clipPath4)" font-family="sans-serif" stroke="none">&lt;&lt;Relatieklasse&gt;&gt;</text>
+          <text x="590.9014" xml:space="preserve" y="153.6016" clip-path="url(#clipPath5)" font-family="sans-serif" stroke="none">&lt;&lt;Relatieklasse&gt;&gt;</text>
         </g>
         <g>
           <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-321,-122)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-            <text x="611.1248" xml:space="preserve" y="177.7012" clip-path="url(#clipPath4)" stroke="none">werkt voor</text>
+            <text x="611.1248" xml:space="preserve" y="177.7012" clip-path="url(#clipPath5)" stroke="none">werkt voor</text>
           </g>
         </g>
         <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-321,-122)">
-          <line y2="185" fill="none" x1="578" clip-path="url(#clipPath4)" x2="717" y1="185"/>
-          <text stroke-linecap="butt" x="582" y="202.0449" clip-path="url(#clipPath4)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">arbeidsovereenkomst</text>
-          <line y2="209" fill="none" x1="578" clip-path="url(#clipPath4)" x2="717" y1="209"/>
+          <line y2="185" fill="none" x1="578" clip-path="url(#clipPath5)" x2="717" y1="185"/>
+          <text stroke-linecap="butt" x="582" y="202.0449" clip-path="url(#clipPath5)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">arbeidsovereenkomst</text>
+          <line y2="209" fill="none" x1="578" clip-path="url(#clipPath5)" x2="717" y1="209"/>
         </g>
       </a>
     </g>
@@ -87,7 +93,7 @@
         </g>
         <g>
           <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
-            <text x="618.998" xml:space="preserve" y="290.1016" stroke="none">werkt voor</text>
+            <text x="611.8203" xml:space="preserve" y="290.1016" stroke="none">werkt voor ►</text>
           </g>
         </g>
       </a>
@@ -101,7 +107,7 @@
         </g>
         <g>
           <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-321,-122)" stroke-linecap="butt">
-            <text x="615.6064" xml:space="preserve" y="345.6016" stroke="none">werknemer</text>
+            <text x="593.3379" xml:space="preserve" y="345.6016" stroke="none">◄ heeft werknemer</text>
           </g>
         </g>
         <g>
