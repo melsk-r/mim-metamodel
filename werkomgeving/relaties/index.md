@@ -115,10 +115,11 @@ Onderstaand enkele mogelijke voorstellen om relaties beter te kunnen typeren, wa
 
 ### Op conceptueel niveau
 
-1. Maak expliciet of het label op de lijn van de relatie de *naam* van de relatie voorstelt of de *verwoording*. (alternatief: label op de lijn van de relatie is altijd de voorkeurs *verwoording*);
+1. Het label op de lijn van de relatie betreft de *verwoording* van de relatie. De naam van de relatie wordt elders vastgelegd (NB: in UML is dit relevant, in het metamodel hebben we simpelweg de naam en verwoordingen);
+  - Alternatief: je kunt op model-niveau een instelling zetten hoe het label op de relatie gelezen moet worden.
 2. Neem in het metamodel expliciet de mogelijkheid op om één of meerdere verwoordingen op te nemen, inclusief leesrichting;
-3. Gebruik op conceptueel niveau het driehoekje bij voorkeur om de leesrichting aan te geven;
-4. Gebruik op conceptueel niveau de "pijl" om aan te geven of de relatie primair gezien moet worden vanuit de bron van de pijl. In dat geval volgt de leesrichting de pijl.;
+3. Gebruik op conceptueel niveau het driehoekje om de leesrichting aan te geven. Dit is optioneel als de leesrichting ook blijkt uit de pijl, en verplicht op het moment dat er geen sprake is van een pijl;
+4. Gebruik op conceptueel niveau de "pijl" (kenmerk «unidirectioneel» om aan te geven of de relatie primair gezien moet worden vanuit de bron van de pijl. In dat geval volgt de leesrichting de pijl.;
 5. Indien gebruik wordt gemaakt van een relatieklasse, dan betreft de label op de lijn van de relatie altijd een *verwoording*
 6. Rolnamen staan *nooit* als label op de relatielijn (maar aan de rand). Wel kan het zo zijn dat de rolnaam en de verwoording (bijna) overeen komen. (de verwoording is dan bv "heeft werkgever").
 
