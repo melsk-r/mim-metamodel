@@ -126,4 +126,9 @@ Onderstaand enkele mogelijke voorstellen om relaties beter te kunnen typeren, wa
 ### Op logisch niveau
 
 1. Een relatie-lijn stelt een gegevenstype voor. Deze heeft (dus) ook altijd een richting en precies 1 naam. Alleen relatieroldoel bestaat. Het is optioneel toegestaan om een verwoording op te lijn te (laten) staan, dit betreft dan de verwoording van het gegevenstype.
-2. Indien de relatieklasse afzonderlijk wordt bijgehouden, ontstaan twee lijnen, voor elk gegevenstype één (zoals in situatie 3).
+2. Soms is wenselijk om meerdere gegevenstypen voor dezelfde relatie bij te houden. Dit zou kunnen door aan beide kanten een relatierol te introduceren, wat dan de logische betekenis heeft dat de twee gegevenstypen elkaars inverse zijn. De betekenis van de rolnamen aan beide kanten van de relatie op logisch niveau is gelijk aan twee relatiesoorten op logisch niveau die elkaars inverse zijn. In dat geval moet ook aan beide kanten van de lijn een pijl staan (om uitdrukking te geven aan het feit dat de relatie twee kanten op gedefinieerd is op logisch niveau).
+3. Indien de relatieklasse afzonderlijk wordt bijgehouden, ontstaan twee lijnen, voor elk gegevenstype één (zoals in situatie 3).
+
+Er kan een wens zijn om de gegevenstypen niet (volledig) bij de relatieklasse bij te houden, maar dat sprake is van een inkomende lijn naar de relatieklasse en een uitgaande lijn. In dat geval zal vermoedelijk de naam van de relatie zelf als rolnaam gaan optreden, zoals zichtbaar in onderstaand figuur. In dit figuur is ook de situatie uit punt (2) opgenomen: er is zowel een gegevenstype bij natuurlijk persoon (de dienstbetrekkingen) als het inverse gegevenstype bij de dienstbetrekking (de werknemer). Eén van de twee is dan afleidbaar uit de ander (en één van de twee zou dus ook weggelaten kunnen worden als dat voor het betreffende logische gegevensmodel de bedoeling is).
+
+![](dienstbetrekking-mim-optie3c.svg)
