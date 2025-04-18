@@ -98,6 +98,8 @@ In deze situatie willen we expliciet maken dat de relatie wordt bijgehouden in h
 
 ![](dienstbetrekking-mim-optie2.svg)
 
+Ook hier geldt dezelfde constatering als bij situatie 1 m.b.t. de verwoording en naam van de relatiesoort.
+
 ### LGM situatie 3 uitgedrukt in MIM
 
 In deze situatie willen we expliciet maken dat we gegevens van de relatie zelf bijhouden, los van de gegevens van een natuurlijk persoon of organisatie. Vanzelfsprekend kan deze relatie alleen bestaan indien beide objecten bestaan (!). Voor de naam van het gegevensobjecttype gebruiken we de naam van de relatie ("Dienstbetrekking"), voor de gegevenstypen gebruiken we de namen "werkgever" en "werknemer".
