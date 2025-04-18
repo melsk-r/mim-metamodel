@@ -90,6 +90,8 @@ In deze situatie willen we expliciet maken dat de relatie wordt bijgehouden in h
 
 ![](dienstbetrekking-mim-optie1.svg)
 
+Merk op: in bovenstaand figuur is geen verwoording opgenomen. Dat is ook niet nodig, alleen de rolnaamdoel is noodzakelijk op logisch niveau. Echter, in het huidige MIM 1.2 wordt de naam van de relatiesoort getoond op de naam (en niet de verwoording - dat kennen we in het metamodel nog niet). De naam is echter verplicht. Op zich zou de naam van de relatiesoort ("Dienstbetrekking") prima verplicht kunnen zijn, maar dan moet deze niet getoond worden op de lijn (want daar hoort de verwoording te staan). Ook is het (natuurlijk) niet verboden om de verwoording op de lijn te plaatsen. In dit geval zou dit dan "werkt voor" bijvoorbeeld kunnen zijn.
+
 ### LGM situatie 2 uitgedrukt in MIM
 
 In deze situatie willen we expliciet maken dat de relatie wordt bijgehouden in het gegevensobjecttype van de organisatie. We kiezen om dit gegevenstype de naam "werknemer" te geven.
