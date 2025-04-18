@@ -50,7 +50,7 @@ Gerelateerd: [Werkgever](#werkgever), [Werknemer](#werknemer)
 
 *Een «Werkgever» is een rechtssubject.*
 
-> Een werkgever is een organisatie die arbeid verricht voor een ander in ruil voor loon
+> Een werkgever is een organisatie die arbeid laat verrichten door een ander in ruil voor loon
 
 Bron: Artikel 610, [[BWBoek7]]
 
@@ -58,7 +58,7 @@ Bron: Artikel 610, [[BWBoek7]]
 
 *Een «Werknemer» is een rechtssubject.*
 
-> Een werknemer is een natuurlijk persoon die arbeid laat verrichten door een ander in ruil voor loon
+> Een werknemer is een natuurlijk persoon die arbeid verricht voor een ander in ruil voor loon
 
 Bron: Artikel 610, [[BWBoek7]]
 

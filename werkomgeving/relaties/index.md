@@ -2,7 +2,9 @@
 
 ## Introductie
 
-Objecten uit het domein dat we wensen te beschouwen, kunnen een relatie hebben met andere objecten. Dergelijke relaties wensen we typeren. Deze typering is zowel op het conceptuele niveau van belang als op het logische gegevensniveau. Deze typering zal echter wel verschillen, zoals in deze verkenning tot uitdrukking wordt gebracht.
+Objecten uit het domein dat we wensen te beschouwen, kunnen een relatie hebben met andere objecten. Dergelijke relaties wensen we te typeren. Deze typering is zowel op het conceptuele niveau van belang als op het logische gegevensniveau. Deze typering zal echter wel verschillen, zoals in deze verkenning tot uitdrukking wordt gebracht.
+
+> Met **typeren** wordt in dit document bedoelt: het beschrijven van de kenmerken waar "iets" aan moet voldoen om tot dat betreffende type te behoren. Typeren gaat met andere woorden om beschrijven van generieke kenmerken. Welke kenmerken van belang zijn, hangt af van wat je wilt beschouwen. Op conceptueel niveau beschouwen we de werkelijkheid, en daarmee bestaat de typering ook uit het beschrijven van de objecten die we willen onderscheiden, hun eigenschappen en onderlinge relaties. Op logisch niveau beschouwen we de gegevens, en daarmee bestaat de typering ook uit het beschrijven van de gegevens die we wensen te verwerken: waarover ze gaan en welke vorm ze hebben.
 
 ## Voorbeelduitwerking
 
