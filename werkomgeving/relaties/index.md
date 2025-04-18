@@ -51,7 +51,15 @@ Daarbij valt het volgende op:
 
 1. De naam van de relatieklasse en de verwoording op de lijn ("werkt voor") moet conform het metamodel van MIM 1.2 nu gelijk zijn. Hoewel het in UML technisch mogelijk is om bv de naam van de relatieklasse "Dienstbetrekking" te maken, is dit niet conform het metamodel en ook niet (helemaal) in lijn met de bedoeling van een relatieklasse. De verwoording is namelijk in het metamodel gelijk aan de naam van de relatie(klasse), en er mag maar 1 naam zijn;
 2. Hoewel sprake is van 1 type relatie, moet dit in MIM als twee losse relatiesoorten beschreven worden (waarbij ook maar aan 1 van de relaties de relatieklasse kan worden gehangen). Er is sprake van 1 type relatie, omdat in de werkelijkheid die we wensen te beschouwen er ook sprake is van precies 1 relatie: de dienstbetrekking. Je kunt de twee afzonderlijke relatiesoorten niet los van elkaar zien: ze horen onlosmakelijk bij elkaar. Er is WEL sprake van twee verwoordingen. Je zou daarmee kunnen stellen dat het huidige MIM 1.2 met een relatiesoort geen typering is van een relatie, maar een typering is van de verwoording van een relatie. Op zijn minst zou er dan aangegeven moeten worden hoe de twee verwoording samenhangen (dwz: ze zijn elkaars inverse). Hieronder pleiten we echter om in MIM 2.0 daadwerkelijk de relatie te (kunnen) typeren op conceptueel niveau;
-3. Er is slechts ruimte voor één voorwoording OF naam. In dit geval is de naam en één van de twee verwoordingen weggevallen.
+4. Er is slechts ruimte voor één voorwoording OF naam. In dit geval is de naam en één van de twee verwoordingen weggevallen.
+
+Bovenstaande dienstbetrekking is overigen in MIM ook uit te drukken met één relatiesoort. Deze uitwerking wordt niet (overal) als correct MIM 1.2 uitgelegd, maar is al wel opgenomen als mogelijke uitwerking bij het genereren van Linked Data modellen op basis van MIM. Deze uitwerking is hieronder opgenomen.
+
+![](dienstbetrekking-mim-wens.svg)
+
+Hierbij nog de volgende opmerkingen:
+1. In bovenstaand figuur zijn alle drie verwoordingen opgenomen. Dit is op dit moment (nog) niet mogelijk in MIM, anders dan door dit tekstueel in de naam op te nemen met regelovergangen *in* de naam.
+2. Bovenstaand figuur kent geen richting van de relatie. Conform het MIM metamodel mag dit (het kenmerk «unidirectioneel» is in dat geval ONWAAR), met als betekenis dat de relatie niet vanuit een specifiek objecttype gedefinieerd is, maar vanuit "beide kanten". Dat is in dit geval ook zo: de dienstbetrekking is zowel iets van de werknemer als van de werkgever. Overigens wordt de pijl ook vaak als "leesrichting" gebruikt: dat is begrijpelijk, in de zin dat bij unidirectionele relatiesoort de definierende richting ook vaak de leesrichting is van de verwoording, maar strikt genomen zegt MIM hier niets over. In UML tooling wordt hiervoor ook vaak een klein driehoekje gebruikt om de richting aan te geven, zoals in bovenstaand figuur ook is toegepast.
 
 ### CIM uitgedrukt in MIM waarbij de relatie al verzelfstandigd is
 
