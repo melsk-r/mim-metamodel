@@ -70,3 +70,31 @@ Een gegevensobjecttype is *een typering van gelijksoortige gegevensobjecten*. Me
 3. Welke metagegevenstypen worden toegevoegd aan het gegevensobjecttype?
 4. Welke gegevenstypen gaan over andere objecten dan het gegevensobjecttype zelf? En hoe is het toegangspad van dit object naar het object waarover deze objecttypen gaat? (zoals in het «naam van de woonplaats» voorbeeld: dit gegevenstype gaat niet over het hoofdonderwerp [Jan] maar over zijn woonplaats)
 5. (Optioneel - relatie naar het CIM): welk objecttype is het *hoofdonderwerp* van dit gegevensobjecttype, dwz: over welk type objecten *gaan* gegevensobjecten van dit gegevensobjecttype?
+
+## Enkele vragen en antwoorden
+
+**Is een gegeven zonder metagegevens (zoals bv wie de beweerder is van een uitspraak) wel een gegeven?**
+
+Ja. Een gegeven zonder metagegevens is een gegeven. Wel is de bruikbaarheid van dit gegeven twijfelachtig. Je zult dan uit de context deze metagegevens moeten kunnen achterhalen om de gegevens correct te kunnen interpreteren. In een logisch gegevensmodel zou duidelijk moeten zijn, hoe je dit kunt doen.
+
+**Hoe gaan we om naar gegevens die niet terug te zijn herleiden naar een object?**
+
+Stel ik maak een rapportage van bv. de meest voorkomende voornaam in Nederland en daarin staat "Jan". De rapportage is geen object uit de werkelijkheid en de voornamen zijn niet te relateren aan objecten uit de werkelijkheid. Valt dit dan nog onder de definitie van een gegeven?
+
+In dat geval is (zelfs) de sleutel, de referentie naar het object waarover de gegevens gaan impliciet, onderdeel van de context. Het onderwerp in deze zin is “Nederland”, de eigenschap is “Meest voorkomende voornaam” en de (letterlijke) waarde is “Jan”. Het voldoet aan de definitie van een gegeven. In deze casus moet het onderwerp ook uit de context worden gehaald. Dit zijn wel hele gevaarlijke gegevens, want voor je ’t weet ben je de context kwijt (in dit voorbeeld: wat is “Nederland”? Het Koninkrijk of alleen het land in Europa…).
+
+**Is een bewering en een gegeven echt altijd hetzelfde? Ik vermoed namelijk van niet?**
+Een gegeven is een vastgelegde uitspraak. En hoewel elke bewering een uitspraak is, zijn er dus er zijn ook beweringen die geen gegevens zijn, omdat ze niet zijn vastgelegd. Daarbij geldt dat het voor de betekenis van een gegeven nogal uitmaakt hoe een uitspraak wordt gebruikt. Een gegeven “Jan heeft de appel gestolen” is een ander gegeven als deze de pragmatische betekenis heeft van een besluit van een rechter, dan als het een gegeven is dat opgenomen is in een getuigenverslag.
+
+Merk op dat beweringen ook complexe waarde kunnen hebben (zoals bijvoorbeeld een adres, bestaande uit een straatnaam, huisnummer, postcode en woonplaats) of gekwalificeerde waarden zoals in het voorbeeld "Jan's lengte is 150 centimeter".
+
+**Kan een gegevenstype bestaan zonder gegevensobjecttype?**
+Conceptueel gezien wel, maar logisch gezien en in de praktijk eigenlijk niet. Dat komt omdat je van een gegevenstype wilt weten op welke manier je refereert naar het object. Daarvoor heb je identificerende eigenschappen nodig, en daarvoor heb je andere gegevenstypen nodig.
+
+Als je bijvoorbeeld het gegeventype «leeftijd van een persoon» wilt gaan beschrijven, dan moet je ook beschrijven hoe je een persoon identificeert. En stel dat je een persoon identificeert met zijn BSN, dan heb je (dus) een 2e gegevenstype nodig.
+
+**Is een gegeven iets anders dan een waarde?**
+Ja. Een waarde is slechts 1 van de drie verplichte onderdelen van een gegeven, naast de eigenschap en de referentie naar het object waarover de uitspraak gaat. Overigens zijn er conceptueel uitspraken denkbaar zonder waarde. In dat geval is sprake van de logische waarde «waar», zoals in de uitspraak "Jan is de dader", die logisch gezien als gegeven vastgelegd kan worden als: "De indicatie dat de dader [Jan] betreft is «waar»".
+
+**Kan een gegevensobject ook een identificatie hebben?**
+Ja. Maar bedenk wel dat dit iets anders is dan de identificerende eigenschappen van het object waarover het gegevensobject gaat. Zo is <https://nl.wikipedia.org/wiki/Johan_Cruijff> de identificatie van de Nederlandstalige website over Johan Cruijff, terwijl dit (dus) niet de identificatie is van de voetballer Johan Cruijff *zelf*.
