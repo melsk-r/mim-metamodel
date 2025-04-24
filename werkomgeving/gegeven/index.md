@@ -16,7 +16,7 @@ Een gegeven is *een vastgelegde uitspraak over een getypeerde eigenschap van een
 > - [Jan]'s geslacht is «mannelijk»
 > - [Jan] is getrouwd met [Marie]
 
-In bovenstaande voorbeelden wordt met [Jan] de verwijzing bedoeld naar een specifiek object waarover uitspraken worden gedaan. De vier uitspraken gaan over hetzelfde object.
+In bovenstaande voorbeelden wordt met [Jan] de verwijzing bedoeld naar een specifiek object waarover uitspraken worden gedaan. De vijf uitspraken gaan over hetzelfde object.
 
 ## Een gegevenstype
 
@@ -33,14 +33,14 @@ Vier verschillende soorten gegevenstypen zijn te onderscheiden:
 
 1. Gegevenstypen waarbij sprake is van *letterlijke waarden*. Een gegevenstype over de eigenschap «leeftijd» of «BSN-nummer» zijn voorbeelden van dergelijke gegevenstypen.
 2. Gegevenstypen waarbij sprake is van *classificerende waarden*. Bij dit gegevenstype is geen sprake van een letterlijke waarde en refereert de waarde aan een betekenis die meer is dan de letterlijke waarde zelf. Een gegevenstype over de eigenschap «geslacht» is een voorbeeld van een dergelijk gegevenstype.
-3. Gegevenstypen waarbij sprake is van *complexe waarden*. Bij dit gegevenstype is sprake van een waarde die is opgebouwd uit enkele afzonderlijke onderdelen die gezamenlijk de complexe waarde vormen. Een gegevenstype over de eigenschap «lengte» is een voorbeeld van een dergelijke gegevenstype (in dit geval bestaat de complexe waarde uit een getal en een grootheid).
+3. Gegevenstypen waarbij sprake is van *complexe waarden*. Bij dit gegevenstype is sprake van een waarde die is opgebouwd uit enkele afzonderlijke onderdelen die gezamenlijk de complexe waarde vormen. Een gegevenstype over de eigenschap «lengte» is een voorbeeld van een dergelijke gegevenstype (in dit geval bestaat de complexe waarde uit een getal en een eenheid).
 4. Gegevenstypen waarbij sprake is van een *waarde die refereert aan een ander object*. Bij dit gegevenstype is sprake van een waarde die een referentie bevat naar dit andere object.
 
 In MIM 1.2 specificeren we de eerste drie soorten gegevenstypen met behulp van een attribuutsoort en het vierde gegevenstype met een relatiesoort. Merk daarbij op dat daarbij **ook** meegenomen moet worden tot welk objecttype de attribuutsoort of relatiesoort behoort, anders is niet bekend waarover het gegeven gaat en hoe hier naar verwezen moet worden.
 
 ## Een gegevensobject
 
-Een gegevensobject is *een groep van gegevens over één of meerdere objecten*. Zet enkele gegevens bij elkaar, en je hebt een gegevensobject. Deze vastlegging meerdere gegevens biedt ook mogelijkheden voor de vorm waarin de afzonderlijke gegevens zijn vastgelegd.
+Een gegevensobject is *een groep van gegevens over één of meerdere objecten*. Zet enkele gegevens bij elkaar, en je hebt een gegevensobject. Deze vastlegging van meerdere gegevens biedt ook mogelijkheden voor de vorm waarin de afzonderlijke gegevens zijn vastgelegd.
 
 Zo kunnnen we de vijf gegevens hierboven ook vastleggen door de referentie naar [Jan] niet elke keer te herhalen:
 
@@ -65,8 +65,8 @@ Ook kunnen er gegevens opgenomen worden in het gegevensobject over andere object
 
 Een gegevensobjecttype is *een typering van gelijksoortige gegevensobjecten*. Met een gegevensobjecttype beschrijven we hoe een afzonderlijk gegevensobject er uit ziet, als groepering van gegevens. Van een gegevensobjecttype wil je de volgende zaken weten:
 
-1. Welke gegevenstypen zijn onderdeel van dit gegevensobject?
+1. Welke gegevenstypen zijn onderdeel van dit gegevensobjecttype?
 2. Welke gegevenstypen zijn beoogd voor de identificatie van het object waarover de gegevens gaat? (dwz: welke gegevenstypen vormen de sleutel)
 3. Welke metagegevenstypen worden toegevoegd aan het gegevensobjecttype?
-4. Welke gegevenstypen gaan over andere objecten dan het gegevensobjecttype zelf? En hoe is het toegangspad van dit object naar het object waarover deze objecttypen gaat?
+4. Welke gegevenstypen gaan over andere objecten dan het gegevensobjecttype zelf? En hoe is het toegangspad van dit object naar het object waarover deze objecttypen gaat? (zoals in het «naam van de woonplaats» voorbeeld: dit gegevenstype gaat niet over het hoofdonderwerp [Jan] maar over zijn woonplaats)
 5. (Optioneel - relatie naar het CIM): welk objecttype is het *hoofdonderwerp* van dit gegevensobjecttype, dwz: over welk type objecten *gaan* gegevensobjecten van dit gegevensobjecttype?
