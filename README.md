@@ -1,12 +1,12 @@
-Het werkdocument van het mim-metamodel staat hier:
+Het werkdocument van het mim-metamodel staat hier:  
 MIM-Metamodel: <https://geonovum.github.io/mim-metamodel>
 
-Profielen van MIM implementaties in verschillende modelleertalen:
-MIM-UML: <https://geonovum.github.io/mim-uml>
-MIM-LD: <https://geonovum.github.io/mim-ld>
-MIM-OmtoUML: <https://geonovum.github.io/mim-ontouml>
-MIM-FBM: <https://geonovum.github.io/mim-fbm>
-MIM-ArchiMate: <https://geonovum.github.io/mim-archimate>
+Profielen van MIM implementaties in verschillende modelleertalen:  
+MIM-UML: <https://geonovum.github.io/mim-uml>  
+MIM-LD: <https://geonovum.github.io/mim-ld>  
+MIM-OmtoUML: <https://geonovum.github.io/mim-ontouml>  
+MIM-FBM: <https://geonovum.github.io/mim-fbm>  
+MIM-ArchiMate: <https://geonovum.github.io/mim-archimate>  
 
 
 ## ReSpec template instructies
