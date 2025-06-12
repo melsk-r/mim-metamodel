@@ -1,0 +1,61 @@
+PREFIX fbm:  <http://bp4mc2.org/def/fbm#>
+PREFIX mim:  <http://modellen.mim-standaard.nl/def/mim#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+<urn:relatieklasse:dienstbetrekking>
+        a                    mim:Relatieklasse;
+        rdfs:label           "Dienstbetrekking";
+        mim:doel             <urn:objecttype:organisatie>;
+        mim:bron             <urn:objecttype:persoon>;
+        mim:identifier       "TwerktVoor";
+        mim:relatierol       [ a                  mim:RelatierolBron;
+                               rdfs:label         "werknemer";
+                               mim:doel           <urn:objecttype:persoon>;
+                               mim:kardinaliteit  "1..*"
+                             ];
+        mim:relatierol       [ a                  mim:RelatierolDoel;
+                               rdfs:label         "werkgever";
+                               mim:bron           <urn:objecttype:organisatie>;
+                               mim:kardinaliteit  "0..*"
+                             ];
+         mim:attribuut   [ a                  mim:Attribuutsoort;
+                           rdfs:label         "arbeidsovereenkomst";
+                           mim:identifier     "Tdienstbetrekking.arbeidsovereenkomst";
+                           mim:kardinaliteit  "1..1"
+                         ];
+        mim:unidirectioneel  true
+.
+
+<urn:relatiesoort:heeftWerknemer>
+        a                    mim:Relatiesoort;
+        rdfs:label           "werknemer";
+        mim:bron             <urn:objecttype:organisatie>;
+        mim:doel             <urn:objecttype:persoon>;
+        mim:identifier       "TheeftWerknemer";
+        mim:kardinaliteit    "1..*";
+        mim:kardinaliteitRelatieBron "0..*";
+        mim:unidirectioneel  true
+.
+
+<urn:objecttype:persoon>
+        a               mim:Objecttype;
+        rdfs:label      "Natuurlijk persoon";
+        mim:attribuut   [ a                  mim:Attribuutsoort;
+                          rdfs:label         "naam";
+                          mim:identifier     "T";
+                          mim:kardinaliteit  "1..1";
+                          mim:type           mim:CharacterString;
+                        ];
+        mim:identifier  "Tpersoon" .
+
+<urn:objecttype:organisatie>
+        a               mim:Objecttype;
+        rdfs:label      "Organisatie";
+        mim:attribuut   [ a                  mim:Attribuutsoort;
+                          rdfs:label         "handelsnaam";
+                          mim:identifier     "T";
+                          mim:kardinaliteit  "1..1";
+                          mim:type           mim:CharacterString;
+                        ];
+        mim:identifier  "Torganisatie" .

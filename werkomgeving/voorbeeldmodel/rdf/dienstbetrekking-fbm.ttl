@@ -1,0 +1,68 @@
+@prefix fbm: <http://bp4mc2.org/def/fbm#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<urn:facttype:persoon> a fbm:Objecttype;
+  rdfs:label "Natuurlijk persoon";
+  fbm:role [
+    fbm:playedBy <urn:facttype:pnaam>;
+  ]
+.
+
+<urn:facttype:pnaam> a fbm:Valuetype;
+  rdfs:label "naam";
+.
+
+<urn:facttype:organisatie> a fbm:Objecttype;
+  rdfs:label "Organisatie";
+  fbm:role [
+    fbm:playedBy <urn:facttype:oname>;
+  ]
+.
+
+<urn:facttype:oname> a fbm:Valuetype;
+  rdfs:label "handelsnaam";
+.
+
+
+<urn:facttype:dienstbetrekking> a fbm:Facttype;
+  rdfs:label "dienstbetrekking";
+  fbm:role <urn:role:werknemer>;
+  fbm:role <urn:role:werkgever>;
+  fbm:constraint [
+    a fbm:MandatoryConstraint;
+    fbm:restricts <urn:role:werkgever>
+  ];
+  fbm:constraint [
+    a fbm:UniquenessConstraint;
+    fbm:restricts <urn:role:werkgever>, <urn:role:werknemer>
+  ];
+  fbm:predicate [
+    fbm:ordersRole [fbm:role <urn:role:werknemer>; fbm:atPosition 1];
+    fbm:ordersRole [fbm:role <urn:role:werkgever>; fbm:atPosition 2];
+    fbm:reading [
+      fbm:text "[Werknemer] werkt voor [werkgever]";
+      fbm:parts (<urn:role:werknemer> "works for" <urn:role:werkgever>);
+    ];
+    fbm:reading [
+      fbm:text "[Natuurlijk persoon] heeft werkgever [organisatie]";
+      fbm:parts (<urn:role:werknemer> "has employer" <urn:role:werkgever>);
+    ]
+  ];
+  fbm:predicate [
+    fbm:ordersRole [fbm:role <urn:role:werkgever>; fbm:atPosition 1];
+    fbm:ordersRole [fbm:role <urn:role:werknemer>; fbm:atPosition 2];
+    fbm:reading [
+      # rdfs:label "heeft werknemer";
+      fbm:text "[Organisatie] heeft [natuurlijk persoon] in dienst";
+      fbm:parts (<urn:role:werkgever> "heeft werknemer" <urn:role:werknemer>)
+    ]
+  ]
+.
+<urn:role:werkgever> a fbm:Role;
+  rdfs:label "werkgever";
+  fbm:playedBy <urn:facttype:organisatie>
+.
+<urn:role:werknemer> a fbm:Role;
+  rdfs:label "werknemer";
+  fbm:playedBy <urn:facttype:persoon>
+.

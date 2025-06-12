@@ -1,0 +1,86 @@
+@prefix fbm: <http://bp4mc2.org/def/fbm#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<urn:objecttype:persoon> a fbm:Objecttype;
+  rdfs:label "Persoon";
+  fbm:role <urn:role:bsn>;
+  fbm:role [
+    fbm:playedBy <urn:valuetype:vname>;
+  ];
+  fbm:role [
+    fbm:playedBy <urn:valuetype:aname>;
+  ];
+  fbm:constraint [
+    a fbm:UniquenessConstraint;
+    fbm:restricts <urn:role:bsn>
+  ];
+.
+<urn:role:bsn> a fbm:Role;
+  fbm:playedBy <urn:valuetype:bsn>;
+.
+
+<urn:valuetype:bsn> a fbm:Valuetype;
+  rdfs:label "BSN";
+.
+
+<urn:valuetype:vname> a fbm:Valuetype;
+  rdfs:label "Voornaam";
+.
+
+<urn:valuetype:aname> a fbm:Valuetype;
+  rdfs:label "Achternaam";
+.
+
+<urn:objecttype:wozobject> a fbm:Objecttype;
+  rdfs:label "WOZ-Object";
+  fbm:role <urn:role:onummer>;
+  fbm:constraint [
+    a fbm:UniquenessConstraint;
+    fbm:restricts <urn:role:onummer>
+  ];
+.
+<urn:role:onummer> a fbm:Role;
+  fbm:playedBy <urn:valuetype:onummer>;
+.
+
+<urn:valuetype:onummer> a fbm:Valuetype;
+  rdfs:label "Objectnummer";
+.
+
+<urn:facttype:belang> a fbm:Facttype;
+  rdfs:label "Belang";
+  fbm:role <urn:role:belanghebbende>;
+  fbm:role <urn:role:wozobject>;
+  fbm:role <urn:role:status>;
+  fbm:constraint [
+    a fbm:UniquenessConstraint;
+    fbm:restricts <urn:role:belanghebbende>, <urn:role:wozobject>
+  ];
+  fbm:constraint [
+    a fbm:MandatoryConstraint;
+    fbm:restricts <urn:role:wozobject>
+  ];
+  fbm:predicate [
+    fbm:ordersRole [fbm:role <urn:role:belanghebbende>; fbm:atPosition 1];
+    fbm:ordersRole [fbm:role <urn:role:wozobject>; fbm:atPosition 2];
+    fbm:ordersRole [fbm:role <urn:role:status>; fbm:atPosition 3];
+    fbm:reading [
+      fbm:text "[Persoon] heeft belang bij [WOZ-Object] met status [Status]";
+      fbm:parts (<urn:role:belanghebbende> "heeft belang bij" <urn:role:employee> "met status" <urn:role:status>)
+    ]
+  ]
+.
+<urn:role:belanghebbende> a fbm:Role;
+  rdfs:label "belanghebbende";
+  fbm:playedBy <urn:objecttype:persoon>;
+.
+<urn:role:wozobject> a fbm:Role;
+  fbm:playedBy <urn:objecttype:wozobject>;
+.
+<urn:role:status> a fbm:Role;
+  fbm:playedBy <urn:valuetype:status>;
+.
+
+<urn:valuetype:status> a fbm:Valuetype;
+  rdfs:label "Status";
+.

@@ -1,0 +1,80 @@
+PREFIX fbm:  <http://bp4mc2.org/def/fbm#>
+PREFIX mim:  <http://modellen.mim-standaard.nl/def/mim#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+<urn:valuetype:vname>
+        a               mim:PrimitiefDatatype;
+        rdfs:label      "Voornaam";
+        mim:identifier  "T" .
+
+<urn:valuetype:onummer>
+        a               mim:PrimitiefDatatype;
+        rdfs:label      "Objectnummer";
+        mim:identifier  "T" .
+
+<urn:valuetype:bsn>  a  mim:PrimitiefDatatype;
+        rdfs:label      "BSN";
+        mim:identifier  "T" .
+
+<urn:valuetype:aname>
+        a               mim:PrimitiefDatatype;
+        rdfs:label      "Achternaam";
+        mim:identifier  "T" .
+
+<urn:role:status>  a  mim:Attribuutsoort;
+        rdfs:label  "Status" .
+
+<urn:facttype:belang>
+        a                    mim:Relatieklasse;
+        rdfs:label           "Belang";
+        mim:attribuut        <urn:role:status>;
+        mim:bron             <urn:objecttype:persoon>;
+        mim:doel             <urn:objecttype:wozobject>;
+        mim:identifier       "Tbelang";
+        mim:relatierol       [ a                  mim:RelatierolBron;
+                               rdfs:label         "belanghebbende";
+                               mim:bron           <urn:objecttype:persoon>;
+                               mim:kardinaliteit  "1..*"
+                             ];
+        mim:relatierol       [ a                  mim:RelatierolDoel;
+                               mim:doel           <urn:objecttype:wozobject>;
+                               mim:kardinaliteit  "0..*"
+                             ];
+        mim:unidirectioneel  false .
+
+<urn:role:onummer>  a      mim:Attribuutsoort;
+        rdfs:label         "Objectnummer";
+        mim:identifier     "Tonummer";
+        mim:kardinaliteit  "1..1";
+        mim:type           <urn:valuetype:onummer> .
+
+<urn:role:bsn>  a          mim:Attribuutsoort;
+        rdfs:label         "BSN";
+        mim:identifier     "Tbsn";
+        mim:kardinaliteit  "1..1";
+        mim:type           <urn:valuetype:bsn> .
+
+<urn:objecttype:wozobject>
+        a               mim:Objecttype;
+        rdfs:label      "WOZ-Object";
+        mim:attribuut   <urn:role:onummer>;
+        mim:identifier  "T" .
+
+<urn:objecttype:persoon>
+        a               mim:Objecttype;
+        rdfs:label      "Persoon";
+        mim:attribuut   <urn:role:bsn>;
+        mim:attribuut   [ a                  mim:Attribuutsoort;
+                          rdfs:label         "Achternaam";
+                          mim:identifier     "T";
+                          mim:kardinaliteit  "1..1";
+                          mim:type           <urn:valuetype:aname>
+                        ];
+        mim:attribuut   [ a                  mim:Attribuutsoort;
+                          rdfs:label         "Voornaam";
+                          mim:identifier     "T";
+                          mim:kardinaliteit  "1..1";
+                          mim:type           <urn:valuetype:vname>
+                        ];
+        mim:identifier  "T" .

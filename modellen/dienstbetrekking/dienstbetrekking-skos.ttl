@@ -1,0 +1,102 @@
+PREFIX csvw:     <http://www.w3.org/ns/csvw#>
+PREFIX dcat:     <http://www.w3.org/ns/dcat#>
+PREFIX dct:      <http://purl.org/dc/terms/>
+PREFIX prov:     <http://www.w3.org/ns/prov#>
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosthes: <http://purl.org/iso25964/skos-thes#>
+PREFIX skosxl:   <http://www.w3.org/2008/05/skos-xl#>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:cc7b3dd6-e2d4-533b-b310-4548c0f6059c>
+        rdf:object     <urn:uuid:1f9180a4-372d-5d57-9c8d-75eb7f9e89d5>;
+        rdf:predicate  skosthes:narrowerPartitive;
+        rdf:subject    <urn:uuid:62b28532-ddb6-59c8-8149-9106d2978317>;
+        rdfs:label     "omvat" .
+
+<urn:uuid:eef84698-3ea1-531f-a4c0-ba7c1f4f34b5>
+        rdf:object     <urn:uuid:b3752389-4a50-5554-9505-55c7b51bd346>;
+        rdf:predicate  skosthes:narrowerPartitive;
+        rdf:subject    <urn:uuid:62b28532-ddb6-59c8-8149-9106d2978317>;
+        rdfs:label     "omvat" .
+
+<urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>
+        rdf:type      dct:BibliographicResource;
+        rdfs:label    "Artikel 610, BW Boek 7";
+        dct:isPartOf  <urn:uuid:4032dd5d-680b-53b3-9d94-56337f32ca1b>;
+        dct:title     "Artikel 610," .
+
+<urn:uuid:4032dd5d-680b-53b3-9d94-56337f32ca1b>
+        rdf:type                   dct:BibliographicResource;
+        rdfs:label                 "Burgerlijk Wetboek, Boek 7";
+        dct:bibliographicCitation  <https://wetten.overheid.nl/BWBR0005290>;
+        dct:identifier             "BW Boek 7";
+        dct:title                  "Burgerlijk Wetboek, Boek 7" .
+
+<urn:uuid:62b28532-ddb6-59c8-8149-9106d2978317>
+        rdf:type                    <http://bp4mc2.org/def/jas#Rechtsbetrekking> , skos:Concept;
+        rdfs:label                  "Dienstbetrekking"@nl;
+        dct:source                  <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skosthes:narrowerPartitive  <urn:uuid:1f9180a4-372d-5d57-9c8d-75eb7f9e89d5> , <urn:uuid:b3752389-4a50-5554-9505-55c7b51bd346>;
+        skos:altLabel               "Arbeidsrelatie"@nl;
+        skos:definition             "Een dienstbetrekking is een verbintenis tussen een [werkgever] en een [werknemer] om tegen loon gedurende zekere tijd arbeid te verrichten."@nl;
+        skos:inScheme               <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel              "Dienstbetrekking"@nl;
+        skos:related                <urn:uuid:8455df74-ffe1-5178-8042-913bb1d28487> , <urn:uuid:fad11238-dbe3-5aa5-abe4-254893e3dc28> .
+
+<urn:uuid:1f9180a4-372d-5d57-9c8d-75eb7f9e89d5>
+        rdf:type         <http://bp4mc2.org/def/jas#Rechtsbetrekking> , skos:Concept;
+        rdfs:label       "Verplichting tot leveren van arbeid"@nl;
+        dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skos:definition  "Een verplichting tot leveren van arbeid is een verplicht van een [werknemer] om arbeid te leveren ten dienste van een [werkgever]"@nl;
+        skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel   "Verplichting tot leveren van arbeid"@nl;
+        skos:related     <urn:uuid:fad11238-dbe3-5aa5-abe4-254893e3dc28> , <urn:uuid:8455df74-ffe1-5178-8042-913bb1d28487> .
+
+<urn:uuid:b3752389-4a50-5554-9505-55c7b51bd346>
+        rdf:type         <http://bp4mc2.org/def/jas#Rechtsbetrekking> , skos:Concept;
+        rdfs:label       "Verplichting tot uitbetalen loon"@nl;
+        dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skos:definition  "Een verplichting tot uitbetalen loon is een verplicht van een [werkgever] om loon uit te betalen aan een [werknemer]"@nl;
+        skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel   "Verplichting tot uitbetalen loon"@nl;
+        skos:related     <urn:uuid:8455df74-ffe1-5178-8042-913bb1d28487> , <urn:uuid:fad11238-dbe3-5aa5-abe4-254893e3dc28> .
+
+<urn:uuid:fad11238-dbe3-5aa5-abe4-254893e3dc28>
+        rdf:type         <http://bp4mc2.org/def/jas#Rechtssubject> , skos:Concept;
+        rdfs:label       "Werkgever"@nl;
+        dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skos:definition  "Een werkgever is een organisatie die arbeid laat verrichten door een ander in ruil voor loon"@nl;
+        skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel   "Werkgever"@nl .
+
+<urn:uuid:8455df74-ffe1-5178-8042-913bb1d28487>
+        rdf:type         <http://bp4mc2.org/def/jas#Rechtssubject> , skos:Concept;
+        rdfs:label       "Werknemer"@nl;
+        dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skos:definition  "Een werknemer is een natuurlijk persoon die arbeid verricht voor een ander in ruil voor loon"@nl;
+        skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel   "Werknemer"@nl .
+
+<urn:uuid:d25a8ec3-ed32-515c-a289-917629d56f2e>
+        rdf:type         <http://bp4mc2.org/def/jas#Rechtshandeling> , skos:Concept;
+        rdfs:label       "Arbeidsovereenkomst"@nl;
+        dct:source       <urn:uuid:dd069be6-46e1-5690-9710-3b708effdc86>;
+        skos:definition  "Een arbeidsovereenkomst is een overeenkomst waarbij de ene partij, de [werknemer], zich verbindt in dienst van de andere partij, de [werkgever], tegen loon gedurende zekere tijd arbeid te verrichten."@nl;
+        skos:inScheme    <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        skos:prefLabel   "Arbeidsovereenkomst"@nl;
+        skos:related     <urn:uuid:fad11238-dbe3-5aa5-abe4-254893e3dc28> , <urn:uuid:8455df74-ffe1-5178-8042-913bb1d28487> .
+
+<urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>
+        rdf:type    skos:ConceptScheme , dcat:DatasetSeries;
+        rdfs:label  "Dienstbetrekking";
+        dct:title   "Dienstbetrekking" .
+
+<urn:uuid:b3072888-4ff7-57cd-9f89-41b66477cdbd>
+        rdf:type       dcat:Dataset;
+        rdfs:label     "Dienstbetrekking 1.0.0";
+        dct:issued     "2025-04-18T10:21:54.184+02:00"^^xsd:dateTime;
+        dct:modified   "2025-04-07"^^xsd:date;
+        dcat:inSeries  <urn:uuid:a5a10054-2c4e-5435-9ca2-f8bda1f9ed3e>;
+        dcat:version   "1.0.0 snapshot 1" .
