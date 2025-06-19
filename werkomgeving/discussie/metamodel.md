@@ -1,5 +1,7 @@
 We zijn het eens over het volgende (en zijn er enkele discussiepunten waar we een keuze te maken hebben). Voorstel is om deze nog 1x te behandelen om een gezamelijk vertrekpunt te creeeren en daar waar we het niet (grotendeels) eens zijn, dit te inventariseren.
 
+<hr/>
+
 *[Lennart]* 0. Een CIM gaat over een bepaald perspecief op de werkelijkheid waar we informatie over willen weten en de definitie en specificatie daarvan en gaat niet over de gegevens zelf die in een bepaalde administratie of gegevensuitwisseling zitten. Natuurlijk, we gaan gegevens willen over de dingen uit de werkelijkheid dan er daar een heel sterke relatie tussen ons model van de werkelijkheid en ons gegevensmodel in een administratie, maar het zijn beide aparte beschouwingsniveaus.
 
 *[Marco]* Eens. We hebben hiervoor het begrip «beschouwingsdomein» geintroduceerd als tegenhanger van het begrip «verwerkingsdomein»
@@ -21,19 +23,27 @@ b) hetzelfde woord objecttype op vele plekken gebruiken en telkens de context wa
 
 *[Marco]* Zie hierboven: ja, ik zou dat wel willen voorstellen als mogelijkheid, omdat we onderscheid willen tussen notatievorm en formeel metamodel wat mij betreft. Dat maakt het ook veel makkelijker denk ik voor de mensen die MIM 2.0 willen adopteren.
 
+<hr/>
+
 *[Lennart]* 1. In een CIM modelleren we eigenschappen van objecten en relaties tussen objecten.
 
 *[Marco]* Eens. Alleen ben ik er zelf nog niet helemaal uit of een relatie tussen objecten ook gezien kan worden als een eigenschap. Of dat bv een relatierol een eigenschap is (maar de relatie zelf niet – dat lijkt logischer. Moeten we dus nog wat verder uitwerken.
 
+<hr/>
+
 *[Lennart]* 2. In een LGM modelleren we gegevens. Een gegeven is: zie definitie in MIM (is data over een eigenschap van een object, je moet het object en de eigenschap dus weten, anders weet je te weinig).  
 
 *[Marco]* Eens
+
+<hr/>
 
 *[Lennart]* 3. Een logisch gegevensmodel beschrijft welke gegevens er zijn (of zouden moeten komen als het nog nieuwbouw is, zodra gerealiseerd zijn ze er). Dus niet een wens-wereld, maar hoe het echt is, de gegevens die er echt zijn, en echt over de lijn gaat.
 
 *[Lennart]* Discussiepunt: als het CIM dus definities kent en er geen gegevens zijn die daar precies mee overeenkomen dan is de gegevensdefinitie van het gegevenstype in het LGM net anders dan de definitie van de eigenshcap het modelelement in het CIM  
 
 *[Marco]* Een gegeven heeft geen definitie, een gegeven heeft een specificatie. Definitie veronderstelt de verbinding met het beschouwingsdomein, dat doe je niet in een LGM, dat doe je in een CIM. Door de verbinding tussen een LGM en een CIM te leggen, maak je duidelijk hoe een gegeven zich verhoudt tot het beschouwingsdomein. De discussie zit er voor mij in of een gegeven altijd 1-op-1 moet mappen op een eigenschap, of dat er een n:m mapping mag zijn, en zo ja: hoe je dan specificeert hoe dat in zijn werk gaat…
+
+<hr/>
 
 *[Lennart]* 4. We hebben het zelden (maar niet nooit) over 1 los gegeven of gegevenstype die we uitwisselen. Meestal als we 10 gegevens uitwisselen dan modelleren we er bv. 5 bij elkaar en 5 anderen ook bij elkaar maar wel apart van de eerste 5 en hierna leggen we er vaak nog een relatie tuseen. Bv. de gegevens over een plaats en de gegevens over een persoon en daarna zeggen we dat de plaats de woonplaats is van de persoon.
 [MB] Eens. Reden is dat je moet specificeren over welk object een gegeven gaat, en daarvoor heb je (andere) gegevens nodig. De enige situatie waarbij dit niet hoeft, is als dit vanuit de context wordt geleverd. Denk bv aan een thermometer: die levert exact 1 gegeven, namelijk de temperatuur. Het object is hier impliciet, en betreft de plek waar deze thermometer zich bevind. Als je dat niet weet, weet je niet waarover je het hebt. En ook mis je dan metagegevens, zoals welke thermometer gaat het om (of is het een persoon die het afleest van een thermometer), en op welk moment is de meting gedaan.
@@ -58,6 +68,8 @@ Daarom zeggen we: elk gegevensobjecttype heeft 1 objecttype uit het CIM als hoof
 
 *[Marco]* Eens! Wel kan het zijn dat dit hoofdonderwerp impliciet is, dwz: er is geen identificatie waaruit blijkt welk hoofdonderwerp dit precies is. Zie mijn voorbeeld van de thermometer.
 
+<hr/>
+
 *[Lennart]* 5. Soms is er een behoefte om van alle gegevens die over hetzelfde hoofdonderwerp gaan aan te geven dat bepaalde hiervan bij elkaar horen. Zo kan je bv. bij alle gegevens over een natuurlijk persoon:
 - de bsn modelleren
 - de naam gegevens bij elkaar modelleren in een modelelement 'naamgegevens'
@@ -73,6 +85,8 @@ Merk op dat we hier maar 1 gegevensobjecttype zien (met daarbinnen een nadere on
 *[Lennart]* Discussiepunt: je zou ook heel strikt in de leer kunnen zijn en zeggen: elk gegevensobjecttype in een LGM mag maar over 1 (domein)objecttype uit het CIM gaan en nooit over 2 of meer.
 
 *[Marco]* Dat kan niet, want dan zou geboorteplaatsnaam niet mogen, want dat is een ander objecttype dan natuurlijk persoon. Wat wel kan is dat een gegevensobjecttype in een LGM maar over één hoofdonderwerp gaan, er dus bij extensie dus maar betrekking hebben op één objecttype als hoofdonderwerp.
+
+<hr/>
 
 *[Lennart]* 6. Omdat elk gegevensobject, in een administratie, een representatie is van een object uit de werkelijkheid en de deze werkelijkheid niet uit het oog willen verliezen (want wat is het gegevensobject dan nog he, over welk object in de werkelijkheid gaat deze?) ... stellen we de eis dat elk gegevensobject betrouwbaar te herleiden moet zijn naar een object uit de werkelijkheid (anders gezegd: als er een CIM is, naar het CIM). We moeten het object uit de werkelijkheid kunnen identificeren. We moeten het gegevensobject betrouwbaar kunnen matchen met een object uit de werkelijkheid. Daar zijn verschillende aanpakken voor, maar dit is wel een eis.
 
