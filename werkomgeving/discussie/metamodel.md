@@ -6,8 +6,8 @@ We zijn het eens over het volgende (en zijn er enkele discussiepunten waar we ee
 
 *[Marco]* Eens. We hebben hiervoor het begrip «beschouwingsdomein» geintroduceerd als tegenhanger van het begrip «verwerkingsdomein»
 
-*[Lennart]* MIM visie: om het verschil helder te maken kan je twee kanten op:
-a) aparte begrippen en voorkeurstermen gebruiken voor de objecten uit de werkelijkheid en de gegevens erover. Bv. objecttype en gegevensobjecttype, of domeinobjecttype en gegevensobjecttype of
+*[Lennart]* MIM visie: om het verschil helder te maken kan je twee kanten op:<br/>
+a) aparte begrippen en voorkeurstermen gebruiken voor de objecten uit de werkelijkheid en de gegevens erover. Bv. objecttype en gegevensobjecttype, of domeinobjecttype en gegevensobjecttype of<br/>
 b) hetzelfde woord objecttype op vele plekken gebruiken en telkens de context waar in het gebruikt wordt aangeven: een objecttype in een CIM en een objecttype in een LGM en een objecttype in in een technisch schema.
 
 *[Marco]* Bijna eens. Hierin vind ik het ongelovelijk belangrijk om onderscheid te maken in de notatievorm zoals deze wordt gebruikt door modelleurs en de formele ontologie van ons metamodel. Wat mij betreft is (b) prima voor de notatievorm (dat garandeert ook backwardscompatibility), maar het moet w.m.b. (a) zijn voor de formele ontologie. Hier hebben modelleurs dan dus niet last van, maar kunnen zij wel gebruik van maken.
@@ -57,7 +57,7 @@ b) hetzelfde woord objecttype op vele plekken gebruiken en telkens de context wa
 
 *[Marco]* Eens.
 
-*[Lennart]* - bv. een gegevensobject maken over een natuurlijk persoon en de woonplaats 'Apeldoorn' hier bij in te modelleren. Bv. naam: lennart, woonplaats: apeldoorn. In het CIM zou dit best wel eens Natuurlijk Persoon met een naam kunnen zijn en een relatie naar een Plaats, een Plaats die in dit geval de woonplaats is van Lennart (en in een ander geval de vestigingsplaats van een vestiging van een bedrijf). De naam van de woonplaats van Lennart en de naam van de natuurlijk persoon kunnen we dus ook best bij elkaar modelleren in hetzelfde gegevensobjecttype. Het moet dan wel duidelijk zijn dat: de naam van de plaats is en tegelijkertijd de woonplaats aangeeft van Lennart. Het gegevensobject gaat dus over Lennart, en zijn woonplaats, en gaat niet over Apeldoorn. We modelleren dan dus in hetzelfde gegevensobjecttype:
+*[Lennart]* - bv. een gegevensobject maken over een natuurlijk persoon en de woonplaats 'Apeldoorn' hier bij in te modelleren. Bv. naam: lennart, woonplaats: apeldoorn. In het CIM zou dit best wel eens Natuurlijk Persoon met een naam kunnen zijn en een relatie naar een Plaats, een Plaats die in dit geval de woonplaats is van Lennart (en in een ander geval de vestigingsplaats van een vestiging van een bedrijf). De naam van de woonplaats van Lennart en de naam van de natuurlijk persoon kunnen we dus ook best bij elkaar modelleren in hetzelfde gegevensobjecttype. Het moet dan wel duidelijk zijn dat: de naam van de plaats is en tegelijkertijd de woonplaats aangeeft van Lennart. Het gegevensobject gaat dus over Lennart, en zijn woonplaats, en gaat niet over Apeldoorn. We modelleren dan dus in hetzelfde gegevensobjecttype:<br/>
 1. de naam van natuurlijk persoon: attribuuttype 'naam'
 2. de naam van de plaats, zijnde de woonplaats is van Lennart: attriuuttype 'woonplaatsnaam'
 
