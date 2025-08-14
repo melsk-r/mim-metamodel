@@ -140,7 +140,7 @@ Merk op dat wat we intrinsiek vinden en wat we toegekend vinden vooral een domei
 
 ## Kenmerken, classificaties en rollen
 
-### Kenmerken en waarden
+### Kenmerken en waarden {#Kenmerken-en-waarden}
 
 Als we naar de eigenschappen van een domeinobject kijken, dan valt op dat er verschillende soorten eigenschappen zijn te onderkennen. Een eigenschap van een domeinobject kent één of meerdere invullingen. Zo is de invulling van de eigenschap «(heeft) lengte» van het domeinobject [Jan] uit ons voorbeeld gelijk aan "2 meter en 5 centimeter". En de invulling van de eigenschap «(heeft) werkgever» is [Bakkerij Broodjes]. Tenslotte is de invulling van de eigenschap «(heeft) geslacht» gelijk aan «man». Drie eigenschappen, maar geheel andere invullingen. We hebben het respectievelijk over een kenmerk, rol en classificatie. De nauwlettende lezer ziet dat we bij deze drie eigenschappen ook steeds een ander leesteken gebruiken!
 
@@ -160,7 +160,7 @@ In de voorbeelden hebben we gezien dat een waarde vaak toch net iets meer is dan
 > [!NOTE]
 > Merk op dat we met deze definitie van kenmerk nog niets zeggen over het aantal keer dat een kenmerk kan worden ingevuld voor een domeinobject. Zo kan [Jan] wel drie voornamen hebben, dus er zijn dan drie invullingen van het kenmerk «naam».
 
-### Rollen en relaties
+### Rollen en relaties {#Rollen-en-relaties}
 
 > Een ROL is een EIGENSCHAP van een DOMEINOBJECT in een RELATIE met zichzelf of een ander DOMEINOBJECT
 
@@ -376,7 +376,7 @@ In het voorbeeld willen we de typering vastleggen uit het concrete voorbeeld hie
 
 ### Classificatie, klassen en (object)subtypen
 
-Wellicht is opgevallen dat «(heeft) werkgever» een eigenschap is van een persoon (en wordt ingevuld door een bedrijf), waar je mogelijk zou verwachten dat een werkgever juist een *bedrijf* is. Dat laatste is ook zo (een werkgever is een rol die een bedrijf *invult*), maar dan hebben we het eigenlijk (dus) over iets anders. We hebben het dan niet over een rol of over een eigenschap, maar over een rolvervulling. Zo'n rolvervulling is een typering van domeinobjecten die een bepaalde rol invullen: het is een vorm van subtypering alleen geldt in de context van de relatie. Zo kun je «werkgever» als een subtype beschouwen van «bedrijf», maar dat zal alleen gelden in de context van de arbeidrelatie. Of je een dergelijk subtype wilt onderkennen is uiteindelijk een modelleerbeslissing.
+In de paragrafen [Kenmerken en waarden](#Kenmerken-en-waarden) en [Rollen en relaties](#Rollen-en-relaties) gaven we aan dat «(heeft) werkgever» een eigenschap is van een persoon terwijl je mogelijk zou verwachten dat een werkgever juist een *bedrijf* is. Dat laatste is ook zo (een werkgever is een rol die een bedrijf *invult*), maar dan hebben we het eigenlijk (dus) over iets anders. We hebben het dan niet over een rol of over een eigenschap, maar over een rolvervulling. Zo'n rolvervulling is een typering van domeinobjecten die een bepaalde rol invullen: het is een vorm van subtypering alleen geldt in de context van de relatie. Zo kun je «werkgever» als een subtype beschouwen van «bedrijf», maar dat zal alleen gelden in de context van de arbeidrelatie. Of je een dergelijk subtype wilt onderkennen is uiteindelijk een modelleerbeslissing.
 
 Iets vergelijkbaars speelt zich af bij geslacht. De invulling van deze classificatie kan met twee klassen: «Man» en «Vrouw». En net zoals je kunt stellen dat een werknemer een persoon is, kun je stellen dat een man een persoon is, en ook een vrouw een persoon is. Het verschil hier is dat er geen sprake is van een relatie(soort), maar van een classificatie: de classificatie naar geslacht. En in dit geval zie je dat je objecttypen kunt vormen uit klassen: de objecttypen «Man» en «Vrouw». Ook hier betreft het een modelleerbeslissing om een dergelijke subtypering op te nemen.
 
