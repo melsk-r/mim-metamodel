@@ -1,9 +1,9 @@
 # Inleiding
 
-Dit is voor nu een inleiding op  [hoofdstuk 6 Gegevensdefinitie](#cat).
+Dit is voor nu de inleiding op  [hoofdstuk 6 Gegevensdefinitie](#cat).
 
 
-Daarin staan een aantal MIM2.0 modellen. Een paar opmerkingen hierbij.
+Daarin staan een aantal MIM 2.0 modellen. Een paar opmerkingen hierbij.
 
 Deze modellen zijn in ontwikkeling.
 
